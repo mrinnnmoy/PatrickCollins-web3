@@ -1,22 +1,68 @@
-<h1>FreeCodeCamp 32hrs+ Blockchain Course</h1>
-<h3>For reference</h3>
-<a href="https://github.com/smartcontractkit/full-blockchain-solidity-course-js" target="_blank">Look here!!!</a>
+<div align="center">
+<h1> Blockchain Developer, Smart Contract, & Solidity Course - Powered By AI - Beginner to Expert Course | Foundry Edition 2023 </h1>
+
+<a href="https://github.com/Cyfrin/foundry-full-course-f23/stargazers"><img src="https://img.shields.io/github/stars/Cyfrin/foundry-full-course-f23" alt="Stars Badge"/></a>
+<a href="https://github.com/Cyfrin/foundry-full-course-f23/network/members"><img src="https://img.shields.io/github/forks/Cyfrin/foundry-full-course-f23" alt="Forks Badge"/></a>
+<a href="https://github.com/Cyfrin/foundry-full-course-f23/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Cyfrin/foundry-full-course-f23?color=2b9348"></a>
+
+Welcome to the repository for the Blockchain Developer, Smart Contract, & Solidity Course | Powered By AI | Beginner to Expert Course | Foundry Edition 2023
+</div>
+<!-- *Lol, my t-shirt is backwards in 2 of them* -->
+
+<br/>
+<table>
+  <tr>
+    <th align="center">Lessons 0 - 6</th>
+    <th align="center">Lessons 7 - 11</th>
+    <th align="center">Lessons 12 - 15</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://youtu.be/umepbfKp5rI" target="_blank">
+        <img src="./thumbnails/thumbnail-1.png" width="300" alt="Blockchain Developer, Smart Contract, & Solidity Course - Powered By AI 1">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://youtu.be/sas02qSFZ74" target="_blank">
+        <img src="./thumbnails/thumbnail-2.png" width="300" alt="Blockchain Developer, Smart Contract, & Solidity Course - Powered By AI 2">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://youtu.be/wUjYK5gwNZs" target="_blank">
+        <img src="./thumbnails/thumbnail-3.png" width="300" alt="Blockchain Developer, Smart Contract, & Solidity Course - Powered By AI 3">
+      </a>
+    </td>
+  </tr>
+</table>
+<br/>
+
+[YouTube Playlist](https://www.youtube.com/playlist?list=PL4Rj_WH6yLgWe7TxankiqkrkVKXIwOP42)
+
+[YouTube Playlist of each section](https://www.youtube.com/playlist?list=PL2-Nvp2Kn0FPH2xU3IbKrrkae-VVXs1vk)
 
 # Table of Contents
 
 <details>
 <summary>Resources</summary>
 <ol>
-<li><a href="#testnet-faucets">Testnet Faucets</a></li>
-<li><a href="#resources-for-this-course">Resources For This Course</a><ul>
-<li><a href="#questions">Questions</a></li>
-</ul>
+<li><a href="#blockchain-developer-smart-contract--solidity-course---powered-by-ai---beginner-to-expert-course--foundry-edition-2023">Blockchain Developer, Smart Contract, & Solidity Course - Powered By AI - Beginner to Expert Course | Foundry Edition 2023</a></li>
+<li><a href="#table-of-contents">Table of Contents</a>
+  <ul>
+    <li><a href="#recommended-tools">Recommended Tools</a></li>
+  </ul>
 </li>
-<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#testnet-faucets">Testnet Faucets</a></li>
+<li><a href="#resources-for-this-course">Resources For This Course</a></li>
+<li><a href="#bonus-nfts">Bonus NFTs</a>
+  <ul>
+    <li><a href="#important-notes-for-arbitrum">Important Notes for Arbitrum</a></li>
+    <li><a href="#bridging-to-arbitrum">Bridging to Arbitrum</a></li>
+  </ul>
+</li>
 </ol>
 </details>
 <details>
-<summary> <a href="#lesson-0-the-edge-of-the-rabbit-hole">Lesson 0: The Edge of the Rabbit Hole</a></summary>
+<summary> <a href="#lesson-0-welcome-to-the-course">Lesson 0: Welcome to the Course!</a></summary>
 <ol>
   <li>
   <a href="#welcome-to-the-course">Welcome to the course! </a>
@@ -27,496 +73,836 @@
 </ol>
 </details>
 <details>
-<summary> <a href="#lesson-1-blockchain-basics"> Lesson 1: Blockchain Basics </a> </summary>
+<summary>
+<a href="#lesson-1-blockchain-basics">Lesson 1: Blockchain Basics</a>
+</summary>
 <ol>
-<li>
-<a href="#what-is-a-blockchain-what-does-a-blockchain-do">What is a Blockchain? What does a blockchain do?</a>
-</li>
-<li><a href="#the-purpose-of-smart-contracts">The Purpose Of Smart Contracts</a></li>
-<li><a href="#other-blockchain-benefits">Other Blockchain Benefits</a></li>
-<li><a href="#what-have-smart-contracts-done-so-far">What have Smart Contracts done so far?</a></li>
-<li><a href="#making-your-first-transaction">Making Your First Transaction</a></li>
-<li><a href="#gas-i-introduction-to-gas">Gas I: Introduction to Gas</a></li>
-<li><a href="#how-do-blockchains-work">How Do Blockchains Work?</a></li>
-<li><a href="#signing-transactions">Signing Transactions</a></li>
-<li><a href="#gas-ii">Gas II</a></li>
-<li><a href="#high-level-blockchain-fundamentals">High-Level Blockchain Fundamentals</a></li>
+    <li><a href="#what-is-a-blockchain-what-does-a-blockchain-do">What is a Blockchain? What does a blockchain do?</a></li>
+    <li><a href="#the-purpose-of-smart-contracts">The Purpose Of Smart Contracts</a></li>
+    <li><a href="#other-blockchain-benefits">Other Blockchain Benefits</a></li>
+    <li><a href="#what-have-smart-contracts-done-so-far">What have Smart Contracts done so far?</a></li>
+    <li><a href="#making-your-first-transaction">Making Your First Transaction</a></li>
+    <li><a href="#gas-i-introduction-to-gas">Gas I: Introduction to Gas</a></li>
+    <li><a href="#how-do-blockchains-work">How Do Blockchains Work?</a></li>
+    <li><a href="#signing-transactions">Signing Transactions</a></li>
+    <li><a href="#gas-ii">Gas II</a></li>
+    <li><a href="#gas-ii-summary">Gas II Summary</a></li>
+    <li><a href="#high-level-blockchain-fundamentals">High-Level Blockchain Fundamentals</a></li>
 </ol>
 </details>
+
 <details>
-<summary><a href="#lesson-2-welcome-to-remix-simple-storage">Lesson 2: Welcome to Remix! Simple Storage</a></summary>
+<summary>
+<a href="#lesson-2-welcome-to-remix---remix-simple-storage">Lesson 2: Welcome to Remix - Remix Simple Storage</a>
+</summary>
 <ol>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#setting-up-your-first-contract">Setting Up Your First Contract</a></li>
-<li><a href="#basic-solidity-types">Basic Solidity: Types</a></li>
-<li><a href="#basic-solidity-functions">Basic Solidity: Functions</a></li>
-<li><a href="#basic-solidity-arrays--structs">Basic Solidity: Arrays &amp; Structs</a></li>
-<li><a href="#basic-solidity-compiler-errors-and-warnings">Basic Solidity: Compiler Errors and Warnings</a></li>
-<li><a href="#memory-storage-calldata-intro">Memory, Storage, Calldata (Intro)</a></li>
-<li><a href="#mappings">Mappings</a></li>
-<li><a href="#deploying-your-first-contract">Deploying your First Contract</a></li>
-<li><a href="#the-evm--a-recap-of-lesson-2">The EVM &amp; A Recap of Lesson 2</a></li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#setting-up-your-first-contract">Setting Up Your First Contract</a></li>
+    <li><a href="#basic-solidity-types">Basic Solidity: Types</a></li>
+    <li><a href="#basic-solidity-functions">Basic Solidity: Functions</a></li>
+    <li><a href="#basic-solidity-arrays--structs">Basic Solidity: Arrays &amp; Structs</a></li>
+    <li><a href="#basic-solidity-compiler-errors-and-warnings">Basic Solidity: Compiler Errors and Warnings</a></li>
+    <li><a href="#memory-storage-calldata-intro">Memory, Storage, Calldata (Intro)</a></li>
+    <li><a href="#mappings">Mappings</a></li>
+    <li><a href="#deploying-your-first-contract">Deploying your First Contract</a></li>
+    <li><a href="#the-evm--a-recap-of-lesson-2">The EVM &amp; A Recap of Lesson 2</a></li>
 </ol>
 </details>
 <details>
 <summary><a href="#lesson-3-remix-storage-factory">Lesson 3: Remix Storage Factory</a></summary>
 <ol>
-<li><a href="#introduction-1">Introduction</a></li>
-<li><a href="#basic-solidity-importing-contracts-into-other-contracts">Basic Solidity: Importing Contracts into other Contracts</a></li>
-<li><a href="#basic-solidity-interacting-with-other-contracts">Basic Solidity: Interacting with other Contracts</a></li>
-<li><a href="#basic-solidity-inheritance--overrides">Basic Solidity: Inheritance &amp; Overrides</a></li>
-<li><a href="#lesson-3-recap">Lesson 3 Recap</a></li>
-</ol>
+    <li><a href="#introduction-1">Introduction</a></li>
+    <li><a href="#basic-solidity-importing-contracts-into-other-contracts">Basic Solidity: Importing Contracts into other Contracts</a></li>
+    <li><a href="#basic-solidity-interacting-with-other-contracts">Basic Solidity: Interacting with other Contracts</a></li>
+    <li><a href="#basic-solidity-inheritance--overrides">Basic Solidity: Inheritance &amp; Overrides</a></li>
+    <li><a href="#lesson-3-recap">Lesson 3 Recap</a></li>
+  </ol>
 </details>
 <details>
-<summary><a href="#lesson-4-remix-fund-me">Lesson 4: Remix Fund Me</a></summary>
-<ol>
-<li><a href="#introduction-2">Introduction</a></li>
-<li><a href="#sending-eth-through-a-function--reverts">Sending ETH Through a Function &amp; Reverts</a></li>
-<li><a href="#chainlink--oracles">Chainlink &amp; Oracles</a></li>
-<li><a href="#review-of-sending-eth-and-working-with-chainlink">Review of Sending ETH and working with Chainlink</a></li>
-<li><a href="#interfaces--price-feeds">Interfaces &amp; Price Feeds</a></li>
-<li><a href="#importing-from-github--npm">Importing from GitHub &amp; NPM</a></li>
-<li><a href="#floating-point-math-in-solidtiy">Floating Point Math in Solidity</a></li>
-<li><a href="#basic-solidity-arrays--structs-ii">Basic Solidity: Arrays &amp; Structs II</a></li>
-<li><a href="#review-of-interfacs-importing-from-github--math-in-solidity">Review of Interfacs, Importing from GitHub, &amp; Math in Solidity</a></li>
-<li><a href="#libraries">Libraries</a></li>
-<li><a href="#safemath-overflow-checking-and-the-unchecked-keywork">SafeMath, Overflow Checking, and the &quot;unchecked&quot; keywork</a></li>
-<li><a href="#basic-solidity-for-loop">Basic Solidity: For Loop</a></li>
-<li><a href="#basic-solidity-resetting-an-array">Basic Solidity: Resetting an Array</a></li>
-<li><a href="#sending-eth-from-a-contract">Sending ETH from a Contract</a></li>
-<li><a href="#basic-solidity-constructor">Basic Solidity: Constructor</a></li>
-<li><a href="#basic-solidity-modifiers">Basic Solidity: Modifiers</a></li>
-<li><a href="#testnet-demo">Testnet Demo</a></li>
-<li><a href="#advanced-solidity">Advanced Solidity</a><ul>
-<li><a href="#immutable--constant">Immutable &amp; Constant</a></li>
-<li><a href="#custom-errors">Custom Errors</a></li>
-<li><a href="#receive--fallback-functions">Receive &amp; Fallback Functions</a></li>
-<li><a href="#lesson-4-recap">Lesson 4 Recap</a></li>
-</ol>
-</details>
-<details>
-<summary><a href="#lesson-5-ethersjs-simple-storage">Lesson 5: Ethers.js Simple Storage</a></summary>
-<ol>
-<li><a href="#effective-debugging-strategies--getting-help">Effective Debugging Strategies &amp; Getting Help</a><ul>
-<li><a href="#how-to-debug-anything-video">How to Debug Anything Video</a></li>
-</ul>
-</li>
-<li><a href="#installation--setup">Installation &amp; Setup</a><ul>
-<li><a href="#mac--linux-setup">Mac &amp; Linux Setup</a></li>
-<li><a href="#windows-setup">Windows Setup</a></li>
-<li><a href="#gitpod">Gitpod</a></li>
-</ul>
-</li>
-<li><a href="#local-development-introduction">Local Development Introduction</a><ul>
-<li><a href="#optional-javascript-crash-courses">Optional Javascript Crash Courses</a></li>
-</ul>
-</li>
-<li><a href="#tiny-javascript-refresher">Tiny Javascript Refresher</a></li>
-<li><a href="#asynchronous-programming-in-javascript">Asynchronous Programming in Javascript</a></li>
-<li><a href="#compiling-our-solidity">Compiling our Solidity</a></li>
-<li><a href="#ganache--networks">Ganache &amp; Networks</a></li>
-<li><a href="#introduction-to-ethersjs">Introduction to Ethers.js</a><ul>
-<li><a href="#a-note-on-the-await-keyword">A Note on the await Keyword</a></li>
-</ul>
-</li>
-<li><a href="#adding-transaction-overrides">Adding Transaction Overrides</a></li>
-<li><a href="#transaction-receipts">Transaction Receipts</a></li>
-<li><a href="#sending-a-raw-transaction-in-ethersjs">Sending a &quot;raw&quot; Transaction in Ethersjs</a></li>
-<li><a href="#interacting-with-contracts-in-ethersjs">Interacting with Contracts in Ethersjs</a></li>
-<li><a href="#environment-variables">Environment Variables</a></li>
-<li><a href="#better-private-key-management">Better Private Key Management</a></li>
-<li><a href="#optional-prettier-formatting">Optional Prettier Formatting</a></li>
-<li><a href="#deploying-to-a-testnet-or-a-mainnet">Deploying to a Testnet or a Mainnet</a></li>
-<li><a href="#verifying-on-block-explorers-from-the-ui">Verifying on Block Explorers from the UI</a></li>
-<li><a href="#alchemy-dashboard--the-mempool">Alchemy Dashboard &amp; The Mempool</a></li>
-<li><a href="#lesson-5-recap">Lesson 5 Recap</a><ul>
-<li><a href="#typescript-ethers-simple-storage">Typescript Ethers Simple Storage</a></li>
-</ul>
-</li>
-</ol>
-</details>
-<details>
-<summary><a href="#lesson-6-hardhat-simple-storage">Lesson 6: Hardhat Simple Storage</a></summary>
-<ol>
-<li><a href="#introduction-3">Introduction</a></li>
-<li><a href="#hardhat-setup">Hardhat Setup</a><ul>
-<li><a href="#troubleshooting-hardaht-setup">Troubleshooting Hardaht Setup</a></li>
-</ul>
-</li>
-<li><a href="#hardhat-setup-continued">Hardhat Setup Continued</a></li>
-<li><a href="#deploying-simplestorage-from-hardhat">Deploying SimpleStorage from Hardhat</a></li>
-<li><a href="#networks-in-hardhat">Networks in Hardhat</a></li>
-<li><a href="#programatic-verification">Programatic Verification</a></li>
-<li><a href="#interacting-with-contracts-in-hardhat">Interacting with Contracts in Hardhat</a></li>
-<li><a href="#artifacts-troubleshooting">Artifacts Troubleshooting</a></li>
-<li><a href="#custom-hardhat-tasks">Custom Hardhat Tasks</a></li>
-<li><a href="#hardhat-localhost-node">Hardhat Localhost Node</a></li>
-<li><a href="#the-hardhat-console">The Hardhat Console</a></li>
-<li><a href="#hardhat-tests">Hardhat Tests</a></li>
-<li><a href="#hardhat-gas-reporter">Hardhat Gas Reporter</a></li>
-<li><a href="#solidity-coverage">Solidity Coverage</a></li>
-<li><a href="#hardhat-waffle">Hardhat Waffle</a></li>
-<li><a href="#lesson-6-recap">Lesson 6 Recap</a><ul>
-<li><a href="#typescript-hardhat-simple-storage">Typescript Hardhat Simple Storage</a></li>
-</ul>
-</li>
-</ol>
-</details>
-<details>
-<summary><a href="#lesson-7-hardhat-fund-me">Lesson 7: Hardhat Fund Me</a></summary>
-<ol>
-<li><a href="#introduction-4">Introduction</a></li>
-<li><a href="#hardhat-setup---fund-me">Hardhat Setup - Fund Me</a></li>
-<li><a href="#linting">Linting</a></li>
-<li><a href="#hardhat-setup---fund-me---continued">Hardhat Setup - Fund Me - Continued</a></li>
-<li><a href="#importing-from-npm">Importing from NPM</a></li>
-<li><a href="#hardhat-deploy">Hardhat Deploy</a></li>
-<li><a href="#mocking">Mocking</a></li>
-<li><a href="#utils-folder">Utils Folder</a></li>
-<li><a href="#testnet-demo---hardhat-fund-me">Testnet Demo - Hardhat Fund Me</a></li>
-<li><a href="#solidity-style-guide">Solidity Style Guide</a></li>
-<li><a href="#testing-fund-me">Testing Fund Me</a></li>
-<li><a href="#breakpoints--debugging">Breakpoints &amp; Debugging</a></li>
-<li><a href="#gas-iii">Gas III:</a></li>
-<li><a href="#consolelog--debugging">console.log &amp; Debugging</a></li>
-<li><a href="#testing-fund-me-ii">Testing Fund Me II</a></li>
-<li><a href="#storage-in-solidity">Storage in Solidity</a></li>
-<li><a href="#gas-optimizations-using-storage-knowledge">Gas Optimizations using Storage Knowledge</a></li>
-<li><a href="#solidity-chainlink-style-guide">Solidity Chainlink Style Guide</a></li>
-<li><a href="#storage-review">Storage Review</a></li>
-<li><a href="#staging-tests">Staging Tests</a></li>
-<li><a href="#running-scripts-on-a-local-node">Running Scripts on a Local Node</a></li>
-<li><a href="#adding-scripts-to-your-packagejson">Adding Scripts to your package.json</a></li>
-<li><a href="#pushing-to-github">Pushing to GitHub</a></li>
-<li><a href="#-tweet-me-add-your-repo-in">🐸🐦 Tweet Me (add your repo in)!</a></li>
-</ol>
-</details>
-<details>
-<summary><a href="#lesson-8-html--javascript-fund-me-full-stack--front-end">Lesson 8: HTML / Javascript Fund Me (Full Stack / Front End)</a></summary>
-<ol>
-<li><a href="#introduction-5">Introduction</a></li>
-<li><a href="#how-websites-work-with-web3-wallets">How Websites work with Web3 Wallets</a></li>
-<li><a href="#html-setup">HTML Setup</a></li>
-<li><a href="#connecting-html-to-metamask">Connecting HTML to Metamask</a></li>
-<li><a href="#javascript-in-its-own-file">Javascript in it&#39;s own file</a></li>
-<li><a href="#es6-vs-nodejs">ES6 vs Nodejs</a></li>
-<li><a href="#sending-a-transaction-from-a-website">Sending a transaction from a Website</a></li>
-<li><a href="#resetting-an-account-in-metamask">Resetting an Account in Metamask</a></li>
-<li><a href="#listening-for-events-and-completed-transactions">Listening for Events and Completed Transactions</a></li>
-<li><a href="#input-forms">Input Forms</a></li>
-<li><a href="#reading-from-the-blockchain">Reading from the Blockchain</a></li>
-<li><a href="#withdraw-function">Withdraw Function</a></li>
-<li><a href="#lesson-8-recap">Lesson 8 Recap</a><ul>
-<li><a href="#optional-links">Optional Links</a></li>
-</ul>
-</li>
-</ol>
-</details>
-<details>
-<summary><a href="#lesson-9-hardhat-smart-contract-lottery">Lesson 9: Hardhat Smart Contract Lottery</a></summary>
-<ol>
-<li><a href="#introduction-6">Introduction</a></li>
-<li><a href="#hardhat-setup---smart-contract-lottery">Hardhat Setup - Smart Contract Lottery</a></li>
-<li><a href="#rafflesol-setup">Raffle.sol Setup</a></li>
-<li><a href="#introduction-to-events">Introduction to Events</a></li>
-<li><a href="#events-in-rafflesol">Events in Raffle.sol</a></li>
-<li><a href="#introduction-to-chainlink-vrf">Introduction to Chainlink VRF</a><ul>
-<li><a href="#sub-lesson-chainlink-vrf">Sub-Lesson: Chainlink VRF</a></li>
-</ul>
-</li>
-<li><a href="#implementing-chainlink-vrf---introduction">Implementing Chainlink VRF - Introduction</a><ul>
-<li><a href="#hardhat-shorthand">Hardhat Shorthand</a></li>
-</ul>
-</li>
-<li><a href="#implementing-chainlink-vrf---the-request">Implementing Chainlink VRF - The Request</a></li>
-<li><a href="#implementing-chainlink-vrf---the-fulfill">Implementing Chainlink VRF - The FulFill</a><ul>
-<li><a href="#modulo">Modulo</a></li>
-</ul>
-</li>
-<li><a href="#introduction-to-chainlink-keepers">Introduction to Chainlink Keepers</a></li>
-<li><a href="#implementing-chainlink-keepers---checkupkeep">Implementing Chainlink Keepers - checkUpkeep</a><ul>
-<li><a href="#enums">Enums</a></li>
-</ul>
-</li>
-<li><a href="#implementing-chainlink-keepers---checkupkeep-continued">Implementing Chainlink Keepers - checkUpkeep continued</a></li>
-<li><a href="#implementing-chainlink-keepers---performupkeep">Implementing Chainlink Keepers - performUpkeep</a></li>
-<li><a href="#code-cleanup">Code Cleanup</a></li>
-<li><a href="#deploying-rafflesol">Deploying Raffle.sol</a><ul>
-<li><a href="#mock-chainlink-vrf-coordinator">Mock Chainlink VRF Coordinator</a></li>
-<li><a href="#continued">Continued</a></li>
-</ul>
-</li>
-<li><a href="#rafflesol-unit-tests">Raffle.sol Unit Tests</a><ul>
-<li><a href="#testing-events--chai-matchers">Testing Events &amp; Chai Matchers</a></li>
-<li><a href="#continued-i">Continued I</a></li>
-</ul>
-</li>
-<li><a href="#hardhat-methods--time-travel">Hardhat Methods &amp; Time Travel</a><ul>
-<li><a href="#continued-ii">Continued II</a></li>
-</ul>
-</li>
-<li><a href="#callstatic">Callstatic</a><ul>
-<li><a href="#continued-iii">Continued III</a></li>
-<li><a href="#massive-promise-test">Massive Promise Test</a></li>
-<li><a href="#continued-iv">Continued IV</a></li>
-</ul>
-</li>
-<li><a href="#rafflesol-staging-tests">Raffle.sol Staging Tests</a></li>
-<li><a href="#testing-on-a-testnet">Testing on a Testnet</a><ul>
-<li><a href="#recommended-link-amounts-for-sepolia-staging-test">Recommended LINK amounts for Sepolia Staging Test:</a></li>
-</ul>
-</li>
-<li><a href="#conclusion">Conclusion</a></li>
-<li><a href="#typescript---smart-contract-lottery">Typescript - Smart Contract Lottery</a></li>
-</ol>
-</details>
-<details>
-<summary><a href="#lesson-10-nextjs-smart-contract-lottery-full-stack--front-end">Lesson 10: NextJS Smart Contract Lottery (Full Stack / Front End)</a></summary>
-<ol>
-<li><a href="#introduction-7">Introduction</a><ul>
-<li><a href="#optional-sub-lesson-full-stack-development--other-libraries">Optional Sub-Lesson: Full Stack Development &amp; Other Libraries</a></li>
-</ul>
-</li>
-<li><a href="#nextjs-setup">NextJS Setup</a></li>
-<li><a href="#manual-header-i">Manual Header I</a><ul>
-<li><a href="#react-hooks">React Hooks</a></li>
-</ul>
-</li>
-<li><a href="#manual-header-ii">Manual Header II</a></li>
-<li><a href="#useeffect-hook">useEffect Hook</a></li>
-<li><a href="#local-storage">Local Storage</a></li>
-<li><a href="#isweb3enabledloading">isWeb3EnabledLoading</a></li>
-<li><a href="#web3uikit">web3uikit</a></li>
-<li><a href="#introduction-to-calling-functions-in-nextjs">Introduction to Calling Functions in Nextjs</a><ul>
-<li><a href="#automatic-constant-value-ui-updater">Automatic Constant Value UI Updater</a></li>
-<li><a href="#runcontractfunction">runContractFunction</a></li>
-</ul>
-</li>
-<li><a href="#usestate">useState</a></li>
-<li><a href="#calling-functions-in-nextjs">Calling Functions in NextJS</a></li>
-<li><a href="#usenotification">useNotification</a></li>
-<li><a href="#reading--displaying-contract-data">Reading &amp; Displaying Contract Data</a></li>
-<li><a href="#a-note-about-onsuccess">A Note about <code>onSuccess</code></a></li>
-<li><a href="#a-challenge-to-you">A Challenge to You</a></li>
-<li><a href="#tailwind--styling">Tailwind &amp; Styling</a></li>
-<li><a href="#introduction-to-hosting-your-site">Introduction to Hosting your Site</a></li>
-<li><a href="#ipfs">IPFS</a></li>
-<li><a href="#hosting-on-ipfs">Hosting on IPFS</a></li>
-<li><a href="#hosting-on-ipfs--filecoin-using-fleek">Hosting on IPFS &amp; Filecoin using Fleek</a></li>
-<li><a href="#filecoin-overview">Filecoin Overview</a></li>
-<li><a href="#lesson-10-recap">Lesson 10 Recap</a></li>
-</ol>
-</details>
-<details>
-<summary><a href="#lesson-11-hardhat-starter-kit">Lesson 11: Hardhat Starter Kit</a></summary>
-<ol>
-</details>
-<details>
-<summary><a href="#lesson-12-hardhat-erc20s">Lesson 12: Hardhat ERC20s</a></summary>
-<ol>
-<li><a href="#what-is-an-erc-what-is-an-eip">What is an ERC? What is an EIP?</a></li>
-<li><a href="#what-is-an-erc20">What is an ERC20?</a></li>
-<li><a href="#manually-creating-an-erc20-token">Manually Creating an ERC20 Token</a></li>
-<li><a href="#creating-an-erc20-token-with-openzeppelin">Creating an ERC20 Token with Openzeppelin</a></li>
-<li><a href="#lesson-12-recap">Lesson 12 Recap</a></li>
-</ul>
-</ol>
-</details>
-<details>
-<summary><a href="#lesson-13-hardhat-defi--aave">Lesson 13: Hardhat DeFi &amp; Aave</a></summary>
-<ol>
-<li><a href="#what-is-defi">What is DeFi?</a></li>
-<li><a href="#what-is-aave">What is Aave?</a></li>
-<li><a href="#programatic-borrowing--lending">Programatic Borrowing &amp; Lending</a></li>
-<li><a href="#weth---wrapped-eth">WETH - Wrapped ETH</a></li>
-<li><a href="#forking-mainnet">Forking Mainnet</a></li>
-<li><a href="#depositing-into-aave">Depositing into Aave</a></li>
-<li><a href="#borrowing-from-aave">Borrowing from Aave</a></li>
-<li><a href="#repaying-with-aave">Repaying with Aave</a></li>
-<li><a href="#visualizing-the-transactions">Visualizing the Transactions</a></li>
-<li><a href="#lesson-13-recap">Lesson 13 Recap</a></li>
-<li><a href="#happy-bow-tie-friday-with-austin-griffith">Happy Bow-Tie Friday with Austin Griffith</a><ul>
-<li><a href="#more-defi-learnings">More DeFi Learnings:</a></li>
-</ul>
-</li>
-</ul>
-</ol>
-</details>
-<details>
-<summary><a href="#lesson-14-hardhat-nfts-everything-you-need-to-know-about-nfts">Lesson 14: Hardhat NFTs (EVERYTHING you need to know about NFTs)</a></summary>
-<ol>
-<li><a href="#what-is-an-nft">What is an NFT?</a></li>
-<li><a href="#code-overview">Code Overview</a></li>
-<li><a href="#hardhat-setup-1">Hardhat Setup</a></li>
-<li><a href="#basic-nft">Basic NFT</a><ul>
-<li><a href="#write-tests">Write Tests</a></li>
-</ul>
-</li>
-<li><a href="#random-ipfs-nft">Random IPFS NFT</a><ul>
-<li><a href="#mapping-chainlink-vrf-requests">Mapping Chainlink VRF Requests</a></li>
-<li><a href="#creating-rare-nfts">Creating Rare NFTs</a></li>
-<li><a href="#setting-the-nft-image">Setting the NFT Image</a></li>
-<li><a href="#setting-an-nft-mint-price">Setting an NFT Mint Price</a></li>
-<li><a href="#deploy-script">Deploy Script</a></li>
-<li><a href="#uploading-token-images-with-pinata">Uploading Token Images with Pinata</a></li>
-<li><a href="#uploading-token-uris-metadata-with-pinata">Uploading Token URIs (metadata) with Pinata</a></li>
-<li><a href="#deploying">Deploying</a></li>
-<li><a href="#tests">Tests</a></li>
-</ul>
-</li>
-<li><a href="#dynamic-svg-on-chain-nft">Dynamic SVG On-Chain NFT</a><ul>
-<li><a href="#what-is-an-svg">What is an SVG?</a></li>
-<li><a href="#initial-code">Initial Code</a></li>
-<li><a href="#base64-encoding">Base64 Encoding</a></li>
-</ul>
-</li>
-<li><a href="#advanced-evm-opcodes-encoding-and-calling">Advanced: EVM Opcodes, Encoding, and Calling</a><ul>
-<li><a href="#abiencode--abiencodepacked">abi.encode &amp; abi.encodePacked</a></li>
-<li><a href="#introduction-to-encoding-function-calls-directly">Introduction to Encoding Function Calls Directly</a></li>
-<li><a href="#introduction-to-encoding-function-calls-recap">Introduction to Encoding Function Calls Recap</a></li>
-<li><a href="#encoding-function-calls-directly">Encoding Function Calls Directly</a></li>
-<li><a href="#creating-an-nft-tokenuri-on-chain">Creating an NFT TokenURI on-Chain</a></li>
-<li><a href="#making-the-nft-dynamic">Making the NFT Dynamic</a></li>
-<li><a href="#deploy-script-1">Deploy Script</a></li>
-</ul>
-</li>
-<li><a href="#deploying-the-nfts-to-a-testnet">Deploying the NFTs to a Testnet</a></li>
-<li><a href="#lesson-14-recap">Lesson 14 Recap</a></li>
-</ul>
-</ol>
-</details>
-<details>
-<summary><a href="#lesson-15-nextjs-nft-marketplace-if-you-finish-this-lesson-you-are-a-full-stack-monster">Lesson 15: NextJS NFT Marketplace (If you finish this lesson, you are a full-stack MONSTER!)</a></summary>
-<ol>
-<li><a href="#introduction-8">Introduction</a></li>
-<li><a href="#part-i-nft-marketplace-contracts">Part I: NFT Marketplace Contracts</a><ul>
-<li><a href="#hardhat-setup-2">Hardhat Setup</a></li>
-<li><a href="#nftmarketplacesol">NftMarketplace.sol</a></li>
-</ul>
-</li>
-<li><a href="#reentrancy">Reentrancy</a><ul>
-<li><a href="#nftmarketplacesol---continued">NftMarketplace.sol - Continued</a></li>
-<li><a href="#nftmarketplacesol---deploy-script">NftMarketplace.sol - Deploy Script</a></li>
-<li><a href="#nftmarketplacesol---tests">NftMarketplace.sol - Tests</a></li>
-<li><a href="#nftmarketplacesol---scripts">NftMarketplace.sol - Scripts</a></li>
-</ul>
-</li>
-<li><a href="#part-ii-moralis-front-end">Part II: Moralis Front End</a><ul>
-<li><a href="#what-is-moralis">What is Moralis?</a></li>
-<li><a href="#nextjs-setup-1">NextJS Setup</a></li>
-<li><a href="#adding-tailwind">Adding Tailwind</a></li>
-<li><a href="#introduction-to-indexing-in-web3">Introduction to Indexing in Web3</a></li>
-<li><a href="#connecting-moralis-to-our-local-hardhat-node">Connecting Moralis to our Local Hardhat Node</a></li>
-<li><a href="#moralis-event-sync">Moralis Event Sync</a><ul>
-<li><a href="#reset-local-chain">Reset Local Chain</a></li>
-</ul>
-</li>
-<li><a href="#moralis-cloud-functions">Moralis Cloud Functions</a><ul>
-<li><a href="#practice-resetting-the-local-chain">Practice Resetting the Local Chain</a></li>
-</ul>
-</li>
-<li><a href="#moralis-cloud-functions-ii">Moralis Cloud Functions II</a></li>
-<li><a href="#querying-the-moralis-database">Querying the Moralis Database</a></li>
-<li><a href="#rendering-the-nft-images">Rendering the NFT Images</a></li>
-<li><a href="#update-listing-modal">Update Listing Modal</a></li>
-<li><a href="#buy-nft-listing">Buy NFT Listing</a></li>
-<li><a href="#listing-nfts-for-sale">Listing NFTs for Sale</a></li>
-</ul>
-</li>
-<li><a href="#part-iii-thegraph-front-end">Part III: TheGraph Front End</a><ul>
-<li><a href="#introduction-9">Introduction</a></li>
-<li><a href="#what-is-the-graph">What is The Graph?</a></li>
-<li><a href="#building-a-subgraph">Building a Subgraph</a></li>
-<li><a href="#deploying-our-subgraph">Deploying our Subgraph</a></li>
-<li><a href="#reading-from-the-graph">Reading from The Graph</a></li>
-<li><a href="#hosting-our-dapp">Hosting our Dapp</a></li>
-</ul>
-</li>
-</ul>
-</ol>
-</details>
-<details>
-<summary><a href="#lesson-16-hardhat-upgrades">Lesson 16: Hardhat Upgrades</a></summary>
-<ol>
-<li><a href="#upgradeable-smart-contracts-overview">Upgradeable Smart Contracts Overview</a></li>
-<li><a href="#types-of-upgrades">Types of Upgrades</a></li>
-<li><a href="#delegatecall">Delegatecall</a></li>
-<li><a href="#small-proxy-example">Small Proxy Example</a></li>
-<li><a href="#transparent-upgradeable-smart-contract">Transparent Upgradeable Smart Contract</a></li>
-</ul>
-</ol>
-</details>
-<details>
-<summary><a href="#lesson-17-hardhat-daos">Lesson 17: Hardhat DAOs</a></summary>
-<ol>
-<li><a href="#introduction-10">Introduction</a></li>
-<li><a href="#what-is-a-dao">What is a DAO?</a></li>
-<li><a href="#how-to-build-a-dao">How to build a DAO</a></li>
-</ol>
-</details>
-<details>
-<summary><a href="#lesson-18-security--auditing">Lesson 18: Security &amp; Auditing</a></summary>
-<ol>
-<li><a href="#introduction-11">Introduction</a></li>
-<li><a href="#slither">Slither</a></li>
-<li><a href="#fuzzing-and-eth-security-toolbox">Fuzzing and Eth Security Toolbox</a></li>
-<li><a href="#closing-thoughts">Closing Thoughts</a></li>
-</ol>
-</details>
-<details>
-<summary>More Resources</summary>
-<ul>
-<li><a href="#congratulations">Congratulations</a><ul>
-<li><a href="#where-do-i-go-now">Where do I go now?</a><ul>
-<li><a href="#learning-more">Learning More</a></li>
-<li><a href="#community">Community</a></li>
-<li><a href="#hackathons">Hackathons</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</ul>
+<summary>
+<a href="#lesson-4-remix-fund-me">Lesson 4: Remix Fund Me</a>
+</summary>
+  <ol>
+    <li><a href="#introduction-2">Introduction</a></li>
+    <li><a href="#setup">Setup</a></li>
+    <li><a href="#sending-eth-through-a-function">Sending ETH through a function</a></li>
+    <li><a href="#reverts">Reverts</a></li>
+    <li><a href="#getting-real-world-price-data-chainlink">Getting real world price data (Chainlink)</a></li>
+    <li><a href="#quick-recap-i">Quick recap I</a></li>
+    <li><a href="#interfaces">Interfaces</a></li>
+    <li><a href="#ai-help-iii">AI Help III</a></li>
+    <li><a href="#importing-from-npm--github">Importing from NPM / GitHub</a></li>
+    <li><a href="#getting-prices-from-chainlink">Getting Prices from Chainlink</a></li>
+    <li><a href="#more-solidity-math">More solidity math</a></li>
+    <li><a href="#msgsender">msg.sender</a></li>
+    <li><a href="#quick-recap-ii">Quick recap II</a></li>
+    <li><a href="#library">Library</a></li>
+    <li><a href="#safemath">SafeMath</a></li>
+    <li><a href="#for-loop">For Loop</a></li>
+    <li><a href="#resetting-an-array">Resetting an array</a></li>
+    <li><a href="#transfer-send-and-call">Transfer, Send, and Call</a></li>
+    <li><a href="#constructor">Constructor</a></li>
+    <li><a href="#modifiers">Modifiers</a></li>
+    <li><a href="#testnet-demo">Testnet Demo</a></li>
+    <li><a href="#advanced-solidity">Advanced Solidity</a>
+      <ul>
+        <li><a href="#immutable--constant">Immutable &amp; Constant</a></li>
+        <li><a href="#custom-errors">Custom Errors</a></li>
+        <li><a href="#receive--fallback-functions">Receive &amp; Fallback Functions</a></li>
+      </ul>
+    </li>
+  </ol>
 </details>
 
-# Lesson 0: The Edge of the Rabbit Hole
+<details>
+<summary><a href="#lesson-5-ai-prompting-asking-questions-and-getting-help">Lesson 5: AI Prompting, Asking Questions, and Getting Help</a></summary>
+<ol>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#7-tips-for-this-course">7 Tips for this Course</a></li>
+    <li><a href="#setting-up-github">Setting up GitHub</a></li>
+    <li><a href="#formatting-a-question">Formatting a question</a></li>
+    <li><a href="#speedrunethereum">SpeedRunEthereum</a></li>
+</ul>
+</details>
+<details>
+<summary>
+<a href="#lesson-6-foundry-simple-storage">Lesson 6: Foundry Simple Storage</a>
+</summary>
+  <ol>
+    <li><a href="#introduction-3">Introduction</a></li>
+    <li><a href="#installation--setup-macos--linux">Installation &amp; Setup (MacOS &amp; Linux)</a>
+      <ul>
+        <li><a href="#windows-setup">Windows Setup</a></li>
+        <li><a href="#gitpod">Gitpod</a></li>
+      </ul>
+    </li>
+    <li><a href="#local-development-introduction">Local Development Introduction</a></li>
+    <li><a href="#foundry-install">Foundry Install</a></li>
+    <li><a href="#vscode-setup-ii">VSCode Setup II</a></li>
+    <li><a href="#foundry-setup">Foundry Setup</a></li>
+    <li><a href="#formatting-solidity-in-vscode">Formatting Solidity in VSCode</a></li>
+    <li><a href="#compiling-in-foundry">Compiling in Foundry</a></li>
+    <li><a href="#deploying-to-a-local-chain-i-anvil-or-ganache">Deploying to a local chain I (Anvil or Ganache)</a></li>
+    <li><a href="#adding-another-network-to-metamask">Adding another network to metamask</a></li>
+    <li><a href="#deploying-to-a-local-chain-ii-forge-create">Deploying to a local chain II (Forge Create)</a></li>
+    <li><a href="#private-key-rant-i">Private Key Rant I</a></li>
+    <li><a href="#deploying-to-a-local-chain-iii-forge-script">Deploying to a local chain III (Forge Script)</a></li>
+    <li><a href="#what-is-a-transaction-but-actually">What is a transaction (But actually)</a></li>
+    <li><a href="#private-key-rant-ii">Private Key Rant II</a></li>
+    <li><a href="#can-you-encrypt-a-private-key---a-keystore-in-foundry-yet">Can you Encrypt a Private Key -&gt; a keystore in foundry yet??</a></li>
+    <li><a href="#thirdweb-deploy">ThirdWeb Deploy</a></li>
+    <li><a href="#private-key-rant-summary">Private Key Rant Summary:</a></li>
+    <li><a href="#cast-send">Cast Send</a></li>
+    <li><a href="#deploying-to-a-testnet-or-a-mainnet">Deploying to a testnet or a mainnet</a></li>
+    <li><a href="#verifying-a-contract-the-manual-way">Verifying a contract the manual way</a></li>
+    <li><a href="#cleaning-up-the-project">Cleaning up the project</a></li>
+    <li><a href="#alchemy">Alchemy</a></li>
+    <li><a href="#summary">Summary</a></li>
+  </ol>
+</details>
 
-## Welcome to the course!
+<details>
+<summary>
+<a href="#lesson-7-foundry-fund-me">Lesson 7: Foundry Fund Me</a>
+</summary>
+<ol>
+    <li><a href="#introduction-4">Introduction</a></li>
+    <li><a href="#setup-1">Setup</a></li>
+    <li><a href="#testing-introduction">Testing Introduction</a></li>
+    <li><a href="#setup-continued">Setup Continued</a></li>
+    <li><a href="#tests">Tests</a></li>
+    <li><a href="#debugging-tests-i">Debugging Tests I</a></li>
+    <li><a href="#advanced-deploy-scripts-i">Advanced Deploy Scripts I</a></li>
+    <li><a href="#forked-tests">Forked Tests</a></li>
+    <li><a href="#refactoring-i-testing-deploy-scripts">Refactoring I: Testing Deploy Scripts</a></li>
+    <li><a href="#refactoring-ii-helper-config">Refactoring II: Helper Config</a></li>
+    <li><a href="#refactoring-iii-mocking-continued">Refactoring III: Mocking (continued)</a></li>
+    <li><a href="#magic-numbers">Magic Numbers</a></li>
+    <li><a href="#break-time">Break time!</a>
+    <li><a href="#more-cheatcodes">More Cheatcodes</a></li>
+    <li><a href="#more-coverage">More Coverage</a></li>
+    <li><a href="#chisel">Chisel</a></li>
+    <li><a href="#gas-cheaper-withdraw">Gas: Cheaper Withdraw</a></li>
+    <li><a href="#storage">Storage</a></li>
+    <li><a href="#gas-cheaper-withdraw-continued">Gas: Cheaper Withdraw (continued)</a></li>
+    <li><a href="#interactionsssol">Interactions.s.sol</a></li>
+    <li><a href="#makefile">Makefile</a></li>
+    <li><a href="#pushing-to-github">Pushing to GitHub</a></li>
+    <li><a href="#-tweet-me-add-your-repo-in">🐸🐦 Tweet Me (add your repo in)!</a></li>
+    <li><a href="#recap">Recap</a></li>
+  </ol>
+</details>
+<details>
+<summary>
+<a href="#lesson-8-htmljs-fund-me-quick-fullstack--front-end-tutorial">Lesson 8: Html/Js Fund Me (Quick Fullstack / Front End Tutorial)</a>
+</summary>
+  <ol>
+    <li><a href="#introduction-5">Introduction</a></li>
+    <li><a href="#setup-2">Setup</a></li>
+    <li><a href="#how-metamask-works-with-your-browser">How metamask works with your browser</a></li>
+    <li><a href="#introduction-to-function-selectors">Introduction to function selectors</a></li>
+    <li><a href="#recap-1">Recap</a></li>
+  </ol>
+</details>
+<details>
+<summary>
+<a href="#lesson-9-foundry-smart-contract-lottery">Lesson 9: Foundry Smart Contract Lottery</a>
+</summary>
+<ol>
+    <li><a href="#introduction-6">Introduction</a></li>
+    <li><a href="#rafflesol-setup">Raffle.sol Setup</a></li>
+    <li><a href="#solidity-contract-layout">Solidity Contract Layout</a></li>
+    <li><a href="#custom-errors-1">Custom Errors</a></li>
+    <li><a href="#events">Events</a></li>
+    <li><a href="#blocktimestamp">block.timestamp</a></li>
+    <li><a href="#chainlink-vrf">Chainlink VRF</a>
+      <ul>
+        <li><a href="#sub-lesson-chainlink-vrf">Sub-Lesson: Chainlink VRF</a></li>
+      </ul>
+    </li>
+    <li><a href="#implementing-chainlink-vrf---introduction">Implementing Chainlink VRF - Introduction</a></li>
+    <li><a href="#implementing-chainlink-vrf---the-request">Implementing Chainlink VRF - The Request</a></li>
+    <li><a href="#implementing-chainlink-vrf---the-fulfill">Implementing Chainlink VRF - The FulFill</a></li>
+    <li><a href="#chainlink-vrf-recap">Chainlink VRF Recap</a>
+      <ul>
+        <li><a href="#modulo">Modulo</a></li>
+      </ul>
+    </li>
+    <li><a href="#enum">Enum</a></li>
+    <li><a href="#resetting-an-array-1">Resetting an array</a></li>
+    <li><a href="#note-on-building">Note on building</a></li>
+    <li><a href="#cei">CEI</a></li>
+    <li><a href="#introduction-to-chainlink-automation">Introduction to Chainlink Automation</a></li>
+    <li><a href="#implementing-chainlink-keepers---checkupkeep">Implementing Chainlink Keepers - checkUpkeep</a>
+      <ul>
+        <li><a href="#enums">Enums</a></li>
+      </ul>
+    </li>
+    <li><a href="#implementing-chainlink-keepers---checkupkeep-continued">Implementing Chainlink Keepers - checkUpkeep continued</a></li>
+    <li><a href="#implementing-chainlink-keepers---performupkeep">Implementing Chainlink Keepers - performUpkeep</a></li>
+    <li><a href="#mid-lesson-recap">Mid-Lesson Recap</a></li>
+    <li><a href="#tests--deploy-script-setup">Tests & Deploy Script Setup</a>
+      <ul>
+        <li><a href="#mock-chainlink-vrf-coordinator">Mock Chainlink VRF Coordinator</a></li>
+      </ul>
+    </li>
+    <li><a href="#tests--deploy-script-continued">Tests & Deploy Script Continued</a></li>
+    <li><a href="#lots-of-tests">Lots of Tests</a>
+      <ul>
+        <li><a href="#testing-events-in-foundry">Testing Events in Foundry</a></li>
+        <li><a href="#vmroll--vmwarp">vm.roll & vm.warp</a></li>
+      </ul>
+    </li>
+    <li><a href="#create-subscription-script">Create Subscription Script</a></li>
+    <li><a href="#create-subscription-from-the-ui">Create Subscription from the UI</a></li>
+    <li><a href="#fund-subscription-script">Fund Subscription Script</a></li>
+    <li><a href="#add-consumer-script">Add Consumer Script</a></li>
+    <li><a href="#more-tests">More Tests</a></li>
+    <li><a href="#performupkeep-tests">PerformUpkeep Tests</a></li>
+    <li><a href="#getting-event-data-into-foundry-scripts">Getting Event Data into Foundry Scripts</a></li>
+    <li><a href="#intro-to-fuzz-tests">Intro to Fuzz tests</a></li>
+    <li><a href="#one-big-test">One Big Test</a></li>
+    <li><a href="#passing-the-private-key-to-vmstartbroadcast">Passing the private key to vm.startBroadcast</a></li>
+    <li><a href="#integrations-test">Integrations Test</a></li>
+    <li><a href="#testnet-demo---makefile-setup">Testnet Demo - Makefile setup</a></li>
+    <li><a href="#testnet-demo---the-demo">Testnet Demo - The Demo</a></li>
+    <li><a href="#consolelog-debugging">Console.log Debugging</a></li>
+    <li><a href="#forge-test---debug">forge test --debug</a></li>
+    <li><a href="#recap-2">Recap</a>
+      <ul>
+        <li><a href="#recommended-link-amounts-for-sepolia-staging-test">Recommended LINK amounts for Sepolia Staging Test:</a></li>
+      </ul>
+    </li>
+</ol>
+</details>
 
-_[⌨️ (00:00:00) Lesson 0: Welcome To Blockchain](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=0s)_
+<details>
+<summary>
+<a href="#lesson-10-foundry-erc20s">Lesson 10: Foundry ERC20s</a>
+</summary>
+<ol>
+    <li><a href="#what-is-an-erc-what-is-an-eip">What is an ERC? What is an EIP?</a></li>
+    <li><a href="#what-is-an-erc20">What is an ERC20?</a></li>
+    <li><a href="#manually-creating-an-erc20-token">Manually Creating an ERC20 Token</a></li>
+    <li><a href="#erc20-token---openzeppelin">ERC20 Token - Openzeppelin</a></li>
+    <li><a href="#deploy-script">Deploy Script</a></li>
+    <li><a href="#ai-tests">AI Tests</a></li>
+    <li><a href="#lesson-10-recap">Lesson 10 Recap</a></li>
+</ol>
+</details>
+<details>
+<summary>
+<a href="#lesson-11-foundry-nfts--moodnft">Lesson 11: Foundry NFTs | MoodNFT</a>
+</summary>
+  <ol>
+    <li><a href="#introduction-7">Introduction</a></li>
+    <li><a href="#what-is-an-nft">What is an NFT?</a></li>
+    <li><a href="#foundry-setup-1">Foundry Setup</a></li>
+    <li><a href="#ipfs">IPFS</a></li>
+    <li><a href="#using-ipfs">Using IPFS</a></li>
+    <li><a href="#basic-nft-deploy-script">Basic NFT: Deploy Script</a></li>
+    <li><a href="#basic-nft-tests">Basic NFT: Tests</a></li>
+    <li><a href="#basic-nft-interactions">Basic NFT: Interactions</a></li>
+    <li><a href="#basic-nft-testnet-demo">Basic NFT: Testnet Demo</a></li>
+    <li><a href="#the-issue-with-ipfs--https-tokenuri-nfts">The issue with IPFS & HTTPS TokenURI NFTs</a></li>
+    <li><a href="#what-is-an-svg">What is an SVG?</a></li>
+    <li><a href="#svg-nft-introduction">SVG NFT: Introduction</a></li>
+    <li><a href="#svg-nft-encoding-the-nft">SVG NFT: Encoding the NFT</a></li>
+    <li><a href="#svg-nft-flipping-the-mood">SVG NFT: Flipping the mood</a></li>
+    <li><a href="#svg-nft-deploy-script">SVG NFT: Deploy Script</a></li>
+    <li><a href="#svg-nft-debugging-practice--some-notes">SVG NFT: Debugging practice & some notes</a></li>
+    <li><a href="#svg-nft-anvil-demo">SVG NFT: Anvil Demo</a></li>
+    <li><a href="#advanced-evm-opcodes-encoding-and-calling">Advanced: EVM Opcodes, Encoding, and Calling</a>
+      <ul>
+        <li><a href="#abiencode--abiencodepacked">abi.encode & abi.encodePacked</a></li>
+        <li><a href="#introduction-to-encoding-function-calls-directly">Introduction to Encoding Function Calls Directly</a></li>
+        <li><a href="#introduction-to-encoding-function-calls-recap">Introduction to Encoding Function Calls Recap</a></li>
+        <li><a href="#encoding-function-calls-directly">Encoding Function Calls Directly</a></li>
+      </ul>
+    </li>
+    <li><a href="#verifying-metamask-transactions">Verifying Metamask Transactions</a></li>
+    <li><a href="#filecoin--arweave">Filecoin & Arweave</a></li>
+    <li><a href="#lesson-11-recap">Lesson 11 Recap</a></li>
+</ol>
+</details>
+
+<details>
+<summary>
+<a href="#lesson-12-foundry-defi--stablecoin-the-pinnacle-project-get-here">Lesson 12: Foundry DeFi | Stablecoin (The PINNACLE PROJECT!! GET HERE!)</a>
+</summary>
+<ol>
+    <li><a href="#what-is-defi">What is DeFi?</a></li>
+    <li><a href="#code-walkthrough">Code Walkthrough</a></li>
+    <li><a href="#what-is-a-stablecoin-but-actually">What is a stablecoin (But actually)</a></li>
+    <li><a href="#decentralizedstablecoinsol">DecentralizedStableCoin.sol</a></li>
+    <li><a href="#dscenginesol-setup">DSCEngine.sol Setup</a></li>
+    <li><a href="#deposit-collateral">Deposit Collateral</a></li>
+    <li><a href="#mint-dsc">Mint DSC</a>
+      <ul>
+        <li><a href="#getting-the-value-of-our-collateral">Getting the value of our collateral</a></li>
+        <li><a href="#health-factor">Health Factor</a></li>
+        <li><a href="#minting-the-dsc">Minting the DSC</a></li>
+      </ul>
+    </li>
+    <li><a href="#testing-while-developing">Testing while developing</a>
+      <ul>
+        <li><a href="#deploy-script-1">Deploy Script</a></li>
+        <li><a href="#tests-1">Tests</a></li>
+      </ul>
+    </li>
+    <li><a href="#depositcollateralandmintdsc">depositCollateralAndMintDsc</a></li>
+    <li><a href="#redeemcollateral">redeemCollateral</a></li>
+    <li><a href="#liquidate">Liquidate</a>
+      <ul>
+        <li><a href="#setup-3">Setup</a></li>
+        <li><a href="#refactoring">Refactoring</a></li>
+      </ul>
+    </li>
+    <li><a href="#leveling-up-your-testing-skillz">Leveling up your testing skillz</a></li>
+    <li><a href="#challenge-code-coverage-above-80-for-dscenginesol">Challenge: Code coverage above 80% for DSCEngine.sol</a></li>
+    <li><a href="#fuzz-invariant-testing">Fuzz (Invariant) Testing</a></li>
+    <li><a href="#open-based-fuzz-tests">Open-based Fuzz tests</a></li>
+    <li><a href="#handler-based-fuzz-tests">Handler-based Fuzz tests</a>
+      <ul>
+        <li><a href="#revert_on_fail--true">revert_on_fail = true</a></li>
+        <li><a href="#redeeming-collateral">Redeeming Collateral</a></li>
+        <li><a href="#minting-dsc">Minting DSC</a></li>
+        <li><a href="#debuggin-fuzz-tests">Debuggin Fuzz Tests</a></li>
+        <li><a href="#challenge-find-out-why-mintdsc-is-never-being-called-on-our-handlersol">Challenge: Find out why `mintDsc` is never being called on our Handler.sol</a></li>
+      </ul>
+    </li>
+    <li><a href="#price-feed-handling">Price Feed Handling</a></li>
+    <li><a href="#oraclelib">OracleLib</a></li>
+    <li><a href="#note-on-audit-preparedness">Note on audit preparedness</a></li>
+    <li><a href="#recap-3">Recap</a></li>
+    <li><a href="#lens-protocol">Lens Protocol</a></li>
+      <ul>
+        <li><a href="#more-defi-learnings">More DeFi Learnings:</a></li>
+      </ul>
+</ol>
+</details>
+
+
+<details>
+<summary>
+<a href="#lesson-13-foundry-upgrades">Lesson 13: Foundry Upgrades</a>
+</summary>
+<ol>
+    <li><a href="#upgradable-smart-contracts-overview">Upgradable Smart Contracts Overview</a></li>
+    <li><a href="#types-of-upgrades">Types of Upgrades</a></li>
+    <li><a href="#delegatecall">Delegatecall</a></li>
+    <li><a href="#small-proxy-example">Small Proxy Example</a></li>
+    <li><a href="#universal-upgradable-smart-contract">Universal Upgradable Smart Contract</a>
+      <ul>
+        <li><a href="#setup-4">Setup</a></li>
+        <li><a href="#initializer">Initializer</a></li>
+        <li><a href="#deploy">Deploy</a></li>
+        <li><a href="#upgradebox">UpgradeBox</a></li>
+        <li><a href="#test--demo">Test / Demo</a></li>
+      </ul>
+    </li>
+    <li><a href="#testnet-demo-1">Testnet Demo</a></li>
+</ol>
+</details>
+<details>
+<summary>
+<a href="#lesson-14-foundry-dao--governance">Lesson 14: Foundry DAO / Governance</a>
+</summary>
+  <ol>
+    <li><a href="#introduction-8">Introduction</a></li>
+    <li><a href="#what-is-a-dao">What is a DAO?</a></li>
+    <li><a href="#how-to-build-a-dao">How to build a DAO</a>
+      <ul>
+        <li><a href="#setup-5">Setup</a></li>
+        <li><a href="#governance-token">Governance Token</a></li>
+        <li><a href="#governor">Governor</a></li>
+        <li><a href="#tests-2">Tests</a></li>
+      </ul>
+    </li>
+    <li><a href="#wrap-up">Wrap up</a></li>
+    <li><a href="#bonus-gas-optimization-tips">Bonus: Gas optimization tips</a></li>
+  </ol>
+</details>
+<details>
+<summary>
+<a href="#lesson-15-smart-contract-security--auditing-for-developers">Lesson 15: Smart Contract Security & Auditing (For developers)</a>
+</summary>
+  <ol>
+    <li><a href="#introduction-9">Introduction</a></li>
+    <li><a href="#what-is-a-smart-contract-audit">What is a smart contract audit?</a></li>
+    <li><a href="#tools">Tools</a>
+      <ul>
+        <li><a href="#manual-review">Manual Review</a></li>
+        <li><a href="#static-analysis">Static Analysis</a></li>
+        <li><a href="#dynamic-analysis">Dynamic Analysis</a></li>
+        <li><a href="#formal-verification">Formal Verification</a></li>
+        <li><a href="#symbolic-execution">Symbolic Execution</a></li>
+        <li><a href="#fuzzing">Fuzzing</a></li>
+        <li><a href="#formal-verification--symbolic-execution">Formal Verification (& Symbolic Execution)</a></li>
+        <li><a href="#other-security-stuff">Other security stuff</a></li>
+      </ul>
+    </li>
+    <li><a href="#what-does-the-process-of-manual-review-look-like">What does the process of manual review look like?</a></li>
+    <li><a href="#formal-verification">Formal Verification</a></li>
+    <li><a href="#closing-thoughts">Closing Thoughts</a></li>
+  </ol>
+</details>
+
+<details>
+<summary>
+<a href="#congratulations">Congratulations</a>
+</summary>
+<ol>
+    <li><a href="#where-do-i-go-now">Where do I go now?</a>
+      <ul>
+        <li><a href="#learning-more">Learning More</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#hackathons">Hackathons</a></li>
+      </ul>
+</ol>
+</details>
+
+<a href="#disclosures">Disclosures</a>
+
+<a href="#thank-you">Thank you</a>
+
+
+
+<!-- 
+
+
+
+- [Blockchain Developer, Smart Contract, \& Solidity Course - Powered By AI - Beginner to Expert Course | Foundry Edition 2023](#blockchain-developer-smart-contract--solidity-course---powered-by-ai---beginner-to-expert-course--foundry-edition-2023)
+- [Table of Contents](#table-of-contents)
+  - [Recommended Tools](#recommended-tools)
+- [Testnet Faucets](#testnet-faucets)
+- [Resources For This Course](#resources-for-this-course)
+- [Bonus NFTs](#bonus-nfts)
+  - [Important Notes for Arbitrum](#important-notes-for-arbitrum)
+  - [Bridging to Arbitrum](#bridging-to-arbitrum)
+- [Lesson 0: Welcome to the Course!](#lesson-0-welcome-to-the-course)
+  - [Welcome to the Course!](#welcome-to-the-course)
+  - [Best Practices](#best-practices)
+- [Lesson 1: Blockchain Basics](#lesson-1-blockchain-basics)
+  - [What is a Blockchain? What does a blockchain do?](#what-is-a-blockchain-what-does-a-blockchain-do)
+  - [The Purpose Of Smart Contracts](#the-purpose-of-smart-contracts)
+  - [Other Blockchain Benefits](#other-blockchain-benefits)
+  - [What have Smart Contracts done so far?](#what-have-smart-contracts-done-so-far)
+  - [Making Your First Transaction](#making-your-first-transaction)
+  - [Gas I: Introduction to Gas](#gas-i-introduction-to-gas)
+  - [How Do Blockchains Work?](#how-do-blockchains-work)
+  - [Signing Transactions](#signing-transactions)
+  - [Gas II](#gas-ii)
+  - [Gas II Summary](#gas-ii-summary)
+  - [High-Level Blockchain Fundamentals](#high-level-blockchain-fundamentals)
+- [Lesson 2: Welcome to Remix - Remix Simple Storage](#lesson-2-welcome-to-remix---remix-simple-storage)
+  - [Introduction](#introduction)
+  - [Setting Up Your First Contract](#setting-up-your-first-contract)
+  - [Basic Solidity: Types](#basic-solidity-types)
+  - [Basic Solidity: Functions](#basic-solidity-functions)
+  - [Basic Solidity: Arrays \& Structs](#basic-solidity-arrays--structs)
+  - [Basic Solidity: Compiler Errors and Warnings](#basic-solidity-compiler-errors-and-warnings)
+  - [Memory, Storage, Calldata (Intro)](#memory-storage-calldata-intro)
+  - [Mappings](#mappings)
+  - [Deploying your First Contract](#deploying-your-first-contract)
+  - [The EVM \& A Recap of Lesson 2](#the-evm--a-recap-of-lesson-2)
+- [Lesson 3: Remix Storage Factory](#lesson-3-remix-storage-factory)
+  - [Introduction](#introduction-1)
+  - [Basic Solidity: Importing Contracts into other Contracts](#basic-solidity-importing-contracts-into-other-contracts)
+  - [Basic Solidity: Interacting with other Contracts](#basic-solidity-interacting-with-other-contracts)
+  - [Basic Solidity: Inheritance \& Overrides](#basic-solidity-inheritance--overrides)
+  - [Lesson 3 Recap](#lesson-3-recap)
+- [Lesson 4: Remix Fund Me](#lesson-4-remix-fund-me)
+  - [Introduction](#introduction-2)
+  - [Setup](#setup)
+  - [Sending ETH through a function](#sending-eth-through-a-function)
+  - [Reverts](#reverts)
+  - [Getting real world price data (Chainlink)](#getting-real-world-price-data-chainlink)
+  - [Quick recap I](#quick-recap-i)
+  - [Interfaces](#interfaces)
+  - [AI Help III](#ai-help-iii)
+  - [Importing from NPM / GitHub](#importing-from-npm--github)
+  - [Getting Prices from Chainlink](#getting-prices-from-chainlink)
+  - [More solidity math](#more-solidity-math)
+  - [msg.sender](#msgsender)
+  - [Quick recap II](#quick-recap-ii)
+  - [Library](#library)
+  - [SafeMath](#safemath)
+  - [For Loop](#for-loop)
+  - [Resetting an array](#resetting-an-array)
+  - [Transfer, Send, and Call](#transfer-send-and-call)
+  - [Constructor](#constructor)
+  - [Modifiers](#modifiers)
+  - [Testnet Demo](#testnet-demo)
+  - [Advanced Solidity](#advanced-solidity)
+    - [Immutable \& Constant](#immutable--constant)
+    - [Custom Errors](#custom-errors)
+    - [Receive \& Fallback Functions](#receive--fallback-functions)
+- [Lesson 5: AI Prompting, Asking Questions, and Getting Help](#lesson-5-ai-prompting-asking-questions-and-getting-help)
+  - [Intro](#intro)
+  - [7 Tips for this Course](#7-tips-for-this-course)
+  - [Setting up GitHub](#setting-up-github)
+  - [Formatting a question](#formatting-a-question)
+  - [SpeedRunEthereum](#speedrunethereum)
+- [Lesson 6: Foundry Simple Storage](#lesson-6-foundry-simple-storage)
+  - [Introduction](#introduction-3)
+  - [Installation \& Setup (MacOS \& Linux)](#installation--setup-macos--linux)
+    - [Windows Setup](#windows-setup)
+    - [Gitpod](#gitpod)
+  - [Local Development Introduction](#local-development-introduction)
+  - [Foundry Install](#foundry-install)
+  - [VSCode Setup II](#vscode-setup-ii)
+  - [Foundry Setup](#foundry-setup)
+  - [Formatting Solidity in VSCode](#formatting-solidity-in-vscode)
+  - [Compiling in Foundry](#compiling-in-foundry)
+  - [Deploying to a local chain I (Anvil or Ganache)](#deploying-to-a-local-chain-i-anvil-or-ganache)
+  - [Adding another network to metamask](#adding-another-network-to-metamask)
+  - [Deploying to a local chain II (Forge Create)](#deploying-to-a-local-chain-ii-forge-create)
+  - [Private Key Rant I](#private-key-rant-i)
+  - [Deploying to a local chain III (Forge Script)](#deploying-to-a-local-chain-iii-forge-script)
+  - [What is a transaction (But actually)](#what-is-a-transaction-but-actually)
+  - [Private Key R ant II](#private-key-r-ant-ii)
+- [Can you Encrypt a Private Key -\> a keystore in foundry yet??](#can-you-encrypt-a-private-key---a-keystore-in-foundry-yet)
+  - [ThirdWeb Deploy](#thirdweb-deploy)
+  - [Private Key Rant Summary:](#private-key-rant-summary)
+  - [Cast Send](#cast-send)
+  - [Deploying to a testnet or a mainnet](#deploying-to-a-testnet-or-a-mainnet)
+  - [Verifying a contract the manual way](#verifying-a-contract-the-manual-way)
+  - [Cleaning up the project](#cleaning-up-the-project)
+  - [Alchemy](#alchemy)
+  - [Summary](#summary)
+- [Lesson 7: Foundry Fund Me](#lesson-7-foundry-fund-me)
+  - [Introduction](#introduction-4)
+  - [Setup](#setup-1)
+  - [Testing Introduction](#testing-introduction)
+  - [Setup Continued](#setup-continued)
+  - [Tests](#tests)
+  - [Debugging Tests I](#debugging-tests-i)
+  - [Advanced Deploy Scripts I](#advanced-deploy-scripts-i)
+  - [Forked Tests](#forked-tests)
+  - [Refactoring I: Testing Deploy Scripts](#refactoring-i-testing-deploy-scripts)
+  - [Refactoring II: Helper Config](#refactoring-ii-helper-config)
+  - [Refactoring III: Mocking (continued)](#refactoring-iii-mocking-continued)
+  - [Magic Numbers](#magic-numbers)
+- [Break time!](#break-time)
+  - [More Cheatcodes](#more-cheatcodes)
+  - [More Coverage](#more-coverage)
+  - [Chisel](#chisel)
+  - [Gas: Cheaper Withdraw](#gas-cheaper-withdraw)
+  - [Storage](#storage)
+  - [Gas: Cheaper Withdraw (continued)](#gas-cheaper-withdraw-continued)
+  - [Interactions.s.sol](#interactionsssol)
+  - [Makefile](#makefile)
+  - [Pushing to GitHub](#pushing-to-github)
+  - [🐸🐦 Tweet Me (add your repo in)!](#-tweet-me-add-your-repo-in)
+  - [Recap](#recap)
+- [Lesson 8: Html/Js Fund Me (Quick Fullstack / Front End Tutorial)](#lesson-8-htmljs-fund-me-quick-fullstack--front-end-tutorial)
+  - [Introduction](#introduction-5)
+  - [Setup](#setup-2)
+  - [How metamask works with your browser](#how-metamask-works-with-your-browser)
+  - [Introduction to function selectors](#introduction-to-function-selectors)
+  - [Recap](#recap-1)
+- [Lesson 9: Foundry Smart Contract Lottery](#lesson-9-foundry-smart-contract-lottery)
+  - [Introduction](#introduction-6)
+  - [Raffle.sol Setup](#rafflesol-setup)
+  - [Solidity Contract Layout](#solidity-contract-layout)
+  - [Custom Errors](#custom-errors-1)
+  - [Events](#events)
+  - [block.timestamp](#blocktimestamp)
+  - [Chainlink VRF](#chainlink-vrf)
+    - [Sub-Lesson: Chainlink VRF](#sub-lesson-chainlink-vrf)
+  - [Implementing Chainlink VRF - Introduction](#implementing-chainlink-vrf---introduction)
+  - [Implementing Chainlink VRF - The Request](#implementing-chainlink-vrf---the-request)
+  - [Implementing Chainlink VRF - The FulFill](#implementing-chainlink-vrf---the-fulfill)
+  - [Chainlink VRF Recap](#chainlink-vrf-recap)
+    - [Modulo](#modulo)
+  - [Enum](#enum)
+  - [Resetting an array](#resetting-an-array-1)
+  - [Note on building](#note-on-building)
+  - [CEI](#cei)
+  - [Introduction to Chainlink Automation](#introduction-to-chainlink-automation)
+  - [Implementing Chainlink Keepers - checkUpkeep](#implementing-chainlink-keepers---checkupkeep)
+    - [Enums](#enums)
+  - [Implementing Chainlink Keepers - checkUpkeep continued](#implementing-chainlink-keepers---checkupkeep-continued)
+  - [Implementing Chainlink Keepers - performUpkeep](#implementing-chainlink-keepers---performupkeep)
+  - [Mid-Lesson Recap](#mid-lesson-recap)
+  - [Tests \& Deploy Script Setup](#tests--deploy-script-setup)
+    - [Mock Chainlink VRF Coordinator](#mock-chainlink-vrf-coordinator)
+  - [Tests \& Deploy Script Continued](#tests--deploy-script-continued)
+  - [Lots of Tests](#lots-of-tests)
+    - [Testing Events in Foundry](#testing-events-in-foundry)
+    - [vm.roll \& vm.warp](#vmroll--vmwarp)
+  - [Create Subscription Script](#create-subscription-script)
+  - [Create Subscription from the UI](#create-subscription-from-the-ui)
+  - [Fund Subscription Script](#fund-subscription-script)
+  - [Add Consumer Script](#add-consumer-script)
+  - [More Tests](#more-tests)
+  - [PerformUpkeep Tests](#performupkeep-tests)
+  - [Getting Event Data into Foundry Scripts](#getting-event-data-into-foundry-scripts)
+  - [Intro to Fuzz tests](#intro-to-fuzz-tests)
+  - [One Big Test](#one-big-test)
+  - [Passing the private key to vm.startBroadcast](#passing-the-private-key-to-vmstartbroadcast)
+  - [Integrations Test](#integrations-test)
+  - [Testnet Demo - Makefile setup](#testnet-demo---makefile-setup)
+  - [Testnet Demo - The Demo](#testnet-demo---the-demo)
+  - [Console.log Debugging](#consolelog-debugging)
+  - [forge test --debug](#forge-test---debug)
+  - [Recap](#recap-2)
+    - [Recommended LINK amounts for Sepolia Staging Test:](#recommended-link-amounts-for-sepolia-staging-test)
+- [Lesson 10: Foundry ERC20s](#lesson-10-foundry-erc20s)
+  - [What is an ERC? What is an EIP?](#what-is-an-erc-what-is-an-eip)
+  - [What is an ERC20?](#what-is-an-erc20)
+  - [Manually Creating an ERC20 Token](#manually-creating-an-erc20-token)
+  - [ERC20 Token - Openzeppelin](#erc20-token---openzeppelin)
+  - [Deploy Script](#deploy-script)
+  - [AI Tests](#ai-tests)
+  - [Lesson 10 Recap](#lesson-10-recap)
+- [Lesson 11: Foundry NFTs | MoodNFT](#lesson-11-foundry-nfts--moodnft)
+  - [Introduction](#introduction-7)
+  - [What is an NFT?](#what-is-an-nft)
+  - [Foundry Setup](#foundry-setup-1)
+  - [IPFS](#ipfs)
+  - [Using IPFS](#using-ipfs)
+  - [Basic NFT: Deploy Script](#basic-nft-deploy-script)
+  - [Basic NFT: Tests](#basic-nft-tests)
+  - [Basic NFT: Interactions](#basic-nft-interactions)
+  - [Basic NFT: Testnet Demo](#basic-nft-testnet-demo)
+  - [The issue with IPFS \& HTTPS TokenURI NFTs](#the-issue-with-ipfs--https-tokenuri-nfts)
+  - [What is an SVG?](#what-is-an-svg)
+  - [SVG NFT: Introduction](#svg-nft-introduction)
+  - [SVG NFT: Encoding the NFT](#svg-nft-encoding-the-nft)
+  - [SVG NFT: Flipping the mood](#svg-nft-flipping-the-mood)
+  - [SVG NFT: Deploy Script](#svg-nft-deploy-script)
+  - [SVG NFT: Debugging practice \& some notes](#svg-nft-debugging-practice--some-notes)
+  - [SVG NFT: Anvil Demo](#svg-nft-anvil-demo)
+  - [Advanced: EVM Opcodes, Encoding, and Calling](#advanced-evm-opcodes-encoding-and-calling)
+    - [abi.encode \& abi.encodePacked](#abiencode--abiencodepacked)
+    - [Introduction to Encoding Function Calls Directly](#introduction-to-encoding-function-calls-directly)
+    - [Introduction to Encoding Function Calls Recap](#introduction-to-encoding-function-calls-recap)
+    - [Encoding Function Calls Directly](#encoding-function-calls-directly)
+  - [Verifying Metamask Transactions](#verifying-metamask-transactions)
+  - [Filecoin \& Arweave](#filecoin--arweave)
+  - [Lesson 11 Recap](#lesson-11-recap)
+- [Lesson 12: Foundry DeFi | Stablecoin (The PINNACLE PROJECT!! GET HERE!)](#lesson-12-foundry-defi--stablecoin-the-pinnacle-project-get-here)
+  - [What is DeFi?](#what-is-defi)
+  - [Code Walkthrough](#code-walkthrough)
+  - [What is a stablecoin (But actually)](#what-is-a-stablecoin-but-actually)
+  - [DecentralizedStableCoin.sol](#decentralizedstablecoinsol)
+  - [DSCEngine.sol Setup](#dscenginesol-setup)
+  - [Deposit Collateral](#deposit-collateral)
+  - [Mint DSC](#mint-dsc)
+    - [Getting the value of our collateral](#getting-the-value-of-our-collateral)
+    - [Health Factor](#health-factor)
+    - [Minting the DSC](#minting-the-dsc)
+  - [Testing while developing](#testing-while-developing)
+    - [Deploy Script](#deploy-script-1)
+    - [Tests](#tests-1)
+  - [depositCollateralAndMintDsc](#depositcollateralandmintdsc)
+  - [redeemCollateral](#redeemcollateral)
+  - [Liquidate](#liquidate)
+    - [Setup](#setup-3)
+    - [Refactoring](#refactoring)
+  - [Leveling up your testing skillz](#leveling-up-your-testing-skillz)
+  - [Challenge: Code coverage above 80% for DSCEngine.sol](#challenge-code-coverage-above-80-for-dscenginesol)
+  - [Fuzz (Invariant) Testing](#fuzz-invariant-testing)
+  - [Open-based Fuzz tests](#open-based-fuzz-tests)
+  - [Handler-based Fuzz tests](#handler-based-fuzz-tests)
+    - [revert\_on\_fail = true](#revert_on_fail--true)
+    - [Redeeming Collateral](#redeeming-collateral)
+    - [Minting DSC](#minting-dsc)
+    - [Debuggin Fuzz Tests](#debuggin-fuzz-tests)
+    - [Challenge: Find out why `mintDsc` is never being called on our Handler.sol](#challenge-find-out-why-mintdsc-is-never-being-called-on-our-handlersol)
+  - [Price Feed Handling](#price-feed-handling)
+  - [OracleLib](#oraclelib)
+  - [Note on audit preparedness](#note-on-audit-preparedness)
+  - [Recap](#recap-3)
+  - [Lens Protocol](#lens-protocol)
+    - [More DeFi Learnings:](#more-defi-learnings)
+- [Lesson 13: Foundry Upgrades](#lesson-13-foundry-upgrades)
+  - [Upgradable Smart Contracts Overview](#upgradable-smart-contracts-overview)
+  - [Types of Upgrades](#types-of-upgrades)
+  - [Delegatecall](#delegatecall)
+  - [Small Proxy Example](#small-proxy-example)
+  - [Universal Upgradable Smart Contract](#universal-upgradable-smart-contract)
+    - [Setup](#setup-4)
+    - [Initializer](#initializer)
+    - [Deploy](#deploy)
+    - [UpgradeBox](#upgradebox)
+    - [Test / Demo](#test--demo)
+  - [Testnet Demo](#testnet-demo-1)
+- [Lesson 14: Foundry DAO / Governance](#lesson-14-foundry-dao--governance)
+  - [Introduction](#introduction-8)
+  - [What is a DAO?](#what-is-a-dao)
+  - [How to build a DAO](#how-to-build-a-dao)
+    - [Setup](#setup-5)
+    - [Governance Token](#governance-token)
+    - [Governor](#governor)
+    - [Tests](#tests-2)
+  - [Wrap up](#wrap-up)
+  - [Bonus: Gas optimization tips](#bonus-gas-optimization-tips)
+- [Lesson 15: Smart Contract Security \& Auditing (For developers)](#lesson-15-smart-contract-security--auditing-for-developers)
+  - [Introduction](#introduction-9)
+  - [What is a smart contract audit?](#what-is-a-smart-contract-audit)
+  - [What does the process of manual review look like?](#what-does-the-process-of-manual-review-look-like)
+  - [Tools](#tools)
+    - [Manual Review](#manual-review)
+    - [Static Analysis](#static-analysis)
+    - [Dynamic Analysis](#dynamic-analysis)
+    - [Formal Verification](#formal-verification)
+    - [Symbolic Execution](#symbolic-execution)
+    - [Fuzzing](#fuzzing)
+    - [Formal Verification (\& Symbolic Execution)](#formal-verification--symbolic-execution)
+    - [Other security stuff](#other-security-stuff)
+  - [Closing Thoughts](#closing-thoughts)
+- [Congratulations](#congratulations)
+  - [Where do I go now?](#where-do-i-go-now)
+    - [Learning More](#learning-more)
+    - [Community](#community)
+    - [Hackathons](#hackathons)
+- [Disclosures](#disclosures)
+- [Thank you](#thank-you) -->
+
+
+
+## Recommended Tools
+- Recommended Testnet: Sepolia
+- Recommended DevOps: [foundry-devops](https://github.com/Cyfrin/foundry-devops)
+
+# [Testnet Faucets](https://faucets.chain.link)
+- Main Faucet:<a href="https://faucets.chain.link" target="_blank" > https://faucets.chain.link</a>
+- Backup Faucet:<a href="https://sepoliafaucet.com/" target="_blank"> https://sepoliafaucet.com/</a>
+
+> ⚠️ All code associated with this course is for demo purposes only. They have not been audited and should not be considered production ready. Please use at your own risk. 
+
+# Resources For This Course
+
+- AI Frens
+  - [ChatGPT](https://chat.openai.com/)
+      - Just know that it will often get things wrong, but it's very fast!
+  - [Phind](https://www.phind.com/)
+      - Like ChatGPT, but it searches the web
+  - [Bard](https://bard.google.com/)
+  - [Other AI extensions](https://twitter.com/aisolopreneur/status/1654823630155464704?s=42&t=-pu_sCYtfrfPJU7OXfifrQ)
+- Github Discussions 
+    -   Ask questions and chat about the course here!
+-   [Stack Exchange Ethereum](https://ethereum.stackexchange.com/)
+    -   Great place for asking technical questions about Ethereum
+-   [Peeranha](https://peeranha.io/)
+    -   Decentralized Stack Exchange!
+
+
+# Bonus NFTs
+
+These are 100% optional to do.
+
+- [Sepolia](https://sepolia.etherscan.io/address/0x76B50696B8EFFCA6Ee6Da7F6471110F334536321)
+- [Arbitrum](https://arbiscan.io/address/0x39338138414Df90EC67dC2EE046ab78BcD4F56D9)
+
+After every lesson, you'll see two QR codes. Those codes will send you to an NFT deployed to Sepolia or Arbitrum. They contain a challenge for you to solve, and in return, you'll be given an AWESOME NFT.
+
+## Important Notes for Arbitrum
+
+IF YOU DECIDE TO MINT THE REAL NFT: 
+1. We didn't audit the NFT, so if you want to make sure you'll be safe, interact with the contract using a burner wallet (a wallet with very little money that you don't use for anything else)
+   1. In fact... Get good at interacting with wallets from a burner wallet
+2. Read my [Tweet thread on basic wallet safety](https://twitter.com/PatrickAlphaC/status/1663936101650685954)
+3. It might be a good idea to wait till later in the course when we teach you about verifying metamask transactions. 
+4. Feel free to mint NFTs on sepolia without worrying about the above
+
+## Bridging to Arbitrum
+1. We didn't show you how to bring ETH -> Arbitrum, but the process would be:
+   1. Buy ETH (On an exchange like [Coinbase](https://www.coinbase.com/home) or [Kraken](https://www.kraken.com/))
+2. Send ETH -> one of your wallets like:
+   1. [Metamask](https://metamask.io/)
+   2. [Frame](https://frame.sh/)
+   3. [Rainbow](https://rainbow.me/)
+   4. [Argent](https://www.argent.xyz/)
+   5. [Coinbase Wallet](https://www.coinbase.com/wallet)
+3. Use the [Arbitrum Bridge](https://bridge.arbitrum.io/)
+
+
+# Video 1
+
+<br/>
+<p align="center">
+<a href="https://youtu.be/umepbfKp5rI" target="_blank">
+<img src="./thumbnails/thumbnail-1.png" width="500" alt="Solidity, Blockchain Developer, Smart Contract, & Solidity Course - Powered By AI - Beginner to Expert Course">
+</a>
+</p>
+<br/>
+
+# Lesson 0: Welcome to the Course!
+## Welcome to the Course! 
+*[⭐️ (0:00:00) | Lesson 0: Welcome!](https://www.youtube.com/watch?v=umepbfKp5rI&t=0s)*
 
 ## Best Practices
-
 - **Follow the repository:** While going through the course be 100% certain to follow along with the github repository. If you run into in an issue check the chronological-updates in the repo.
 - **Be Active in the community:** Ask questions and engage with other developers going through the course in the discussions tab, be sure to go and say hello or gm! This space is different from the other industries, you don't have to be secretive; communicate, network and learn with others :)
 - **Learn at your own pace:** It doesn't matter if it takes you a day, a week, a month or even a year. Progress >>> Perfection
-- **Take Breaks:** You will exhaust your mind and recall less if you go all out and watch the entire course in one sitting.
+- **Take Breaks:** You will exhaust your mind and recall less if you go all out and watch the entire course in one sitting. 
   **Suggested Strategy** every 25 minutes take a 5 min break, and every 2 hours take a longer 30 min break
 - **Refer to Documentation:** Things are constantly being updated, so whenever Patrick opens up some documentation, open it your end and maybe even have the code sample next to you.
+- **Use ChatGPT and/or the course chat**
+
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
 # Lesson 1: Blockchain Basics
-
-_[⌨️ (00:09:05) Lesson 1: Blockchain Basics](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=545s)_
-
-## What is a Blockchain? What does a blockchain do?
-
-- [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)
-  - [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto)
-- [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/)
-  - [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin)
-- [What is a Smart Contract?](https://chain.link/education/smart-contracts)
-- [Nick Szabo](https://en.wikipedia.org/wiki/Nick_Szabo)
-- [Hybrid Smart Contracts](https://blog.chain.link/hybrid-smart-contracts-explained/)
-- [Blockchain Oracles](https://betterprogramming.pub/what-is-a-blockchain-oracle-f5ccab8dbd72?source=friends_link&sk=d921a38466df8a9176ed8dd767d8c77d)
-- [Terminology](https://connect.comptia.org/content/articles/blockchain-terminology)
-- [Web3](https://en.wikipedia.org/wiki/Web3)
-- [What is a blockchain](https://www.investopedia.com/terms/b/blockchain.asp)
+*[⭐️ (0:13:54) | Lesson 1: Blockchain Basics](https://www.youtube.com/watch?v=umepbfKp5rI&t=834s)*
+## What is a Blockchain? What does a blockchain do? 
+-   [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)
+    -   [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto)
+-   [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/)
+    -   [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin)
+-   [What is a Smart Contract?](https://chain.link/education/smart-contracts)
+-   [Nick Szabo](https://en.wikipedia.org/wiki/Nick_Szabo)
+-   [Hybrid Smart Contracts](https://blog.chain.link/hybrid-smart-contracts-explained/)
+-   [Blockchain Oracles](https://betterprogramming.pub/what-is-a-blockchain-oracle-f5ccab8dbd72?source=friends_link&sk=d921a38466df8a9176ed8dd767d8c77d)
+-   [Terminology](https://connect.comptia.org/content/articles/blockchain-terminology)
+-   [Web3](https://en.wikipedia.org/wiki/Web3)
+-   [What is a blockchain](https://www.investopedia.com/terms/b/blockchain.asp)
 
 ## The Purpose Of Smart Contracts
-
-_[⌨️ (00:18:27) The Purpose of Smart Contracts](https://youtu.be/gyMwXuJrbJQ?t=1107)_
-
+*[⌨️ (0:24:26) | The Purpose Of Smart Contracts](https://www.youtube.com/watch?v=umepbfKp5rI&t=1463s)*
 - 🎥 [Original Video](https://www.youtube.com/watch?v=_JeRq7Gwj5Y&feature=youtu.be)
 - 🦬 [My ETH Denver Talk](https://www.youtube.com/watch?v=06hXCX_jj2E)
 - 🍔 [McDonalds Scandal](https://www.chicagotribune.com/sns-mcdonalds-story.html)
@@ -526,9 +912,7 @@ _[⌨️ (00:18:27) The Purpose of Smart Contracts](https://youtu.be/gyMwXuJrbJQ
 - 🔮 [Chainlink & Oracles](https://www.youtube.com/watch?v=tIUHQ7sDoaU)
 
 ## Other Blockchain Benefits
-
-_[⌨️ (00:30:41) Other Blockchain Benefits](https://youtu.be/gyMwXuJrbJQ?t=1841)_
-
+*[⌨️ (0:39:53) | Other Blockchain Benefits](https://www.youtube.com/watch?v=umepbfKp5rI&t=2393s)*
 - Decentralized
 - Transparency & Flexibility
 - Speed & Efficiency
@@ -537,9 +921,7 @@ _[⌨️ (00:30:41) Other Blockchain Benefits](https://youtu.be/gyMwXuJrbJQ?t=18
 - Trust Minimized Agreements
 
 ## What have Smart Contracts done so far?
-
-_[⌨️ (00:36:36) What have Smart Contracts done so far?](https://youtu.be/gyMwXuJrbJQ?t=2196)_
-
+*[⌨️ (0:44:20) | What have Smart Contracts done so far?](https://www.youtube.com/watch?v=umepbfKp5rI&t=2660s)*
 - [DeFi](https://chain.link/education/defi)
   - [Defi Llama](https://defillama.com/)
   - [Why DeFi is Important](https://medium.com/the-capital/why-defi-1519cc4d4bd3)
@@ -547,139 +929,109 @@ _[⌨️ (00:36:36) What have Smart Contracts done so far?](https://youtu.be/gyM
 - [NFTs](https://www.youtube.com/watch?v=9yuHz6g_P50)
 
 ## Making Your First Transaction
-
-_[⌨️ (00:39:17) Making Your First Transaction](https://youtu.be/gyMwXuJrbJQ?t=2357)_
-
-- [Metamask Download Link](https://metamask.io/)
-  - [What is a Private Key?](https://www.coinbase.com/learn/crypto-basics/what-is-a-private-key)
-  - [What is a Secret Phrase?](https://metamask.zendesk.com/hc/en-us/articles/360060826432-What-is-a-Secret-Recovery-Phrase-and-how-to-keep-your-crypto-wallet-secure)
-- [Etherscan](https://etherscan.io/)
-- [Sepolia Etherscan](https://sepolia.etherscan.io/)
-- Sepolia Faucet (Check the [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#sepolia))
-  - NOTE: The Chainlink documentation always has the most up to date faucets on their [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#sepolia). If the faucet above is broken, check the chainlink documentation for the most up to date faucet.
-- OR, use the [Sepolia ETH Faucet](https://faucets.chain.link/), just be sure to swap your metamask to Sepolia!
+*[⌨️ (0:46:55) | Making Your First Transaction](https://www.youtube.com/watch?v=umepbfKp5rI&t=2813s)*
+-   [Metamask Download Link](https://metamask.io/)
+    -   [What is a Private Key?](https://www.coinbase.com/learn/crypto-basics/what-is-a-private-key)
+    -   [What is a Secret Phrase?](https://metamask.zendesk.com/hc/en-us/articles/360060826432-What-is-a-Secret-Recovery-Phrase-and-how-to-keep-your-crypto-wallet-secure)
+-   [Etherscan](https://etherscan.io/)
+-   [Sepolia Etherscan](https://sepolia.etherscan.io/)
+-   Sepolia Faucet (Check the [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#sepolia))
+    -   NOTE: The Chainlink documentation always has the most up to date faucets on their [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#sepolia). If the faucet above is broken, check the chainlink documentation for the most up to date faucet.
+-   OR, use the [Sepolia ETH Faucet](https://faucets.chain.link/), just be sure to swap your metamask to Sepolia!
 
 ## Gas I: Introduction to Gas
-
-_[⌨️ (00:58:59) Gas I: Introduction to Gas](https://youtu.be/gyMwXuJrbJQ?t=3539)_
-
-- [Gas and Gas Fees](https://ethereum.org/en/developers/docs/gas/)
-- [Wei, Gwei, and Ether Converter](https://eth-converter.com/)
-- [ETH Gas Station](https://ethgasstation.info/)
+*[⌨️ (1:06:16) | Gas I: Introduction to Gas](https://www.youtube.com/watch?v=umepbfKp5rI&t=3974s)*
+-   [Gas and Gas Fees](https://ethereum.org/en/developers/docs/gas/)
+-   [Wei, Gwei, and Ether Converter](https://eth-converter.com/)
+-   [ETH Gas Station](https://ethgasstation.info/)
 
 ## How Do Blockchains Work?
-
-_[⌨️ (01:05:32) How Do Blockchains Work](https://youtu.be/gyMwXuJrbJQ?t=3932)_
-
+*[⌨️ (1:15:39) | How Do Blockchains Work?](https://www.youtube.com/watch?v=umepbfKp5rI&t=4537s)*
 - [What is a hash?](https://techjury.net/blog/what-is-cryptographic-hash/)
 - [Blockchain Demo](https://andersbrownworth.com/blockchain/)
 - [Summary](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
 
 ## Signing Transactions
-
-_[⌨️ (01:22:55) Signing Transactions](https://youtu.be/gyMwXuJrbJQ?t=4975)_
-
-- [Public / Private Keys](https://andersbrownworth.com/blockchain/public-private-keys/keys)
-- [Layer 2 and Rollups](https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/)
-- [Decentralized Blockchain Oracles](https://blog.chain.link/what-is-the-blockchain-oracle-problem/)
+*[⌨️ (1:33:09) | Signing Transactions](https://www.youtube.com/watch?v=umepbfKp5rI&t=5589s)*
+-   [Public / Private Keys](https://andersbrownworth.com/blockchain/public-private-keys/keys)
+-   [Layer 2 and Rollups](https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/)
+-   [Decentralized Blockchain Oracles](https://blog.chain.link/what-is-the-blockchain-oracle-problem/)
 
 ## Gas II
-
-_[⌨️ (01:30:22) Gas II: Block Rewards & EIP 1559](https://youtu.be/gyMwXuJrbJQ?t=5422)_
-
-- [Block Rewards](https://www.investopedia.com/terms/b/block-reward.asp)
-- Advanced Gas
-  - [EIP 1559](https://www.youtube.com/watch?v=MGemhK9t44Q)
-  - GWEI, WEI, and ETH
-    - [ETH Converter](https://eth-converter.com/)
-
+*[⌨️ (1:42:15) | Gas II](https://www.youtube.com/watch?v=umepbfKp5rI&t=6134s)*
+-   [Block Rewards](https://www.investopedia.com/terms/b/block-reward.asp)
+-   Advanced Gas
+    -   [EIP 1559](https://www.youtube.com/watch?v=MGemhK9t44Q)
+    -   GWEI, WEI, and ETH
+        -   [ETH Converter](https://eth-converter.com/)
 ## Gas II Summary
-
-_[⌨️ (01:36:44) Gas II Summary](https://youtu.be/gyMwXuJrbJQ?t=5804)_
-
-- [Run Your Own Ethereum Node](https://geth.ethereum.org/docs/getting-started)
+*[⌨️ (1:48:40) | Gas II Summary](https://youtu.be/umepbfKp5rI?t=6520)*
+-   [Run Your Own Ethereum Node](https://geth.ethereum.org/docs/getting-started)
 
 ## High-Level Blockchain Fundamentals
+*[⌨️ (1:51:36) | High-Level Blockchain Fundamentals](https://www.youtube.com/watch?v=umepbfKp5rI&t=6695s)*
+-   [Consensus](https://wiki.polkadot.network/docs/learn-consensus)
+-   [Proof of Stake](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/)
+-   [Proof of Work](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/)
+-   [Nakamoto Consensus](https://blockonomi.com/nakamoto-consensus/)
+-   [The merge](https://ethereum.org/en/eth2/)
 
-_[⌨️ (01:39:32) High-Level Blockchain Fundamentals]https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=5972s()_
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-- [Consensus](https://wiki.polkadot.network/docs/learn-consensus)
-- [Proof of Stake](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/)
-- [Proof of Work](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/)
-- [Nakamoto Consensus](https://blockonomi.com/nakamoto-consensus/)
-- [Ethereum 2 (the merge)](https://ethereum.org/en/eth2/)
+# Lesson 2: Welcome to Remix - Remix Simple Storage
 
-🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊 Completed Blockchain Basics! 🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
-
-# Lesson 2: [Welcome to Remix! Simple Storage](https://github.com/PatrickAlphaC/simple-storage-fcc)
-
-_[⌨️ (02:01:16) Lesson 2: Welcome to Remix! Simple Storage](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=7276s)_
-
-💻 Code: https://github.com/PatrickAlphaC/simple-storage-fcc
+💻 Code: [https://github.com/cyfrin/remix-simple-storage-f23](https://github.com/cyfrin/remix-simple-storage-f23)
 
 ## Introduction
-
-_[⌨️ (02:03:05) Introduction](https://youtu.be/gyMwXuJrbJQ?t=7385)_
-
+*[⭐️ (2:10:42) | Lesson 2: Welcome to Remix - Simple Storage](https://www.youtube.com/watch?v=umepbfKp5rI&t=7842s)*
 - [Remix](https://remix.ethereum.org/)
 - [Solidity Documentation](https://docs.soliditylang.org/en/latest/index.html)
 
 ## Setting Up Your First Contract
-
-_[⌨️ (02:05:18) Setting Up Your First Contract](https://youtu.be/gyMwXuJrbJQ?t=7518)_
-
-- Versioning
-- Take notes in your code!
-- [What is a software license](https://snyk.io/learn/what-is-a-software-license/)
-- SPDX License
-- Compiling
-- Contract Declaration
+*[⌨️ (2:16:40) | Setting Up Your First Contract](https://youtu.be/umepbfKp5rI?t=8200)*
+-   Versioning
+-   Take notes in your code!
+-   [What is a software license](https://snyk.io/learn/what-is-a-software-license/)
+-   SPDX License
+-   Compiling
+-   Contract Declaration
 
 ## Basic Solidity: Types
-
-_[⌨️ (02:12:28) Basic Solidity Types](https://youtu.be/gyMwXuJrbJQ?t=7948)_
-
-- [Types & Declaring Variables](https://docs.soliditylang.org/en/v0.8.13/)
-  - `uint256`, `int256`, `bool`, `string`, `address`, `bytes32`
-  - [Solidity Types](https://docs.soliditylang.org/en/latest/types.html)
-  - [Bits and Bytes](https://www.youtube.com/watch?v=Dnd28lQHquU)
-- Default Initializations
-- Comments
+*[⌨️ (2:24:09) | Basic Solidity Types](https://youtu.be/umepbfKp5rI?t=8649)*
+-   [Types & Declaring Variables](https://docs.soliditylang.org/en/v0.8.13/)
+    -   `uint256`, `int256`, `bool`, `string`, `address`, `bytes32`
+    -   [Solidity Types](https://docs.soliditylang.org/en/latest/types.html)
+    -   [Bits and Bytes](https://www.youtube.com/watch?v=Dnd28lQHquU)
+-   Default Initializations
+-   Comments
 
 ## Basic Solidity: Functions
-
-_[⌨️ (02:18:40) Basic Solidity Functions](https://youtu.be/gyMwXuJrbJQ?t=8320)_
-
-- Functions
-- Deploying a Contract
-  - Smart Contracts have addresses just like our wallets
-- Calling a public state-changing Function
-- [Visibility](https://docs.soliditylang.org/en/latest/contracts.html#visibility-and-getters)
-- Gas III | An example
-- Scope
-- View & Pure Functions
+*[⌨️ (2:31:57) | Basic Solidity Functions](https://youtu.be/umepbfKp5rI?t=9117)*
+-   Functions
+-   Deploying a Contract
+    -   Smart Contracts have addresses just like our wallets
+-   Calling a public state-changing Function
+-   [Visibility](https://docs.soliditylang.org/en/latest/contracts.html#visibility-and-getters)
+-   Gas III | An example
+-   Scope
+-   View & Pure Functions
 
 ## Basic Solidity: Arrays & Structs
+*[⌨️ (2:51:29) | Basic Solidity Arrays & Structs](https://youtu.be/umepbfKp5rI?t=10289)*
+-   Structs
+-   Intro to Storage
+-   Arrays 
+-   Dynamic & Fixed Sized
+-   `push` array function
 
-_[⌨️ (02:35:30) Basic Solidity Arrays & Structs](https://youtu.be/gyMwXuJrbJQ?t=9331)_
-
-- Structs
-- Intro to Storage
-- Arrays
-- Dynamic & Fixed Sized
-- `push` array function
 
 ## Basic Solidity: Compiler Errors and Warnings
-
-_[⌨️ (02:45:35) Basic Solidity Errors & Warnings](https://youtu.be/gyMwXuJrbJQ?t=9935)_
-
+*[⌨️ (3:03:31) | Basic Solidity Errors & Warnings](https://youtu.be/umepbfKp5rI?t=11011)*
 - Yellow: Warnings are Ok
 - Red: Errors are not Ok
 
 ## Memory, Storage, Calldata (Intro)
-
-_[⌨️ (02:46:34) Basic Solidity Memory, Storage, & Calldata (Intro)](https://youtu.be/gyMwXuJrbJQ?t=9994)_
-
+*[⌨️ (3:08:13) | Basic Solidity Memory, Storage, & Calldata (Intro)](https://youtu.be/umepbfKp5rI?t=11293)*
 - 6 Places you can store and access data
   - calldata
   - memory
@@ -689,84 +1041,74 @@ _[⌨️ (02:46:34) Basic Solidity Memory, Storage, & Calldata (Intro)](https://
   - stack
 
 ## Mappings
-
-_[⌨️ (02:50:17) Basic Solidity Mappings](https://youtu.be/gyMwXuJrbJQ?t=10217)_
-
+*[⌨️ (3:14:37) | Basic Solidity Mappings](https://youtu.be/umepbfKp5rI?t=11677)*
 - [Mappings](https://solidity-by-example.org/mapping)
 
 ## Deploying your First Contract
-
-_[⌨️ (02:53:38) Deploying your First Contract](https://youtu.be/gyMwXuJrbJQ?t=10418)_
-
-- A testnet or mainnet
-- Connecting Metamask
-- [Find a faucet here](https://docs.chain.link/docs/link-token-contracts/#Sepolia)
-- See the faucets at the top of this readme!
-- Interacting with Deployed Contracts
+*[⌨️ (3:17:46) | Deploying your First Contract](https://youtu.be/umepbfKp5rI?t=11866)*
+-   A testnet or mainnet
+-   Connecting Metamask
+-   [Find a faucet here](https://docs.chain.link/docs/link-token-contracts/#Sepolia)
+-   See the faucets at the top of this readme!
+-   Interacting with Deployed Contracts
 
 ## The EVM & A Recap of Lesson 2
+*[⌨️ (3:27:07) | The EVM & A Recap of Lesson 2](https://youtu.be/umepbfKp5rI?t=12427)*
+-   The EVM
 
-_[⌨️ (03:03:07) The EVM & A Recap of Lesson 2](https://youtu.be/gyMwXuJrbJQ?t=10987)_
-
-- The EVM
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
 # Lesson 3: Remix Storage Factory
 
-_[⌨️ (03:05:34) Lesson 3: Remix Storage Factory](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=11134s)_
-
-💻 Code: https://github.com/PatrickAlphaC/storage-factory-fcc
+💻 Code: [https://github.com/cyfrin/remix-storage-factory-f23](https://github.com/cyfrin/remix-storage-factory-f23)
 
 ## Introduction
-
-_[⌨️ (03:06:06) Introduction](https://youtu.be/gyMwXuJrbJQ?t=11166)_
-
+*[⭐️ (3:29:58) | Lesson 3 | Storage Factory](https://www.youtube.com/watch?v=umepbfKp5rI&t=12598s)*
 - [Factory Pattern](https://betterprogramming.pub/learn-solidity-the-factory-pattern-75d11c3e7d29)
 
 ## Basic Solidity: Importing Contracts into other Contracts
-
-_[⌨️ (03:07:29) Importing Contracts into other Contracts](https://youtu.be/gyMwXuJrbJQ?t=11249)_
-
+*[⌨️ (3:41:30) | Importing Contracts into other Contracts](https://youtu.be/umepbfKp5rI?t=13290)*
 - [Composibility](https://chain.link/techtalks/defi-composability)
 - [Solidity new keyword](https://docs.soliditylang.org/en/latest/control-structures.html?highlight=new#creating-contracts-via-new)
 - [Importing Code in solidity](https://solidity-by-example.org/import)
 
 ## Basic Solidity: Interacting with other Contracts
-
-_[⌨️ (03:16:36) Interacting with other contracts](https://youtu.be/gyMwXuJrbJQ?t=11796)_
-
+*[⌨️ (3:52:49) | Interacting with other contracts](https://youtu.be/umepbfKp5rI?t=13969)*
 - To interact, you always need: ABI + Address
 - [ABI](https://docs.soliditylang.org/en/latest/abi-spec.html?highlight=abi)
 
 ## Basic Solidity: Inheritance & Overrides
-
-_[⌨️ (03:25:23) Inheritance & Overrides](https://youtu.be/gyMwXuJrbJQ?t=12323)_
-
-- [Inheritance](https://solidity-by-example.org/inheritance)
+*[⌨️ (4:00:44) | Inheritance & Overrides](https://youtu.be/umepbfKp5rI?t=14444)*
+- [Inheritance](https://solidity-by-example.org/inheritance) 
 - [Override & Virtual Keyword](https://docs.soliditylang.org/en/latest/contracts.html?highlight=override#function-overriding)
 
 ## Lesson 3 Recap
+*[⌨️ (4:07:37) | Lesson 3 Recap](https://youtu.be/umepbfKp5rI?t=14857)*
 
-_[⌨️ (03:30:29) Lesson 3 Recap](https://youtu.be/gyMwXuJrbJQ?t=12629)_
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
 # Lesson 4: Remix Fund Me
 
-_[⌨️ (03:31:55) Lesson 4: Remix Fund Me](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=12715s)_
-
-💻 Code: https://github.com/PatrickAlphaC/fund-me-fcc
+💻 Code: [https://github.com/Cyfrin/remix-fund-me-f23](https://github.com/Cyfrin/remix-fund-me-f23)
 
 ## Introduction
-
-## Sending ETH Through a Function & Reverts
-
+*[⭐️ (4:09:08) | Lesson 4 | Fund Me](https://www.youtube.com/watch?v=umepbfKp5rI&t=14948s)*
+## Setup
+*[⌨️ (4:12:20) | Setup](https://youtu.be/umepbfKp5rI?t=15140)*
+## Sending ETH through a function
+*[⌨️ (4:14:00) | Sending ETH through a function](https://youtu.be/umepbfKp5rI?t=15240)*
+- [Ethereum Unit Converter](https://eth-converter.com/)
+  
 - [Fields in a Transaction](https://ethereum.org/en/developers/docs/transactions/)
 - [More on v,r,s](https://ethereum.stackexchange.com/questions/15766/what-does-v-r-s-in-eth-gettransactionbyhash-mean)
 - [payable](https://solidity-by-example.org/payable)
 - [msg.value & Other global keywords](https://docs.soliditylang.org/en/latest/cheatsheet.html?highlight=cheatsheet#global-variables)
 - [require](https://codedamn.com/news/solidity/what-is-require-in-solidity)
 - [revert](https://medium.com/blockchannel/the-use-of-revert-assert-and-require-in-solidity-and-the-new-revert-opcode-in-the-evm-1a3a7990e06e)
-
-## Chainlink & Oracles
-
+## Reverts
+*[⌨️ (4:18:15) | Reverts](https://youtu.be/umepbfKp5rI?t=15495)*
+## Getting real world price data (Chainlink)
+*[⌨️ (4:22:06) | Getting real world price data (Chainlink)](https://youtu.be/umepbfKp5rI?t=15726)*
 - [What is a blockchain oracle?](https://chain.link/education/blockchain-oracles)
 - [What is the oracle problem?](https://blog.chain.link/what-is-the-blockchain-oracle-problem/)
 - [Chainlink](https://chain.link/)
@@ -777,72 +1119,64 @@ _[⌨️ (03:31:55) Lesson 4: Remix Fund Me](https://www.youtube.com/watch?v=gyM
 - [Chainlink API Calls](https://docs.chain.link/docs/request-and-receive-data/)
 - [Importing Tokens into your Metamask](https://consensys.net/blog/metamask/how-to-add-your-custom-tokens-in-metamask/)
 - [Request and Receive Chainlink Model](https://docs.chain.link/docs/architecture-request-model/)
-
-## Review of Sending ETH and working with Chainlink
-
-## Interfaces & Price Feeds
-
-- [Chainlink Price Feeds (Data Feeds)](https://docs.chain.link/docs/get-the-latest-price/)
-- [Chainlink GitHub](https://github.com/smartcontractkit/chainlink)
-- [Interface](https://solidity-by-example.org/interface)
-
-## Importing from GitHub & NPM
-
+## Quick recap I
+*[⌨️ (4:36:22) | Quick recap I](https://youtu.be/umepbfKp5rI?t=16582)*
+## Interfaces
+*[⌨️ (4:37:08) | Interfaces](https://youtu.be/umepbfKp5rI?t=16628)*
+- For reference - [ChainLink Interface's Repo](https://github.com/smartcontractkit/chainlink/blob/develop/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol)
+## AI Help III
+*[⌨️ (4:43:31) | AI Help III](https://youtu.be/umepbfKp5rI?t=17011)*
+## Importing from NPM / GitHub
+*[⌨️ (4:46:03) | Importing from NPM / GitHub](https://youtu.be/umepbfKp5rI?t=17163)*
 - [Chainlink NPM Package](https://www.npmjs.com/package/@chainlink/contracts)
-
-## Floating Point Math in Solidity
-
+## Getting Prices from Chainlink
+*[⌨️ (4:48:07) | Getting Prices from Chainlink](https://youtu.be/umepbfKp5rI?t=17287)*
+## More Solidity math
+*[⌨️ (4:52:00) | More Solidity math](https://youtu.be/umepbfKp5rI?t=17520)*
+- Multiply before you divide
 - [tuple](https://docs.soliditylang.org/en/latest/abi-spec.html?highlight=tuple#handling-tuple-types)
 - [Floating Point Numbers in Solidity](https://stackoverflow.com/questions/58277234/does-solidity-supports-floating-point-number)
 - [Type Casting](https://ethereum.stackexchange.com/questions/6891/type-casting-in-solidity)
 - Gas Estimation Failed
   - Someone should make an article explaining this error
-
-## Basic Solidity: Arrays & Structs II
-
+## msg.sender
+*[⌨️ (4:58:07) | msg.sender](https://youtu.be/umepbfKp5rI?t=17887)*
 - [msg.sender](https://docs.soliditylang.org/en/latest/cheatsheet.html?highlight=msg.sender)
-
-## Review of Interfaces, Importing from GitHub, & Math in Solidity
-
-## Libraries
-
+- named mappings
+## Quick recap II
+*[⌨️ (4:59:53) | Quick recap II](https://youtu.be/umepbfKp5rI?t=17993)*
+## Library
+*[⌨️ (5:00:46) | Library](https://youtu.be/umepbfKp5rI?t=18046)*
 - [Library](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=library#libraries)
 - [Solidity-by-example Library](https://solidity-by-example.org/library)
-
-## SafeMath, Overflow Checking, and the "unchecked" keyword
-
+## SafeMath
+*[⌨️ (5:05:45) | SafeMath](https://youtu.be/umepbfKp5rI?t=18345)*
 - [Openzeppelin Safemath](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol)
 - [unchecked vs. checked](https://docs.soliditylang.org/en/latest/control-structures.html#checked-or-unchecked-arithmetic)
-
-## Basic Solidity: For Loop
-
+## For Loop
+*[⌨️ (5:10:48) | For Loop](https://youtu.be/umepbfKp5rI?t=18648)*
 - [For Loop](https://solidity-by-example.org/loop)
 - `/* */` is another way to make comments
-
-## Basic Solidity: Resetting an Array
-
-## Sending ETH from a Contract
-
+## Resetting an array
+*[⌨️ (5:15:32) | Resetting an array](https://youtu.be/umepbfKp5rI?t=18932)*
+## Transfer, Send, and Call
+*[⌨️ (5:16:32) | Transfer, Send, and Call](https://youtu.be/umepbfKp5rI?t=18993)*
 - [Transfer, Send, Call](https://solidity-by-example.org/sending-ether/)
 - [this keyword](https://ethereum.stackexchange.com/questions/1781/what-is-the-this-keyword-in-solidity)
-
-## Basic Solidity: Constructor
-
+## Constructor
+*[⌨️ (5:24:23) | Constructor](https://youtu.be/umepbfKp5rI?t=19463)*
 - [Constructor](https://solidity-by-example.org/constructor)
-
-## Basic Solidity: Modifiers
-
+## Modifiers
+*[⌨️ (5:27:37) | Modifiers](https://youtu.be/umepbfKp5rI?t=19657)*
 - [Double equals](https://www.geeksforgeeks.org/solidity-operators/)
 - [Modifier](https://solidity-by-example.org/function-modifier)
-
 ## Testnet Demo
-
+*[⌨️ (5:29:54) | Tesnet Demo](https://youtu.be/umepbfKp5rI?t=19794)*
 - [Disconnecting Metamask](https://help.1inch.io/en/articles/4666771-metamask-how-to-connect-disconnect-and-switch-accounts-with-metamask-on-1inch-network)
-
 ## Advanced Solidity
-
+*[⌨️ (5:34:01) | Advanced Solidity](https://youtu.be/umepbfKp5rI?t=20041)*
 ### Immutable & Constant
-
+*[⌨️ (5:34:53) | Immutable & Constant](https://youtu.be/umepbfKp5rI?t=20093)*
 - [Immutable](https://solidity-by-example.org/immutable)
 - [Constant](https://solidity-by-example.org/constants)
 - [Current ETH Gas Prices](https://etherscan.io/gastracker)
@@ -851,85 +1185,99 @@ _[⌨️ (03:31:55) Lesson 4: Remix Fund Me](https://www.youtube.com/watch?v=gyM
   - [Someone make this!](https://github.com/smartcontractkit/full-blockchain-solidity-course-js/issues/13)
 
 ### Custom Errors
-
+*[⌨️ (5:42:08) | Custom Errors](https://youtu.be/umepbfKp5rI?t=20528)*
 - [Custom Errors Introduction](https://blog.soliditylang.org/2021/04/21/custom-errors/)
 
 ### Receive & Fallback Functions
-
+*[⌨️ (5:44:56) | Receive & Fallback Functions](https://youtu.be/umepbfKp5rI?t=20696)*
 - [Solidity Docs Special Functions](https://docs.soliditylang.org/en/latest/contracts.html?highlight=fallback#special-functions)
 - [Fallback](https://solidity-by-example.org/fallback)
 - [Receive](https://docs.soliditylang.org/en/latest/contracts.html?highlight=fallback#receive-ether-function)
 
 ## Lesson 4 Recap
+*[⌨️ (5:57:10) | Lesson 4 Recap](https://youtu.be/umepbfKp5rI?t=21430)*
 
-🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊 Completed Solidity Basics! 🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-# Lesson 5: Ethers.js Simple Storage
+# Lesson 5: AI Prompting, Asking Questions, and Getting Help
 
-_[⌨️ (05:30:42) Lesson 5: Ethers.js Simple Storage](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=19842s)_
+DO NOT SKIP THIS!!
 
-💻 Code: https://github.com/PatrickAlphaC/ethers-simple-storage-fcc
+*[⭐️ (6:00:00) | Lesson 5 | AI Prompting](https://www.youtube.com/watch?v=umepbfKp5rI&t=21600s)*
+## Intro
+- [Deep Learning for Python Engineers](https://learn.deeplearning.ai/)
+## 7 Tips for this Course
+- [Original Video](https://www.youtube.com/watch?v=IS5dAkFSo_Y)
+## Setting up GitHub
+*[⌨️ (6:12:57) | Setting up GitHub](https://youtu.be/umepbfKp5rI?t=22377)*
+## Formatting a question
+*[⌨️ (6:14:24) | Formatting a question](https://youtu.be/umepbfKp5rI?t=22464)*
+- [markdown](https://www.markdownguide.org/basic-syntax/)
 
-🧪 [Alchemy: https://alchemy.com/?a=673c802981](https://alchemy.com/?a=673c802981)
+* It's a good idea to ask your AI buddy to format your questions in markdown *
 
-## Effective Debugging Strategies & Getting Help
+## SpeedRunEthereum
+*[⌨️ (6:19:58) | SpeedRunEthereum](https://youtu.be/umepbfKp5rI?t=22798)*
+- Special Guest [Austin](https://twitter.com/austingriffith)
 
-_[⌨️ (5:30:46) Effective Debugging Stategies & Getting Help](https://youtu.be/gyMwXuJrbJQ?t=19846)_
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-1. Tinker and isolate problem
-   1. For this course, take at LEAST 15 minutes to figure out a bug.
-2. Google / Web Search the Exact problem
-   1. Go to this GitHub Repo / Discussions
-3. Ask a question on a Forum like Stack Exchange Ethereum or Stack Overflow
-   1. Format your questions!!
-   2. Use [Markdown](https://www.markdowntutorial.com/)
+# Lesson 6: Foundry Simple Storage
 
-### How to Debug Anything Video
+💻 Code: [https://github.com/Cyfrin/foundry-simple-storage-f23](https://github.com/Cyfrin/foundry-simple-storage-f23)
 
-- [Patrick's Original Video](https://www.youtube.com/watch?v=XT8STflvwNo)
 
-## Installation & Setup
+## Introduction
+*[⭐️ (6:23:59) | Lesson 6 | Foundry Simple Storage](https://www.youtube.com/watch?v=umepbfKp5rI&t=22979s)*
 
-- [Visual Studio Code](https://code.visualstudio.com/)
-  - [Crash Course](https://www.youtube.com/watch?v=WPqXP_kLzpo)
-- [NodeJS](https://nodejs.org/en/)
+## Installation & Setup (MacOS & Linux)
+*[⌨️ (6:29:44) | Installation & Setup (MacOS & Linux) ](https://youtu.be/umepbfKp5rI?t=23384)*
+-   [Visual Studio Code](https://code.visualstudio.com/)
+    - [Crash Course](https://www.youtube.com/watch?v=WPqXP_kLzpo)
 - [VSCode Keybindings](https://code.visualstudio.com/docs/getstarted/keybindings)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [What is a terminal?](https://code.visualstudio.com/docs/editor/integrated-terminal)
 
-### Mac & Linux Setup
-
-### Windows Setup
-
+### Windows Setup (WSL)
+*[⌨️ (6:32:26) | Windows Setup (WSL) ](https://youtu.be/umepbfKp5rI?t=23546)*
+- Special Guest [Vasiliy](https://twitter.com/cromewar)
 - [WSL](https://docs.microsoft.com/en-us/windows/wsl/install)
   - When working in WSL, use Linux commands instead of Windows commands
 - [TroubleShooting](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting)
 - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
 
 > ⚠️ Please use Gitpod as an absolute last resort
-
 ### Gitpod
-
+*[⌨️ (6:40:19) | Gitpod ](https://youtu.be/umepbfKp5rI?t=24019)*
 - [Gitpod](https://www.gitpod.io/)
   - **If using this, NEVER share a private key with real money on Gitpod**
   - Ideally you figure out the MacOS, Linux, or Windows install though
 
 ## Local Development Introduction
-
 - `CMD + K` or `CTRL + K` clears the terminal
-- `mkdir ethers-simple-storage-fcc`
 - `code .` to open VSCode in a new VSCode window
+  
 
-### Optional Javascript Crash Courses
+## Foundry Install
+*[⌨️ (6:44:37) | Foundry Install ](https://youtu.be/umepbfKp5rI?t=24277)*
+- [https://getfoundry.sh](https://getfoundry.sh)
+## VSCode Setup II
+*[⌨️ (6:52:00) | VSCode Setup II ](https://youtu.be/umepbfKp5rI?t=24720)*
+- CoPilot
+- Copilot labs
+- Hardhat Solidity Extension
+- VSCodium
+- `mkdir foundry-f23`
+- `cd foundry-f23`
+- `mkdir foundry-simple-storage-f23`
+## Foundry Setup
+*[⌨️ (6:57:17) | Foundry Setup ](https://youtu.be/umepbfKp5rI?t=25037)*
+- FreeCodeCamp Bash 
 
-- [NodeJS Course](https://www.youtube.com/watch?v=RLtyhwFtXQA)
-- [Javascript Course](https://www.youtube.com/watch?v=jS4aFq5-91M)
-- Import your `SimpleStorage.sol`
-- [Solidity + Hardhat VSCode Extension](https://marketplace.visualstudio.com/items?itemName=NomicFoundation.hardhat-solidity)
-
-- Format your solidity code with:
-
-```
+## Formatting Solidity in VSCode
+*[⌨️ (7:04:19) | Formatting Solidity in VSCode ](https://youtu.be/umepbfKp5rI?t=25459)*
+- Format your solidity code with in your `settings.json`
+```json
     "[solidity]": {
         "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
     },
@@ -937,1067 +1285,732 @@ _[⌨️ (5:30:46) Effective Debugging Stategies & Getting Help](https://youtu.b
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 ```
-
-In your `.vscode/settings.json` file.
-
-- [Prettier Extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-## Tiny Javascript Refresher
-
-- [Javascript Tips](https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners/)
-
-## Asynchronous Programming in Javascript
-
-- [Asynchronous Programming](https://www.bmc.com/blogs/asynchronous-programming/)
-- [async keyword](https://www.w3schools.com/JS//js_async.asp)
-- [Promise in Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
-- [await keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
-
-## Compiling our Solidity
-
-- [Yarn Install](https://yarnpkg.com/getting-started/install)
-- [solc-js](https://github.com/ethereum/solc-js)
-  - `yarn add solc@0.8.7-fixed`
-- [yarn scripts](https://classic.yarnpkg.com/lang/en/docs/cli/run/)
-
-## Ganache & Networks
-
+## Compiling in Foundry
+*[⌨️ (7:08:31) | Compiling in Foundry ](https://youtu.be/umepbfKp5rI?t=25711)*
+## Deploying to a local chain I (Anvil or Ganache)
+*[⌨️ (7:09:49) | Deploying to a local chain I (Anvil or Ganache)](https://youtu.be/umepbfKp5rI?t=25789)*
 - [Ganache](https://trufflesuite.com/ganache/)
-- Networks in Metamask
-- RPC URL
-- [Geth](https://github.com/ethereum/go-ethereum)
-- [JSON RPC Spec Playground](https://playground.open-rpc.org/?schemaUrl=https://raw.githubusercontent.com/ethereum/execution-apis/assembled-spec/openrpc.json&uiSchema%5BappBar%5D%5Bui:splitView%5D=false&uiSchema%5BappBar%5D%5Bui:input%5D=false&uiSchema%5BappBar%5D%5Bui:examplesDropdown%5D=false)
+## Adding another network to Metamask
+*[⌨️ (7:17:44) | Adding another network to Metamask](https://youtu.be/umepbfKp5rI?t=26264)*
+- [ETH JSON RPC](https://ethereum.github.io/execution-apis/api-documentation/)
+## Deploying to a local chain II (Forge Create)
+*[⌨️ (7:19:41) | Deploying to a local chain II (Forge Create)](https://youtu.be/umepbfKp5rI?t=26381)*
+- 2 Ways to deploy:
+  - 1. `forge create`
+  - 2. `forge script`
 
-## Introduction to Ethers.js
+## Private Key Rant I
+*[⌨️ (7:23:45) | Private Key Rant I](https://youtu.be/umepbfKp5rI?t=26625)*
+- `history -c`
 
-- [Ethers.js](https://docs.ethers.io/v5/getting-started/)
-- [prettier-plugin-solidity](https://github.com/prettier-solidity/prettier-plugin-solidity)
+## Deploying to a local chain III (Forge Script)
+*[⌨️ (7:26:17) | Deploying to a local chain III (Forge Script)](https://youtu.be/umepbfKp5rI?t=26777)*
+## What is a transaction (But actually)
+*[⌨️ (7:36:02) | What is a transaction (But actually)](https://youtu.be/umepbfKp5rI?t=27362)*
+```bash
+cast --to-base 0x01 dec
+```
+## Private Key Rant II
+*[⌨️ (7:41:41) | Private Key Rant II ](https://youtu.be/umepbfKp5rI?t=27701)*
+- `cast send`
+- `source .env`
 
-### A Note on the await Keyword
+# Can you Encrypt a Private Key -> a keystore in foundry yet??
+*[⌨️ (7:45:00) | Can you Encrypt a Private Key -> a keystore in foundry yet?? ](https://youtu.be/umepbfKp5rI?t=27900)*
+- A: No
+- [The .env pledge](https://github.com/Cyfrin/foundry-full-course-f23/discussions/5)
 
-## Adding Transaction Overrides
+## ThirdWeb Deploy
+*[⌨️ (7:51:44) | ThirdWeb Deploy ](https://youtu.be/umepbfKp5rI?t=28304)*
+- Special Guest [Ciara](https://twitter.com/CiaraNightingal)
+- [nodejs install](https://nodejs.org/en/download)
+- [npm install](https://nodejs.org/en/download)
+- [thirdweb](https://thirdweb.com/)
 
-## Transaction Receipts
+## Private Key Rant Summary:
+*[⌨️ (7:56:25) | Private Key Rant Summary ](https://youtu.be/umepbfKp5rI?t=28585)*
+```
+Summary:
+When you look to deploy 
+with real money, you should use either:
+1. A password encrypted keystore
+2. Something like thirdweb deploy
 
-## Sending a "raw" Transaction in Ethers.js
+The idea is you never want to have 
+your private key or password 
+ANYWHERE written in plain text
+(Aka, you always want it encrypted)
+```
+- [Someone fix this please](https://github.com/foundry-rs/foundry/issues/3818)
 
-## Interacting with Contracts in Ethers.js
+## Cast Send
+*[⌨️ (7:56:40) | Cast Send ](https://youtu.be/umepbfKp5rI?t=28600)*
 
-- [EVM Decompiler](https://ethervm.io/decompile)
-- [BigNumber](https://docs.ethers.io/v5/api/utils/bignumber/)
-
-## Environment Variables
-
-- [dotenv](https://www.npmjs.com/package/dotenv)
-- [.gitignore](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
-
-## Better Private Key Management
-
-- [wallet.encrypt](https://docs.ethers.io/v5/api/signer/#Wallet-encrypt)
-- [THE .ENV PLEDGE](https://github.com/smartcontractkit/full-blockchain-solidity-course-js/discussions/5)
-
-## Optional Prettier Formatting
-
-- [Prettier](https://prettier.io/docs/en/index.html)
-- [Best README Template](https://github.com/othneildrew/Best-README-Template)
-
-## Deploying to a Testnet or a Mainnet
-
+## Deploying to a testnet or a mainnet
+*[⌨️ (8:00:26) | Deploying to a testnet or a mainnet ](https://youtu.be/umepbfKp5rI?t=28826)*
 - [Alchemy](https://alchemy.com/?a=673c802981)
-- [Getting your private key from Metamask](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key)
-- `CTRL + C` stops any terminal command
+- Other node as a service:
+  - [Quicknode](https://www.quicknode.com/endpoints)
+  - [Infura](https://www.infura.io/)
 
-## Verifying on Block Explorers from the UI
+## Verifying a contract the manual way
+*[⌨️ (8:06:06) | Verifying a contract the manual way ](https://youtu.be/umepbfKp5rI?t=29166)*
+- [Example verified contract](https://sepolia.etherscan.io/address/0xe2e9f468eb7f063aa01670bb4bce4119fb6e4b65#code)
 
-## Alchemy Dashboard & The Mempool
+## Cleaning up the project
+*[⌨️ (8:07:43) | Cleaning up the project ](https://youtu.be/umepbfKp5rI?t=29263)*
+- `forge fmt`
+- `README.md`
 
-- [Special Guest Albert Hu](https://twitter.com/thatguyintech)
-- [Mempool](https://ethereum.org/en/developers/tutorials/sending-transactions-using-web3-and-alchemy/#see-your-transaction-in-the-mempool)
+## Alchemy & the mempool
+*[⌨️ (8:10:28) | Alchemy & the mempool ](https://youtu.be/umepbfKp5rI?t=29428)*
+- Special Guest [Vitto](https://twitter.com/VittoStack)
+- [Alchemy](https://alchemy.com/?a=673c802981)
 
-## Lesson 5 Recap
+## Summary
+*[⌨️ (8:21:28) | Summary ](https://youtu.be/umepbfKp5rI?t=30088)*
 
-### Typescript Ethers Simple Storage
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-# Lesson 6: Hardhat Simple Storage
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
+# Completed Video 1!!
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
 
-_[⌨️ (08:20:17) Lesson 6: Hardhat Simple Storage](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=30017s)_
+<br/>
+<p align="center">
+<a href="https://youtu.be/sas02qSFZ74" target="_blank">
+<img src="./thumbnails/thumbnail-2.png" width="500" alt="Solidity, Blockchain Developer, Smart Contract, & Solidity Course - Powered By AI - Beginner to Expert Course">
+</a>
+</p>
+<br/>
 
-💻 Code: https://github.com/PatrickAlphaC/hardhat-simple-storage-fcc
+# Lesson 7: Foundry Fund Me
 
-## Introduction
+*[⭐️ (0:00:00) | Lesson 7: Foundry Fund Me](https://www.youtube.com/watch?v=sas02qSFZ74&t=0s)*
 
-_[⌨️ (08:20:19) Introduction](https://youtu.be/gyMwXuJrbJQ?t=30019)_
+💻 Code: [https://github.com/Cyfrin/foundry-fund-me-f23](https://github.com/Cyfrin/foundry-fund-me-f23)
+## Introduction 
+*[⌨️ (0:09) | Introduction ](https://youtu.be/sas02qSFZ74?t=9)*
+## Setup
+*[⌨️ (2:51) | Setup ](https://youtu.be/sas02qSFZ74?t=171)*
+## Testing Introduction
+*[⌨️ (4:40) | Testing Introduction ](https://youtu.be/sas02qSFZ74?t=280)*
+## Setup Continued
+*[⌨️ (6:14) | Setup Continued ](https://youtu.be/sas02qSFZ74?t=374)*
+- [Chainlink Brownie Contracts Github Repo](https://github.com/smartcontractkit/chainlink-brownie-contracts)
+  ```bash
+  forge install smartcontractkit/chainlink-brownie-contracts@0.6.1 --no-commit
+  ```
+- [Dependencies](https://book.getfoundry.sh/projects/dependencies)
+- [remappings](https://book.getfoundry.sh/reference/forge/forge-remappings)
+- [Chainlink Brownie Contracts](https://github.com/smartcontractkit/chainlink-brownie-contracts)
 
-## Hardhat Setup
+## Tests
+*[⌨️ (11:54) | Tests ](https://youtu.be/sas02qSFZ74?t=714)*
+- [foundry tests](https://book.getfoundry.sh/forge/writing-tests)
+- [console.log](https://book.getfoundry.sh/reference/forge-std/console-log?highlight=con#console-logging)
 
-_[⌨️ (08:22:47) Hardhat Setup](https://youtu.be/gyMwXuJrbJQ?t=30167)_
+## Debugging Tests I
+*[⌨️ (20:45) | Debugging Tests I ](https://youtu.be/sas02qSFZ74?t=1245)*
 
-- [Hardhat Documentation](https://hardhat.org/)
-- [DevDependencies vs Dependencies](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies)
-- [@ Sign node modules](https://stackoverflow.com/questions/36667258/what-is-the-meaning-of-the-at-prefix-on-npm-packages)
+## Advanced Deploy Scripts I
+*[⌨️ (23:16) | Advanced Deploy Scripts I ](https://youtu.be/sas02qSFZ74?t=1396)*
 
-### Troubleshooting Hardhat Setup
+## Forked Tests
+*[⌨️ (25:47) | Forked Tests ](https://youtu.be/sas02qSFZ74?t=1547)*
 
-_[⌨️ (08:29:43) Troubleshooting Hardhat Setup](https://youtu.be/gyMwXuJrbJQ?t=30583)_
+- The test option `-m` regex is deprecated. Please use `--match-test` or `--mt` instead.
 
-- [Special Guest Cami Ramos Garzon](https://twitter.com/camiinthisthang)
+```bash
+forge test -m testPriceFeedVersionIsAccurate -vvv
+```
+is depreciated. Please use 
+```
+forge test --match-test testPriceFeedVersionIsAccurate -vvv
+```
 
-## Hardhat Setup Continued
+-  4 types of testing:
+```
+1. Unit: Testing a single function
+2. Integration: Testing multiple functions
+3. Forked: Testing on a forked network
+4. Staging: Testing on a live network (testnet or mainnet)
+```
+- [forking in foundry](https://book.getfoundry.sh/forge/fork-testing?highlight=fork#forking-cheatcodes)
+- [forge coverage](https://book.getfoundry.sh/reference/forge/forge-coverage?highlight=cover#description)
 
-_[⌨️ (08:31:48) Hardhat Setup Continued](https://youtu.be/gyMwXuJrbJQ?t=30708)_
+## Refactoring I: Testing Deploy Scripts
+*[⌨️ (34:17) | Refactoring I: Testing Deploy Scripts ](https://youtu.be/sas02qSFZ74?t=2057)*
 
-## Deploying SimpleStorage from Hardhat
-
-_[⌨️ (08:33:10) Deploying SimpleStorage from Hardhat](https://youtu.be/gyMwXuJrbJQ?t=30790)_
-
-## Networks in Hardhat
-
-_[⌨️ (08:41:44) Networks in Hardhat](https://youtu.be/gyMwXuJrbJQ?t=31304)_
-
-- [The Hardhat Network](https://hardhat.org/hardhat-network/)
-- [Hardhat configuration](https://hardhat.org/config/#configuration)
+## Refactoring II: Helper Config
+*[⌨️ (41:28) | Refactoring II: Helper Config ](https://youtu.be/sas02qSFZ74?t=2488)*
+- [block.chainid](https://docs.soliditylang.org/en/v0.8.19/units-and-global-variables.html)
 - [Chain ID List](https://chainlist.org/)
+  - 11155111 is ETH Sepolia
+  - 1 is ETH Mainnet
 
-## Programmatic Verification
-
-_[⌨️ (08:51:16) Programmatic Verification](https://youtu.be/gyMwXuJrbJQ?t=31876)_
-
-- [Etherscan Verify Tutorial](https://docs.etherscan.io/tutorials/verifying-contracts-programmatically)
-- [Etherscan Docs](https://docs.etherscan.io/)
-- [Hardhat-Etherscan](https://hardhat.org/plugins/nomiclabs-hardhat-etherscan.html)
-- [Etherscan API Keys](https://info.etherscan.com/api-keys/)
-- [Javascript == vs ===](https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons)
-
-## Interacting with Contracts in Hardhat
-
-_[⌨️ (09:06:37) Interacting with Contracts in Hardhat](https://youtu.be/gyMwXuJrbJQ?t=32797)_
-
-## Artifacts Troubleshooting
-
-_[⌨️ (09:09:42) Artifacts Troubleshooting](https://youtu.be/gyMwXuJrbJQ?t=32982)_
-
-## Custom Hardhat Tasks
-
-_[⌨️ (09:10:52) Custom Hardhat Tasks](https://youtu.be/gyMwXuJrbJQ?t=33052)_
-
-- [Hardhat Tasks](https://hardhat.org/guides/create-task.html)
-- [Javascript Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-
-## Hardhat Localhost Node
-
-_[⌨️ (09:18:12) Hardhat Localhost Node](https://youtu.be/gyMwXuJrbJQ?t=33492)_
-
-## The Hardhat Console
-
-_[⌨️ (09:23:11) The Hardhat Console](https://youtu.be/gyMwXuJrbJQ?t=33791)_
-
-- [Hardhat Console](https://hardhat.org/guides/hardhat-console.html)
-
-## Hardhat Tests
-
-_[⌨️ (09:26:13) Hardhat Tests](https://youtu.be/gyMwXuJrbJQ?t=33973)_
-
-- [Hardhat Tests](https://hardhat.org/tutorial/testing-contracts.html#_5-testing-contracts)
-- [Mocha Style Tests](https://mochajs.org/)
-- [Chai](https://www.npmjs.com/package/chai)
-- [Waffle Tests](https://ethereum-waffle.readthedocs.io/en/latest/)
-
-## Hardhat Gas Reporter
-
-_[⌨️ (09:38:10) Hardhat Gas Reporter](https://youtu.be/gyMwXuJrbJQ?t=34690)_
-
-- [Hardhat Gas Reporter](https://www.npmjs.com/package/hardhat-gas-reporter)
-- [Coinmarketcap API](https://coinmarketcap.com/api/)
-
-## Solidity Coverage
-
-_[⌨️ (09:44:40) Solidity Coverage](https://youtu.be/gyMwXuJrbJQ?t=35080)_
-
-- [Solidity Coverage](https://github.com/sc-forks/solidity-coverage)
-
-## Hardhat Waffle
-
-_[⌨️ (09:47:02) Hardhat Waffle](https://youtu.be/gyMwXuJrbJQ?t=35222)_
-
-- [Hardhat-Waffle](https://npm.io/package/@nomiclabs/hardhat-waffle)
-
-## Lesson 6 Recap
-
-_[⌨️ (09:47:37) Lesson 6 Recap](https://youtu.be/gyMwXuJrbJQ?t=35257)_
-
-### Typescript Hardhat Simple Storage
-
-_[⌨️ (09:52:15) Typescript Hardhat Simple Storage](https://youtu.be/gyMwXuJrbJQ?t=35535)_
-
-- [Typechain](https://github.com/dethcrypto/TypeChain)
-
-```
-yarn add --dev @typechain/ethers-v5 @typechain/hardhat @types/chai @types/node @types/mocha ts-node typechain typescript
-```
-
-# Lesson 7: Hardhat Fund Me
-
-_[⌨️ (10:00:48) Lesson 7: Hardhat Fund Me](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=36048s)_
-
-💻 Code: https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
-
-## Introduction
-
-_[⌨️ (10:00:50) Introduction](https://youtu.be/gyMwXuJrbJQ?t=36050)_
-
-## Hardhat Setup - Fund Me
-
-_[⌨️ (10:03:41) Hardhat Setup - Fund Me](https://youtu.be/gyMwXuJrbJQ?t=36221)_
-
-## Linting
-
-_[⌨️ (10:06:20) Linting](https://youtu.be/gyMwXuJrbJQ?t=36380)_
-
-- [Eslint](https://eslint.org/)
-- [Solhint](https://github.com/protofire/solhint)
-- [Linting Code](https://www.perforce.com/blog/qac/what-lint-code-and-why-linting-important)
-
-## Hardhat Setup - Fund Me - Continued
-
-_[⌨️ (10:07:47) Hardhat Setup - Fund Me - Continued](https://youtu.be/gyMwXuJrbJQ?t=36467)_
-
-## Importing from NPM
-
-_[⌨️ (10:09:38) Importing from NPM](https://youtu.be/gyMwXuJrbJQ?t=36578)_
-
-- [@chainlink/contracts](https://www.npmjs.com/package/@chainlink/contracts)
-
-## Hardhat Deploy
-
-_[⌨️ (10:10:43) Hardhat Deploy](https://youtu.be/gyMwXuJrbJQ?t=36643)_
-
-- [Hardhat Deploy](https://github.com/wighawag/hardhat-deploy)
-
-## Mocking
-
-_[⌨️ (10:21:05) Mocking](https://youtu.be/gyMwXuJrbJQ?t=37265)_
-
+## Refactoring III: Mocking
+*[⌨️ (54:32) | Refactoring III: Mocking ](https://youtu.be/sas02qSFZ74?t=3272)*
 - [Mocking](https://stackoverflow.com/questions/2665812/what-is-mocking)
-- [Aave Github](https://github.com/aave/aave-v3-core)
 - [Chainlink Github](https://github.com/smartcontractkit/chainlink)
 - Multiple Versions of Solidity
-- Tags in hardhat
 
-## Utils Folder
+## Magic Numbers
+*[⌨️ (58:40) | Magic Numbers ](https://youtu.be/sas02qSFZ74?t=3520)*
+- [Style Guide](https://docs.soliditylang.org/en/v0.8.17/style-guide.html)
+- [Magic Numbers](https://codeburst.io/software-anti-patterns-magic-numbers-7bc484f40544)
 
-_[⌨️ (10:52:51) Utils Folder](https://youtu.be/gyMwXuJrbJQ?t=39171)_
+## Refactoring III: Mocking (continued)
+*[⌨️ (1:00:45) | Refactoring III: Mocking (continued) ](https://youtu.be/sas02qSFZ74?t=3645)*
 
-## Testnet Demo - Hardhat Fund Me
+# Break time!
+*[⌨️ (1:05:02) | Break time! ](https://youtu.be/sas02qSFZ74?t=3902)*
+*****
+Take a break!
+*****
 
-_[⌨️ (10:55:45) Testnet Demo - Hardhat Fund Me](https://youtu.be/gyMwXuJrbJQ?t=39345)_
+## More Cheatcodes
+*[⌨️ (1:05:06) | More Cheatcodes ](https://youtu.be/sas02qSFZ74?t=3906)*
+- [foundry cheatcodes](https://book.getfoundry.sh/forge/cheatcodes)
+- [forge std cheats](https://book.getfoundry.sh/reference/forge-std/)
+  - [vm.expectRevert](https://book.getfoundry.sh/cheatcodes/expect-revert?highlight=expectRevert#expectrevert)
+  - [vm.prank](https://book.getfoundry.sh/cheatcodes/prank?highlight=prank#prank)
+  - [makeAddr](https://book.getfoundry.sh/reference/forge-std/make-addr?highlight=makeAddr#makeaddr)
+  - [deal](https://book.getfoundry.sh/cheatcodes/deal?highlight=deal#deal)
 
-- Hardhat Deploy Block Confirmations
+## More Coverage
+*[⌨️ (1:17:36) | More Coverage ](https://youtu.be/sas02qSFZ74?t=4656)*
+- [State tree testing](https://twitter.com/PaulRBerg/status/1624763320539525121?s=20)
+- Arrange, Act, Assert
+- [hoax](https://book.getfoundry.sh/reference/forge-std/hoax?highlight=hoax#hoax)
+- uint160 -> address
+- [vm.startPrank](https://book.getfoundry.sh/cheatcodes/start-prank?highlight=startPrank#startprank)
 
-### TypeScript
+## Chisel 
+*[⌨️ (1:32:26) | Chisel ](https://youtu.be/sas02qSFZ74?t=5546)*
+- [Chisel](https://book.getfoundry.sh/reference/chisel/?highlight=chisel#chisel)
 
-- [Code file](https://github.com/PatrickAlphaC/hardhat-fund-me-fcc/blob/84271e7002e55d86c90b26466ff27bc067f25de0/deploy/01-deploy-fund-me.ts#L29) (TypeScript edition)
-- Define blockConfirmations in the `helper-hardhat-config.ts` file instead of `hardhat-config.js`.
+## Gas: Cheaper Withdraw
+*[⌨️ (1:33:50) | Gas: Cheaper Withdraw ](https://youtu.be/sas02qSFZ74?t=5630)*
+- [Gas Reporter](https://book.getfoundry.sh/forge/gas-reports)
+- `forge snapshot`
+- `vm.txGasPrice`
+- `gasLeft()`
+- `tx.getprice`
 
-## Solidity Style Guide
-
-_[⌨️ (11:00:10) Solidity Style Guide](https://youtu.be/gyMwXuJrbJQ?t=39610)_
-
-- [Style Guide](https://docs.soliditylang.org/en/latest/style-guide.html)
-- [NatSpec](https://docs.soliditylang.org/en/latest/natspec-format.html)
-
-## Testing Fund Me
-
-_[⌨️ (11:08:36) Testing Fund Me](https://youtu.be/gyMwXuJrbJQ?t=40116)_
-
-- [Unit Testing](https://en.wikipedia.org/wiki/Unit_testing)
-- [Hardhat Deploy Fixtures](https://github.com/wighawag/hardhat-deploy#creating-fixtures)
-- [ethers.getContract](https://github.com/wighawag/hardhat-deploy-ethers)
-- [expect](https://ethereum-waffle.readthedocs.io/en/latest/matchers.html)
-- [ethers.utils.parseUnits](https://docs.ethers.io/v5/api/utils/display-logic/#utils-parseUnits)
-- [Waffle Chai Matchers](https://ethereum-waffle.readthedocs.io/en/latest/matchers.html)
-
-## Breakpoints & Debugging
-
-_[⌨️ (11:30:39) Breakpoints & Debugging](https://youtu.be/gyMwXuJrbJQ?t=41439)_
-
-- [VSCode Breakpoints](https://code.visualstudio.com/Docs/editor/debugging)
-
-## Gas III
-
-_[⌨️ (11:33:40) Gas III](https://youtu.be/gyMwXuJrbJQ?t=41620)_
-
-- [Transaction Response](https://docs.ethers.io/v5/api/providers/types/#providers-TransactionResponse)
-- [Transaction Receipt](https://docs.ethers.io/v5/api/providers/types/#providers-TransactionReceipt)
-
-## console.log & Debugging
-
-_[⌨️ (11:36:35) console.log & Debugging](https://youtu.be/gyMwXuJrbJQ?t=41795)_
-
-- [Hardhat console.log](https://hardhat.org/hardhat-network/reference/#console-log)
-
-## Testing Fund Me II
-
-_[⌨️ (11:37:31) Testing Fund Me II](https://youtu.be/gyMwXuJrbJQ?t=41851)_
-
-## Storage in Solidity
-
-_[⌨️ (11:44:34) Storage in Solidity](https://youtu.be/gyMwXuJrbJQ?t=42274)_
-
+## Storage 
+*[⌨️ (1:38:37) | Storage ](https://youtu.be/sas02qSFZ74?t=5917)*
+- ** Advanced **
 - [Storage Layout](https://docs.soliditylang.org/en/latest/internals/layout_in_storage.html)
 - [Purpose of the memory keyword](https://stackoverflow.com/questions/33839154/in-ethereum-solidity-what-is-the-purpose-of-the-memory-keyword)
-- [getStorageAt](https://docs.ethers.io/v5/api/providers/provider/#Provider-getStorageAt)
 
-## Gas Optimizations using Storage Knowledge
-
-_[⌨️ (11:52:38) Gas Optimizations using Storage Knowledge](https://youtu.be/gyMwXuJrbJQ?t=42758)_
-
+```
+cast storage
+```
 - [Opcodes](https://ethereum.org/en/developers/docs/evm/opcodes/)
 - [Opcodes by Gas](https://github.com/crytic/evm-opcodes)
 - [Opcodes by Gas](https://evm.codes/)
 - Append `s_` to storage variables
 - Append `i_` to immutable variables
 - Caps lock and underscore constant variables
-
-## Solidity Chainlink Style Guide
-
-_[⌨️ (12:05:29) Solidity Chainlink Style Guide](https://youtu.be/gyMwXuJrbJQ?t=43529)_
-
 - [Chainlink Solidity Style Guide](https://github.com/smartcontractkit/full-blockchain-solidity-course-js/issues/13)
 
-## Storage Review
+## Gas: Cheaper Withdraw (continued)
+*[⌨️ (1:48:20) | Gas: Cheaper Withdraw (continued) ](https://youtu.be/sas02qSFZ74?t=6500)*
+- [evm.codes](https://www.evm.codes/)
+- [Style Guide](https://docs.soliditylang.org/en/latest/style-guide.html)
+  - [Chainlink Style Guide](https://github.com/smartcontractkit/chainlink/blob/develop/contracts/STYLE.md)
+- [NatSpec](https://docs.soliditylang.org/en/latest/natspec-format.html)
 
-_[⌨️ (12:09:59) Storage Review](https://youtu.be/gyMwXuJrbJQ?t=43799)_
+## Interactions.s.sol
+*[⌨️ (1:56:11) | Interactions.s.sol ](https://youtu.be/sas02qSFZ74?t=6971)*
+- [foundry devops](https://github.com/Cyfrin/foundry-devops)
+- [Best README Template](https://github.com/othneildrew/Best-README-Template)
+- [ffi](https://book.getfoundry.sh/cheatcodes/ffi?highlight=ffi#ffi)
 
-## Staging Tests
-
-_[⌨️ (12:11:43) Staging Tests](https://youtu.be/gyMwXuJrbJQ?t=43903)_
-
-- [Ternary](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
-
-## Running Scripts on a Local Node
-
-_[⌨️ (12:17:58) Running Scripts on a Local Node](https://youtu.be/gyMwXuJrbJQ?t=44278)_
-
-## Adding Scripts to your package.json
-
-_[⌨️ (12:22:00) Adding Scripts to your package.json](https://youtu.be/gyMwXuJrbJQ?t=44520)_
+## Makefile
+*[⌨️ (2:10:56) | Makefile ](https://youtu.be/sas02qSFZ74?t=7856)*
+- [Install make](https://stackoverflow.com/questions/39892692/how-to-implement-make-install-in-a-makefile)
+- [Install make Ubuntu](https://linuxhint.com/install-use-make-ubuntu/).
+- [Etherscan API Key](https://docs.etherscan.io/getting-started/viewing-api-usage-statistics)
 
 ## Pushing to GitHub
-
-_[⌨️ (12:25:17) Pushing to GitHub](https://youtu.be/gyMwXuJrbJQ?t=44717)_
-
+*[⌨️ (2:19:17) | Pushing to GitHub ](https://youtu.be/sas02qSFZ74?t=8357)*
+- Add these to your `.gitignore`
+  - `.env`
+  - `lib/`
+  - `broadcast/`
+- [Git Docs](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [GitHub docs](https://docs.github.com/en)
 - [Github Quickstart](https://docs.github.com/en/get-started/quickstart)
 - [What is Git?](https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
 - [The quickstart that we follow in the video](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git)
 - [Learn about git and GitHub](https://www.youtube.com/watch?v=RGOj5yH7evk)
 
-## 🐸🐦 [Tweet Me (add your repo in)!](https://twitter.com/intent/tweet?text=I%20just%20made%20my%20first%20Smart%20Contract%20repo%20using%20@solidity_lang,%20@HardhatHQ,%20@chainlink,%20@AlchemyPlatform,%20and%20more!%0a%0aThanks%20@PatrickAlphaC!!)
+## 🐸🐦 [Tweet Me (add your repo in)!](https://twitter.com/intent/tweet?text=I%20just%20made%20my%20first%20Smart%20Contract%20repo%20using%20@solidity_lang,%20foundry,%20@chainlink,%20@AlchemyPlatform,%20and%20more!%0a%0aThanks%20@PatrickAlphaC!!)
+*[⌨️ (2:34:56) | Tweet Me (add your repo in)! ](https://youtu.be/sas02qSFZ74?t=9296)*
 
-# Lesson 8: HTML / Javascript Fund Me (Full Stack / Front End)
+## Lesson 7: Recap
+*[⌨️ (2:35:13) | Lesson 7: Recap ](https://youtu.be/sas02qSFZ74?t=9313)*
 
-_[⌨️ (12:32:57) Lesson 8: HTML / Javascript Fund Me (Full Stack / Front End)](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=45177s)_
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-💻 Code: https://github.com/PatrickAlphaC/html-fund-me-fcc
+# Lesson 8: Html/Js Fund Me (Quick Fullstack / Front End Tutorial)
 
-## Introduction
+*[⭐️ (2:37:02) | Lesson 8: HTML Fund Me](https://www.youtube.com/watch?v=sas02qSFZ74&t=9422s)*
 
-## How Websites work with Web3 Wallets
+💻 Code: [https://github.com/Cyfrin/html-fund-me-f23](https://github.com/Cyfrin/html-fund-me-f23)
 
-- [How to Connect your Smart Contracts to Metamask](https://www.youtube.com/watch?v=pdsYCkUWrgQ)
-  - 💻 Code from Video: https://github.com/PatrickAlphaC/full-stack-web3-metamask-connectors
-  - ✍️ Article from Video: https://betterprogramming.pub/everything-you-need-to-know-about-fullstack-web3-94c0f1b18019?sk=a2764bcbdae98bf05e1052931de77982
-
-## HTML Setup
-
-- Live Server: ExtensionID: ritwickdey.LiveServer
-
-## Connecting HTML to Metamask
-
-- [Metamask Docs](https://docs.metamask.io/guide/)
-
-## Javascript in it's own file
-
-## ES6 vs Nodejs
-
-- [ES6 vs Nodesjs](https://stackoverflow.com/questions/31354559/using-node-js-require-vs-es6-import-export#31367852)
-- [Ethers docs for web browser](https://docs.ethers.io/v5/getting-started/#getting-started--importing--web-browser)
-- [module vs text/javascript](https://stackoverflow.com/questions/51418964/script-type-text-javascript-vs-script-type-module)
-
-## Sending a transaction from a Website
-
-- [Web3Provider](https://docs.ethers.io/v5/api/providers/other/#Web3Provider)
-- [Adding a network to metamask](https://metamask.zendesk.com/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
-
-## Resetting an Account in Metamask
-
-```
-MetaMask - RPC Error:
-[ethjs-query] while formatting ouputs from RPC '{"value":{"code":-32603,"data":{"code":-32000,"message":"Nonce too high. Expected nonce to be 2 but got 4. Note that transactions can't be queued when automining."}}}'
-```
-
-## Listening for Events and Completed Transactions
-
-- [provider.once](https://docs.ethers.io/v5/api/providers/provider/#Provider-once)
-- [Anonymous function](https://www.geeksforgeeks.org/javascript-anonymous-functions/)
-- [Javascript Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
-
-## Input Forms
-
-## Reading from the Blockchain
-
-## Withdraw Function
-
-## Lesson 8 Recap
-
-### Optional Links:
-
-- [Browserify](https://browserify.org/)
-- [Watchify](https://www.npmjs.com/package/watchify)
-
-# Lesson 9: Hardhat Smart Contract Lottery
-
-_[⌨️ (13:41:02) Lesson 9: Hardhat Smart Contract Lottery](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=49262s)_
-
-💻 Code: https://github.com/PatrickAlphaC/hardhat-smartcontract-lottery-fcc
+- [More in-depth Javascript & Full Stack introduction video](https://www.youtube.com/watch?v=pdsYCkUWrgQ)
 
 ## Introduction
+## Setup
+*[⌨️ (2:38:59) | Setup ](https://youtu.be/sas02qSFZ74?t=9539)*
+- [Live Server Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-## Hardhat Setup - Smart Contract Lottery
+## How Metamask works with your browser
+*[⌨️ (2:40:25) | How Metamask works with your browser ](https://youtu.be/sas02qSFZ74?t=9625)*
+- [Metamask Docs](https://docs.metamask.io/)
+- [Ethers Docs](https://docs.ethers.org/v5/)
 
-_[⌨️ (13:43:43) Hardhat Setup](https://youtu.be/gyMwXuJrbJQ?t=49423)_
+## Introduction to function selectors
+*[⌨️ (2:52:34) | Introduction to function selectors ](https://youtu.be/sas02qSFZ74?t=10354)*
+- [Function selector](https://ethereum.stackexchange.com/questions/49996/what-is-the-function-selector-of-the-fallback-function?rq=1)
+- [cast sig](https://book.getfoundry.sh/reference/cast/cast-sig?highlight=sig#cast-sig)
 
-- Install dependencies:
+## Recap
+*[⌨️ (3:00:00) | Recap ](https://youtu.be/sas02qSFZ74?t=10800)*
 
-```bash
-yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
-```
+- [More in-depth Javascript & Full Stack introduction video](https://www.youtube.com/watch?v=pdsYCkUWrgQ)
 
-- Install dependencies (Typescript version):
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-```bash
-yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv @typechain/ethers-v5 @typechain/hardhat @types/chai @types/node ts-node typechain typescript
-```
+# Lesson 9: Foundry Smart Contract Lottery
+
+*[⭐️ (3:04:09) | Lesson 9: Smart Contract Lottery](https://www.youtube.com/watch?v=sas02qSFZ74&t=11049s)*
+
+💻 Code: [https://github.com/Cyfrin/foundry-smart-contract-lottery-f23](https://github.com/Cyfrin/foundry-smart-contract-lottery-f23)
+
+## Introduction
 
 ## Raffle.sol Setup
+*[⌨️ (3:08:16) | Raffle.sol Setup ](https://youtu.be/sas02qSFZ74?t=11296)*
+* Raffle.sol Setup
 
-_[⌨️ (13:46:55) Raffle.sol Setup](https://youtu.be/gyMwXuJrbJQ?t=49615)_
+## Solidity Contract Layout
+*[⌨️ (3:15:53) | Solidity Contract Layout ](https://youtu.be/sas02qSFZ74?t=11753)*
+```
+// Layout of Contract:
+// version
+// imports
+// errors
+// interfaces, libraries, contracts
+// Type declarations
+// State variables
+// Events
+// Modifiers
+// Functions
 
-- [Custom Errors in Solidity](https://blog.soliditylang.org/2021/04/21/custom-errors/)
+// Layout of Functions:
+// constructor
+// receive function (if exists)
+// fallback function (if exists)
+// external
+// public
+// internal
+// private
+// internal & private view & pure functions
+// external & public view & pure functions
+```
 
-## Introduction to Events
+## Custom Errors
+*[⌨️ (3:17:37) | Custom Errors ](https://youtu.be/sas02qSFZ74?t=11857)*
+- Custom Errors in Solidity
 
-_[⌨️ (13:54:02) Introduction to Events](https://youtu.be/gyMwXuJrbJQ?t=50042)_
-
-- [Events & Logging Video](https://www.youtube.com/watch?v=KDYJC85eS5M)
-- [Events & Logging in Hardhat](https://github.com/PatrickAlphaC/hardhat-events-logs)
-
-## Events in Raffle.sol
-
-_[⌨️ (14:00:47) Events in Raffle.sol](https://youtu.be/gyMwXuJrbJQ?t=50447)_
-
-## Introduction to Chainlink VRF
-
-_[⌨️ (14:02:30) Introduction to Chainlink VRF](https://youtu.be/gyMwXuJrbJQ?t=50550)_
-
-- [Special Guest Stephen Fluin](https://twitter.com/stephenfluin)
-
+## Events
+*[⌨️ 3:22:00 | Events ](https://youtu.be/sas02qSFZ74?t=12120)*
+* Introduction to Events
+- Events & Logging Video
+- Events & Logging in Hardhat
+## block.timestamp
+*[⌨️ (3:33:29) | block.timestamp ](https://youtu.be/sas02qSFZ74?t=12809)*
+## Chainlink VRF
+*[⌨️ (3:37:13) | Chainlink VRF ](https://youtu.be/sas02qSFZ74?t=13033)*
+* Introduction to Chainlink VRF
+- Special Guest [Richard](https://twitter.com/RGottleber)
 ### Sub-Lesson: Chainlink VRF
-
-> - [Chainlink VRFv2 Docs](https://docs.chain.link/docs/get-a-random-number/)
-> - [Chainlink VRFv2 Walkthrough](https://www.youtube.com/watch?v=rdJ5d8j1RCg)
-> - [Chainlink Contracts](https://github.com/smartcontractkit/chainlink/blob/develop/contracts/src/v0.8/VRFConsumerBase.sol)
-
+> - Chainlink VRFv2 Docs
+> - Chainlink VRFv2 Walkthrough
+> - Chainlink Contracts
 ## Implementing Chainlink VRF - Introduction
-
-_[⌨️ (14:09:53) Implementing Chainlink VRF](https://youtu.be/gyMwXuJrbJQ?t=50993)_
-
-### Hardhat Shorthand
-
-- [Hardhat Shorthand](https://hardhat.org/guides/shorthand.html)
-
+*[⌨️ (3:47:21) | Implementing Chainlink VRF - Introduction ](https://youtu.be/sas02qSFZ74?t=13641)*
+* Implementing Chainlink VRF
+- [Get Sepolia Testnet LINK tokens](https://faucets.chain.link/)
+- [Chainlink docs - create a random number](https://docs.chain.link/vrf/v2/subscription/examples/get-a-random-number#create-and-fund-a-subscription)
+- [Chainlink Brownie Contracts](https://github.com/smartcontractkit/chainlink-brownie-contracts)
+```bash 
+forge install smartcontractkit/chainlink-brownie-contracts@0.6.1 --no-commit
+```
 ## Implementing Chainlink VRF - The Request
-
 ## Implementing Chainlink VRF - The FulFill
+## Chainlink VRF Recap
 
 ### Modulo
+*[⌨️ (4:03:32) | Modulo ](https://youtu.be/sas02qSFZ74?t=14612)*
+- Modulo
 
-- [Modulo](https://docs.soliditylang.org/en/latest/types.html?highlight=modulo#modulo)
-
-## Introduction to Chainlink Keepers
-
-- [Chainlink Keepers Docs](https://docs.chain.link/docs/chainlink-keepers/introduction/)
-- [Chainlink Keepers Walkthrough](https://www.youtube.com/watch?v=-Wkw5JVQGUo)
-
+## Enum
+*[⌨️ (4:08:57) | Enum ](https://youtu.be/sas02qSFZ74?t=14937)*
+## Resetting an array
+*[⌨️ (4:13:04) | Resetting an array ](https://youtu.be/sas02qSFZ74?t=15184)*
+## Note on building
+*[⌨️ (4:14:31) | Note on building ](https://youtu.be/sas02qSFZ74?t=15271)*
+## CEI (Checks, Effects, Interactions)
+*[⌨️ (4:16:00) | CEI (Checks, Effects, Interactions) ](https://youtu.be/sas02qSFZ74?t=15360)*
+## Introduction to Chainlink Automation
+*[⌨️ (4:18:31) | Introduction to Chainlink Automation ](https://youtu.be/sas02qSFZ74?t=15511)*
+- Chainlink Automation Docs
+- Chainlink Automation Walkthrough
 ## Implementing Chainlink Keepers - checkUpkeep
-
+*[⌨️ (4:33:47) | Implementing Chainlink Keepers - checkUpkeep ](https://youtu.be/sas02qSFZ74?t=16427)*
 ### Enums
-
-- [Enum](https://docs.soliditylang.org/en/latest/structure-of-a-contract.html?highlight=enum#enum-types)
-
+- Enum
 ## Implementing Chainlink Keepers - checkUpkeep continued
-
 - block.timestamp
-
 ## Implementing Chainlink Keepers - performUpkeep
-
-## Code Cleanup
-
-## Deploying Raffle.sol
-
+*[⌨️ (4:40:10) | Implementing Chainlink Keepers - performUpkeep ](https://youtu.be/sas02qSFZ74?t=16810)*
+## Mid-Lesson Recap
+*[⌨️ (4:43:00) | Mid-Lesson Recap ](https://youtu.be/sas02qSFZ74?t=16980)*
+## Tests & Deploy Script Setup
+*[⌨️ (4:44:08) | Tests & Deploy Script Setup ](https://youtu.be/sas02qSFZ74?t=17048)*
 ### Mock Chainlink VRF Coordinator
-
-### Continued
-
-- [LINK Token](https://docs.chain.link/docs/link-token-contracts/)
-
-## Raffle.sol Unit Tests
-
-- We use `async function` in the describe blocks at the start, but we correctly take them out later.
-
-### Testing Events & Chai Matchers
-
-- [Emit Chai Matcher](https://ethereum-waffle.readthedocs.io/en/latest/matchers.html#emitting-events)
-
-### Continued I
-
-## Hardhat Methods & Time Travel
-
-- [Make Hardhat do whatever you want it to](https://hardhat.org/hardhat-network/reference/)
-- [Special debugging hardhat methods](https://hardhat.org/hardhat-network/reference/#special-testing-debugging-methods)
-
-### Continued II
-
-## Callstatic
-
-- [Callstatic](https://docs.ethers.io/v5/api/contract/contract/#contract-callStatic)
-
-### Continued III
-
-### Massive Promise Test
-
-### Continued IV
-
-## Raffle.sol Staging Tests
-
-## Testing on a Testnet
+*[⌨️ (4:52:02) | Mock Chainlink VRF Coordinator ](https://youtu.be/sas02qSFZ74?t=17522)*
+## Tests & Deploy Script Continued
+*[⌨️ (4:56:25) | Tests & Deploy Script Continued ](https://youtu.be/sas02qSFZ74?t=17785)*
+## Lots of Tests
+*[⌨️ (5:04:50) | Lots of Tests ](https://youtu.be/sas02qSFZ74?t=18290)*
+### Testing Events in Foundry
+*[⌨️ (5:09:37) | Testing Events in Foundry ](https://youtu.be/sas02qSFZ74?t=18577)*
+### vm.roll & vm.warp
+*[⌨️ (5:12:37) | vm.roll & vm.warp ](https://youtu.be/sas02qSFZ74?t=18757)*
+## Create Subscription Script
+*[⌨️ (5:15:21) | Create Subscription Script ](https://youtu.be/sas02qSFZ74?t=18921)*
+- [eth signature database](https://openchain.xyz/signatures)
+## Create Subscription from the UI
+*[⌨️ (5:26:41) | Create Subscription from the UI ](https://youtu.be/sas02qSFZ74?t=19601)*
+## Fund Subscription Script
+*[⌨️ (5:30:19) | Fund Subscription Script ](https://youtu.be/sas02qSFZ74?t=19819)*
+- [Link Token](https://chain.link/)
+- [Solmate](https://github.com/transmissions11/solmate)
+- [Openzeppelin](https://www.openzeppelin.com/)
+## Add Consumer Script
+*[⌨️ (5:42:29) | Add Consumer Script ](https://youtu.be/sas02qSFZ74?t=20549)*
+## More Tests
+*[⌨️ (5:52:44) | More Tests ](https://youtu.be/sas02qSFZ74?t=21164)*
+- `forge coverage --report debug`
+## PerformUpkeep Tests
+*[⌨️ (5:59:12) | PerformUpkeep Tests ](https://youtu.be/sas02qSFZ74?t=21552)*
+- Expecting Custom Errors 
+## Getting Event Data into Foundry Scripts
+*[⌨️ (6:03:23) | Getting Event Data into Foundry Scripts ](https://youtu.be/sas02qSFZ74?t=21803)*
+- `vm.recordLogs`
+## Intro to Fuzz tests
+*[⌨️ (6:11:48) | Intro to Fuzz tests ](https://youtu.be/sas02qSFZ74?t=22308)*
+## One Big Test
+*[⌨️ (6:15:41) | One Big Test ](https://youtu.be/sas02qSFZ74?t=22541)*
+## Passing the private key to vm.startBroadcast
+*[⌨️ (6:26:30) | Passing the private key to vm.startBroadcast ](https://youtu.be/sas02qSFZ74?t=23190)*
+## Integrations Test
+*[⌨️ (6:41:08) | Integrations Test ](https://youtu.be/sas02qSFZ74?t=24068)*
+## Testnet Demo - Makefile setup
+*[⌨️ (6:44:42) | Testnet Demo - Makefile setup ](https://youtu.be/sas02qSFZ74?t=24282)*
+## Testnet Demo - The Demo
+*[⌨️ (6:52:33) | Testnet Demo - The Demo ](https://youtu.be/sas02qSFZ74?t=24753)*
+## Console.log Debugging
+*[⌨️ (6:59:30) | Console.log Debugging ](https://youtu.be/sas02qSFZ74?t=25170)*
+## forge test --debug
+*[⌨️ (7:01:06) | forge test --debug ](https://youtu.be/sas02qSFZ74?t=25266)*
+## Recap
+*[⌨️ (7:02:07) | Recap ](https://youtu.be/sas02qSFZ74?t=25327)*
 
 ### Recommended LINK amounts for Sepolia Staging Test:
-
 - Chainlink VRF: 2 LINK
 - Chainlink Keepers: 8 LINK
 
-## Conclusion
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-## Typescript - Smart Contract Lottery
+# Lesson 10: Foundry ERC20s
 
-🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊 Completed Hardhat Basics! 🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
+*[⭐️ (7:08:04) | Lesson 10: ERC20s](https://www.youtube.com/watch?v=sas02qSFZ74&t=25684s)*
 
-# Lesson 10: NextJS Smart Contract Lottery (Full Stack / Front End)
+💻 Code: [https://github.com/Cyfrin/foundry-erc20-f23](https://github.com/Cyfrin/foundry-erc20-f23)
 
-_[⌨️ (16:34:07) Lesson 10: NextJS Smart Contract Lottery (Full Stack / Front End)](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=59647s)_
+## What is an ERC? What is an EIP?
+- What is an EIP?
+- EIPs codebase
+## What is an ERC20?
+*[⌨️ (7:10:42) | What is an ERC20? ](https://youtu.be/sas02qSFZ74?t=25842)*
+- [Video (using brownie/python)](https://www.youtube.com/watch?v=8rpir_ZSK1g)
+- EIP-20
+- ERC-677
+- EIP-777
+## Manually Creating an ERC20 Token
+*[⌨️ (7:12:06) | Manually Creating an ERC20 Token ](https://youtu.be/sas02qSFZ74?t=25926)*
+- `.github`
+## ERC20 Token - Openzeppelin
+*[⌨️ (7:19:01) | ERC20 Token - Openzeppelin ](https://youtu.be/sas02qSFZ74?t=26341)*
+- Openzeppelin
+  - [Openzeppelin Wizard](https://wizard.openzeppelin.com/)
+- Openzeppelin Contracts
+- Solmate (Openzeppelin alternative)
+## Deploy Script
+*[⌨️ 7:22:58 | Deploy Script ](https://youtu.be/sas02qSFZ74?t=26578)*
+## AI Tests
+*[⌨️ (7:25:48) | AI Tests ](https://youtu.be/sas02qSFZ74?t=26748)*
+- [Token Approvals](https://etherscan.io/tokenapprovalchecker)
+## Lesson 10 Recap
 
-💻 Code: https://github.com/PatrickAlphaC/nextjs-smartcontract-lottery-fcc
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-⚡️⚡️ Live Demo IPFS: ipfs://QmXwACyjcS8tL7UkYwimpqMqW9sKzSHUjE4uSZBSyQVuEH
+# Lesson 11: Foundry NFTs | MoodNFT
 
-⚡️⚡️ Live Demo Fleek: https://fancy-dream-3458.on.fleek.co/
+*[⭐️ (7:40:56) | Lesson 11: NFTs](https://www.youtube.com/watch?v=sas02qSFZ74&t=27656s)*
+
+💻 Code: [https://github.com/Cyfrin/foundry-nft-f23](https://github.com/Cyfrin/foundry-nft-f23)
+
+## Introduction
+## What is an NFT?
+*[⌨️ (7:43:21) | What is an NFT? ](https://youtu.be/sas02qSFZ74?t=27801)*
+- [Video](https://www.youtube.com/watch?v=9yuHz6g_P50)
+- [Optional: All on Chain SVG NFT]
+- EIP-721
+## Foundry Setup
+*[⌨️ (7:49:54) | Foundry Setup ](https://youtu.be/sas02qSFZ74?t=28194)*
+- TokenURI
+- Pudgy Penguin Example
+## IPFS
+*[⌨️ (8:00:24) | IPFS ](https://youtu.be/sas02qSFZ74?t=28824)*
+- [What is IPFS](https://www.youtube.com/watch?v=5Uj6uR3fp-U)
+## Using IPFS
+*[⌨️ (8:07:30) | Using IPFS ](https://youtu.be/sas02qSFZ74?t=29250)*
+## Basic NFT: Deploy Script
+*[⌨️ (8:13:59) | Basic NFT: Deploy Script ](https://youtu.be/sas02qSFZ74?t=29639)*
+## Basic NFT: Tests
+*[⌨️ (8:15:25) | Basic NFT: Tests ](https://youtu.be/sas02qSFZ74?t=29725)*
+- Comparing strings in solidity
+- `chisel`
+## Basic NFT: Interactions
+*[⌨️ (8:25:31) | Basic NFT: Interactions ](https://youtu.be/sas02qSFZ74?t=30331)*
+## Basic NFT: Testnet Demo
+*[⌨️ (8:28:24) | Basic NFT: Testnet Demo ](https://youtu.be/sas02qSFZ74?t=30504)*
+## The issue with IPFS & HTTPS TokenURI NFTs
+*[⌨️ (8:34:32) | The issue with IPFS & HTTPS TokenURI NFTs ](https://youtu.be/sas02qSFZ74?t=30872)*
+- [pinata](https://pinata.cloud/)
+- [SVG NFT Video](https://www.youtube.com/watch?v=9oERTH9Bkw0)
+## What is an SVG?
+*[⌨️ (8:38:30) | What is an SVG? ](https://youtu.be/sas02qSFZ74?t=31110)*
+- [svg](https://www.w3schools.com/graphics/svg_intro.asp)
+- [vscode extension](https://marketplace.visualstudio.com/items?itemName=vitaliymaz.vscode-svg-previewer)
+- [base64 encoding](https://www.base64encode.org/)
+## SVG NFT: Introduction
+*[⌨️ (8:45:54) | SVG NFT: Introduction ](https://youtu.be/sas02qSFZ74?t=31554)*
+## SVG NFT: Encoding the NFT
+*[⌨️ (8:50:03) | SVG NFT: Encoding the NFT ](https://youtu.be/sas02qSFZ74?t=31803)*
+- [base64 openzeppelin](https://docs.openzeppelin.com/contracts/4.x/utilities)
+## SVG NFT: Flipping the mood
+*[⌨️ (9:06:41) | SVG NFT: Flipping the mood ](https://youtu.be/sas02qSFZ74?t=32801)*
+## SVG NFT: Deploy Script
+*[⌨️ (9:08:44) | SVG NFT: Deploy Script ](https://youtu.be/sas02qSFZ74?t=32924)*
+- [readFile Cheat](https://github.com/foundry-rs/foundry/issues/2153)
+## SVG NFT: Debugging practice & some notes
+*[⌨️ (9:25:46) | SVG NFT: Debugging practice & some notes ](https://youtu.be/sas02qSFZ74?t=33946)*
+## SVG NFT: Anvil Demo
+*[⌨️ (9:31:29) | SVG NFT: Anvil Demo ](https://youtu.be/sas02qSFZ74?t=34289)*
+- [arweave](https://www.arweave.org/)
+- [filecoin](https://filecoin.io/)
+- [nft.storage](https://nft.storage/)
+- [Patrick video on Filecoin](https://www.youtube.com/watch?v=Cj9r3pKI2L8)
+## Filecoin & Arweave
+*[⌨️ (9:36:58) | Filecoin & Arweave ](https://youtu.be/sas02qSFZ74?t=34618)*
+- Special Guest [Ally](https://twitter.com/DeveloperAlly)
+## Advanced: EVM Opcodes, Encoding, and Calling
+*[⌨️ (9:44:02) | Advanced: EVM Opcodes, Encoding, and Calling ](https://youtu.be/sas02qSFZ74?t=35042)*
+### abi.encode & abi.encodePacked
+- abi.encode
+- abi.encodePacked
+Thanks to [Alex Roan](https://twitter.com/alexroan) for his help on this session!
+- Example Contract Creation Transaction
+What REALLY is the ABI?
+- EVM Opcodes
+- More EVM Opcodes
+- Solidity Cheatsheet
+- abi.encode vs abi.encodePacked
+### Introduction to Encoding Function Calls Directly
+*[⌨️ (10:06:27) | Introduction to Encoding Function Calls Directly ](https://youtu.be/sas02qSFZ74?t=36387)*
+### Introduction to Encoding Function Calls Recap
+*[⌨️ (10:12:16) | Introduction to Encoding Function Calls Recap ](https://youtu.be/sas02qSFZ74?t=36736)*
+### Encoding Function Calls Directly
+*[⌨️ (10:14:15) | Encoding Function Calls Directly ](https://youtu.be/sas02qSFZ74?t=36855)*
+- Function Selector
+- Function Signature
+## Verifying Metamask Transactions
+*[⌨️ (10:28:45) | Verifying Metamask Transactions ](https://youtu.be/sas02qSFZ74?t=37725)*
+1. Check the address
+2. Check the function selector
+3. Decode the calldata
+- [joinfire.zxyz](https://app.joinfire.xyz/)
+## Lesson 11 Recap
+*[⌨️ (10:36:31) | Lesson 11 Recap ](https://youtu.be/sas02qSFZ74?t=38191)*
+- [ENS](https://ens.domains/)
+
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
+
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
+# Completed Video 2!!
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
+
+<br/>
+<p align="center">
+<a href="https://youtu.be/wUjYK5gwNZs" target="_blank">
+<img src="./thumbnails/thumbnail-3.png" width="500" alt="Solidity, Blockchain Developer, Smart Contract, & Solidity Course - Powered By AI - Beginner to Expert Course">
+</a>
+</p>
+<br/>
+
+# Lesson 12: Foundry DeFi | Stablecoin (The PINNACLE PROJECT!! GET HERE!)
+
+💻 Code: [https://github.com/Cyfrin/foundry-defi-stablecoin-f23](https://github.com/Cyfrin/foundry-defi-stablecoin-f23)
 
 ## Introduction
 
-We move into using [NextJS](https://nextjs.org/) for our front end. NextJS is a [React framework](https://reactjs.org/) for building websites.
-
-### Optional Sub-Lesson: Full Stack Development & Other Libraries
-
-- [6 Ways to connect your dapp to a wallet](https://www.youtube.com/watch?v=pdsYCkUWrgQ)
-- [NextJS Crash Course](https://www.youtube.com/watch?v=mTz0GXj8NN0)
-- Other React libraries:
-  - [Web3React](https://github.com/NoahZinsmeister/web3-react)
-  - [wagmi](https://github.com/tmm/wagmi)
-  - [react-moralis](https://www.npmjs.com/package/react-moralis)
-  - [useDapp](https://github.com/TrueFiEng/useDApp)
-  - [Web3Modal](https://github.com/Web3Modal/web3modal)
-  - [useMetamask](https://github.com/mdtanrikulu/use-metamask)
-- Other Full Stack Web3 Templates
-  - [scaffold-eth](https://github.com/scaffold-eth/scaffold-eth)
-  - [ethereum-boilerplate](https://github.com/ethereum-boilerplate/ethereum-boilerplate)
-  - [create-eth-app](https://github.com/paulrberg/create-eth-app)
-- [React being quite popular](https://insights.stackoverflow.com/survey/2021#section-most-popular-technologies-web-frameworks)
-- [Why use react?](https://www.freecodecamp.org/news/why-use-react-for-web-development/)
-
-## NextJS Setup
-
-- [NextJS Documentation](https://nextjs.org/learn/basics/create-nextjs-app)
-- [NextJS Minimal Ethers Example For Lottery](https://github.com/PatrickAlphaC/nextjs-ethers-introduction)
-
-```
-yarn create next-app .
-```
-
-## Manual Header I
-
-- [What is a component?](https://www.w3schools.com/react/react_components.asp)
-- [jsx](https://reactjs.org/docs/introducing-jsx.html)
-- [Moralis](https://moralis.io/)
-- [React Moralis](https://github.com/MoralisWeb3/react-moralis)
-
-### React Hooks
-
-- [What is a react hook?](https://reactjs.org/docs/hooks-overview.html)
-
-## Manual Header II
-
-## useEffect Hook
-
-- [useEffect Hook](https://reactjs.org/docs/hooks-effect.html)
-- [More on useEffect](https://blog.logrocket.com/guide-to-react-useeffect-hook/)
-- [React Context](https://www.freecodecamp.org/news/react-context-for-beginners/)
-  - [useEffect Firing Twice](https://stackoverflow.com/questions/60618844/react-hooks-useeffect-is-called-twice-even-if-an-empty-array-is-used-as-an-ar)
-
-## Local Storage
-
-- [Local Storage](https://codinglead.co/javascript/what-is-localstorage)
-
-## isWeb3EnabledLoading
-
-## web3uikit
-
-- [web3uikit](https://github.com/web3ui/web3uikit)
-- [web3uikit interactive docs](https://web3ui.github.io/web3uikit/?path=/story/1-web3-blockie--custom-seed)
-- [web3uikit connect button](https://web3ui.github.io/web3uikit/?path=/story/1-web3-connectbutton--default)
-
-## Introduction to Calling Functions in Nextjs
-
-- [useWeb3Contract](https://github.com/MoralisWeb3/react-moralis#useweb3contract)
-
-### Automatic Constant Value UI Updater
-
-- [ethers.utils.FormatTypes](https://docs.ethers.io/v5/api/utils/abi/fragments/#fragments--formats)
-
-### runContractFunction
-
-- [Moralis Provider](https://github.com/MoralisWeb3/react-moralis#wrap-your-app-in-a-moralisprovider)
-- [useMoralis](https://github.com/MoralisWeb3/react-moralis#usemoralis)
-- [parseInt](https://www.w3schools.com/JSREF/jsref_parseint.asp)
-
-## useState
-
-- [useState Hook](https://reactjs.org/docs/hooks-state.html)
-
-## Calling Functions in NextJS
-
-## useNotification
-
-- Add `onError` to all your `runContractFunction` calls
-
-## Reading & Displaying Contract Data
-
-## A Note about `onSuccess`
-
-- `onSuccess` just checks to see if MetaMask sends the transaction, not
-
-## A Challenge to You
-
-## Tailwind & Styling
-
-- [Learn CSS](https://www.w3schools.com/css/)
-- [Tailwindcss](https://tailwindcss.com/)
-- [PostCSS Extension](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
-- [Tailwind Extension](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-- [Install Tailwind into NextJS](https://tailwindcss.com/docs/guides/nextjs)
-
-## Introduction to Hosting your Site
-
-_[⌨️ (18:12:50) Introdunction to Hosting your Site](https://youtu.be/gyMwXuJrbJQ?t=65570)_
-
-- [Vercel](https://vercel.com/)
-- [Moralis](https://moralis.io/)
-- [Netilfy](https://www.netlify.com/)
-- [IPFS](https://ipfs.io/)
-
-## IPFS
-
-_[⌨️ (18:15:14) IPFS](https://youtu.be/gyMwXuJrbJQ?t=65714)_
-
-- [What is IPFS](https://www.youtube.com/watch?v=5Uj6uR3fp-U)
-- [IPFS](https://ipfs.io/)
-
-## Hosting on IPFS
-
-_[⌨️ (18:18:51) Hosting on IPFS](https://youtu.be/gyMwXuJrbJQ?t=65931)_
-
-- [IPFS Companion](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch)
-- [Brave Browser](https://brave.com/)
-- `yarn build && yarn next export`
-
-## Hosting on IPFS & Filecoin using Fleek
-
-_[⌨️ (18:25:45) Hosting on IPFS & Filecoin using Fleek](https://youtu.be/gyMwXuJrbJQ?t=66345)_
-
-- [Fleek](https://fleek.co/)
-
-## Filecoin Overview
-
-_[⌨️ (18:31:28) Filecoin Overview](https://youtu.be/gyMwXuJrbJQ?t=66688)_
-
-- [Special Guest Ally Haire](https://twitter.com/DeveloperAlly)
-- [IPFS URL of Ally's Video](ipfs://bafybeiasd6oxqiefoxgtskrokomexnb4zcq3fhwlcbyplx2paw65zmq2du)
-
-## Lesson 10 Recap
-
-# Lesson 11: Hardhat Starter Kit
-
-_[⌨️ (18:51:36) Lesson 11: Hardhat Starter Kit](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=67896s)_
-
-💻 Code: https://github.com/smartcontractkit/hardhat-starter-kit
-
-# Lesson 12: Hardhat ERC20s
-
-_[⌨️ (18:59:24) Lesson 12: Hardhat ERC20s](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=68364s)_
-
-💻 Code: https://github.com/PatrickAlphaC/hardhat-erc20-fcc
-
-## What is an ERC? What is an EIP?
-
-- [What is an EIP?](https://eips.ethereum.org/)
-- [EIPs codebase](https://github.com/ethereum/EIPs)
-
-## What is an ERC20?
-
-- [Video (using brownie/python)](https://youtu.be/8rpir_ZSK1g?t=39)
-- [EIP-20](https://eips.ethereum.org/EIPS/eip-20)
-- [ERC-677](https://github.com/ethereum/EIPs/issues/677)
-- [EIP-777](https://eips.ethereum.org/EIPS/eip-777)
-
-## Manually Creating an ERC20 Token
-
-## Creating an ERC20 Token with Openzeppelin
-
-- [Openzeppelin](https://openzeppelin.com/)
-- [Openzeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
-- [Solmate (Openzeppelin alternative)](https://github.com/Rari-Capital/solmate)
-
-## Lesson 12 Recap
-
-# Lesson 13: Hardhat DeFi & Aave
-
-_[⌨️ (19:16:13) Lesson 13: Hardhat DeFi & Aave](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=69373s)_
-
-💻 Code: https://github.com/PatrickAlphaC/hardhat-defi-fcc
+*[⭐️ (0:00:00) | Lesson 12: DeFi Stablecoins](https://www.youtube.com/watch?v=wUjYK5gwNZs&t=0s)*
 
 ## What is DeFi?
-
 - [What is DeFi?](https://chain.link/education/defi)
 - [DefiLlama](https://defillama.com/)
-
-## What is Aave?
-
+- [Bankless](https://www.bankless.com/)
+- [MEV](https://www.flashbots.net/)
 - [Aave](https://aave.com/)
 - [My Previous Aave Video on Shorting Assets](https://www.youtube.com/watch?v=TmNGAvI-RUA)
-
-## Programmatic Borrowing & Lending
-
 - [DAI](https://makerdao.com/en/)
 - [Uniswap](https://app.uniswap.org/)
-
-## WETH - Wrapped ETH
-
-- [WETH Token Sepolia Etherscan](https://sepolia.etherscan.io/address/0xdd13E55209Fd76AfE204dBda4007C227904f0a81)
-- [WETH Token Mainnet](https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2)
-
-## Forking Mainnet
-
-- [Mainnet Forking](https://hardhat.org/hardhat-network/guides/mainnet-forking.html)
-
-## Depositing into Aave
-
-- [Aave V2 Docs](https://docs.aave.com/developers/v/2.0/)
-- [Aave NPM](https://www.npmjs.com/package/@aave/protocol-v2)
-
-## Borrowing from Aave
-
+- [Maximal Extractable Value (MEV)](https://ethereum.org/en/developers/docs/mev/)
+## Code Walkthrough
+*[⌨️ (0:09:17) | Code Walkthrough](https://youtu.be/wUjYK5gwNZs?t=557)*
+- [What is a smart contract audit](https://www.youtube.com/watch?v=aOqhQvWhUG0)
+## What is a stablecoin (But actually)
+*[⌨️ (0:12:23) | What is a stablecoin (But actually)](https://youtu.be/wUjYK5gwNZs?t=743)*
+- [Video](https://www.youtube.com/watch?v=pciVQVocTYc)
+- [MakerDAO Forums](https://start.makerdao.com/)
+## DecentralizedStableCoin.sol
+*[⌨️ (0:40:41) | DecentralizedStableCoin.sol](https://youtu.be/wUjYK5gwNZs?t=2441)*
+- [What is a smart contract audit](https://www.youtube.com/watch?v=aOqhQvWhUG0)
+- `super`
+## DSCEngine.sol Setup
+*[⌨️ (0:54:44) | DSCEngine.sol Setup ](https://youtu.be/wUjYK5gwNZs?t=3284)*
+- [liquidations](https://docs.aave.com/faq/liquidations)
+- [nonreentrant](https://docs.openzeppelin.com/contracts/4.x/api/security)
+  - [reentrancy](https://solidity-by-example.org/hacks/re-entrancy/)
+## Deposit Collateral
+*[⌨️ (1:04:49) | Deposit Collateral ](https://youtu.be/wUjYK5gwNZs?t=3889)*
+- Other DeFi Examples:
+  - [Aave V2 Docs](https://docs.aave.com/developers/v/2.0/)
+  - [Aave NPM](https://www.npmjs.com/package/@aave/protocol-v2)
+## Mint DSC
+### Getting the value of our collateral
+*[⌨️ (1:22:51) | Getting the value of our collateral ](https://youtu.be/wUjYK5gwNZs?t=4971)*
 - [Aave Borrowing FAQs](https://docs.aave.com/faq/borrowing)
 - [Health Factor](https://docs.aave.com/faq/borrowing#what-is-the-health-factor)
 - [Aave Risk Parameters](https://docs.aave.com/risk/asset-risk/risk-parameters)
-
-## Repaying with Aave
-
-## Visualizing the Transactions
-
-- [aTokens](https://docs.aave.com/developers/v/1.0/developing-on-aave/the-protocol/atokens)
-
-## Lesson 13 Recap
-
-## Happy Bow-Tie Friday with Austin Griffith
-
-- [Special Guest Austin Griffith](https://twitter.com/austingriffith)!
-- [Speed Run Ethereum](https://speedrunethereum.com/)
+### Health Factor
+*[⌨️ (1:39:11) | Health Factor ](https://youtu.be/wUjYK5gwNZs?t=5951)*
+- [Liquidation Threshold](https://docs.aave.com/risk/asset-risk/risk-parameters)
+### Minting the DSC
+*[⌨️ (1:46:02) | Minting the DSC ](https://youtu.be/wUjYK5gwNZs?t=6362)*
+## Testing while developing
+### Deploy Script
+*[⌨️ (1:47:28) | Deploy Script ](https://youtu.be/wUjYK5gwNZs?t=6448)*
+- [WETH Token Sepolia Etherscan](https://sepolia.etherscan.io/address/0xdd13E55209Fd76AfE204dBda4007C227904f0a81)
+- [WETH Token Mainnet](https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2)
+### Tests
+*[⌨️ (2:02:24) | Tests ](https://youtu.be/wUjYK5gwNZs?t=7344)*
+## depositCollateralAndMintDsc
+*[⌨️ (2:13:45) | depositCollateralAndMintDsc ](https://youtu.be/wUjYK5gwNZs?t=8025)*
+## redeemCollateral
+*[⌨️ (2:16:12) | redeemCollateral ](https://youtu.be/wUjYK5gwNZs?t=8172)*
+## Liquidate
+### Setup
+*[⌨️ (2:27:49) | Setup ](https://youtu.be/wUjYK5gwNZs?t=8869)*
+### Refactoring
+*[⌨️ (2:44:45) | Refactoring ](https://youtu.be/wUjYK5gwNZs?t=9885)*
+## Leveling up your testing skillz 
+*[⌨️ (2:56:55) | Leveling up your testing skillz  ](https://youtu.be/wUjYK5gwNZs?t=10615)*
+## Challenge: Get DSCEngine.sol test coverage above 85%
+## Fuzz (Invariant) Testing
+*[⌨️ (3:13:50) | Fuzz (Invariant) Testing ](https://youtu.be/wUjYK5gwNZs?t=11630)*
+- [Video](https://www.youtube.com/watch?v=juyY-CTolac)
+## Open-based Fuzz tests
+*[⌨️ (3:27:18) | Open-based Fuzz tests ](https://youtu.be/wUjYK5gwNZs?t=12438)*
+## Handler-based Fuzz tests
+### revert_on_fail = true
+*[⌨️ (3:46:55) | revert_on_fail = true ](https://youtu.be/wUjYK5gwNZs?t=13615)*
+### Redeeming Collateral
+*[⌨️ (4:03:57) | Redeeming Collateral ](https://youtu.be/wUjYK5gwNZs?t=14637)*
+### Minting DSC
+*[⌨️ (4:09:42) | Minting DSC ](https://youtu.be/wUjYK5gwNZs?t=14982)*
+### Debugging Fuzz Tests
+*[⌨️ (4:15:01) | Debugging Fuzz Tests ](https://youtu.be/wUjYK5gwNZs?t=15301)*
+- [Ghost Variables](https://mirror.xyz/horsefacts.eth/Jex2YVaO65dda6zEyfM_-DXlXhOWCAoSpOx5PLocYgw)
+### Challenge: Find out why `mintDsc` is never being called on our Handler.sol
+## Price Feed Handling
+*[⌨️ (4:23:30) | Price Feed Handling ](https://youtu.be/wUjYK5gwNZs?t=15810)*
+## OracleLib
+*[⌨️ (4:31:28) | OracleLib ](https://youtu.be/wUjYK5gwNZs?t=16288)*
+## Note on audit preparedness
+*[⌨️ (4:39:57) | Note on audit preparedness ](https://youtu.be/wUjYK5gwNZs?t=16797)*
+- [Simple security checklist](https://github.com/nascentxyz/simple-security-toolkit)
+## Recap
+*[⌨️ (4:41:06) | Recap ](https://youtu.be/wUjYK5gwNZs?t=16866)*
+## Lens Protocol
+*[⌨️ (4:44:38) | Lens Protocol ](https://youtu.be/wUjYK5gwNZs?t=17078)*
+- Special Guest [Nader](https://twitter.com/dabit3)
+- [Lens Protocol](https://www.lens.xyz/)
 
 ### More DeFi Learnings:
-
 - [Defi-Minimal](https://github.com/smartcontractkit/defi-minimal/tree/main/contracts)
 - [Defi Dad](https://www.youtube.com/channel/UCatItl6C7wJp9txFMbXbSTg)
 
-# Lesson 14: Hardhat NFTs (EVERYTHING you need to know about NFTs)
+QR Code for Lesson 12 Arbitrum:
+<br/>
+<p align="center">
+<a href="" target="_blank">
+<img src="./thumbnails/lesson-12-arbitrum.png" width="100" alt="Solidity, Blockchain Developer, Smart Contract, & Solidity Course - Powered By AI - Beginner to Expert Course">
+</a>
+</p>
+<br/>
 
-_[⌨️ (20:28:51) Lesson 14: Hardhat NFTs ](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=73731s)_
+QR Code for Lesson 12 Sepolia:
+<br/>
+<p align="center">
+<a href="" target="_blank">
+<img src="./thumbnails/lesson-12-sepolia.png" width="100" alt="Solidity, Blockchain Developer, Smart Contract, & Solidity Course - Powered By AI - Beginner to Expert Course">
+</a>
+</p>
+<br/>
 
-💻 Code: https://github.com/PatrickAlphaC/hardhat-nft-fcc
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-## What is an NFT?
+# Lesson 13: Foundry Upgrades
 
-- [Video](https://www.youtube.com/watch?v=9yuHz6g_P50)
-- [Optional: All on Chain SVG NFT](https://www.youtube.com/watch?v=9oERTH9Bkw0)
-- [EIP-721](https://eips.ethereum.org/EIPS/eip-721)
-
-## Code Overview
-
-- [Opensea Testnet](https://testnets.opensea.io/)
-
-## Hardhat Setup
-
-## Basic NFT
-
-### Write Tests
-
-- [Openzeppelin NFT](https://docs.openzeppelin.com/contracts/4.x/)
-
-## Random IPFS NFT
-
-### Mapping Chainlink VRF Requests
-
-### Creating Rare NFTs
-
-### Setting the NFT Image
-
-### Setting an NFT Mint Price
-
-### Deploy Script
-
-### Uploading Token Images with Pinata
-
-- [Pinata](https://pinata.cloud)
-- [nft.storage](https://nft.storage)
-- [Pinata NPM](https://www.npmjs.com/package/@pinata/sdk)
-- [Pinata Docs](https://docs.pinata.cloud/)
-
-### Uploading Token URIs (metadata) with Pinata
-
-### Deploying
-
-### Tests
-
-## Dynamic SVG On-Chain NFT
-
-- [Patrick's Original Video](https://www.youtube.com/watch?v=9oERTH9Bkw0)
-
-### What is an SVG?
-
-- [SVG Tutorial](https://www.w3schools.com/graphics/svg_intro.asp)
-  - [On-Chain SVG Example](https://opensea.io/assets/matic/0x291ff90b9c410f56e047599bfee6b585c0c484d7/2)
-
-### Initial Code
-
-### Base64 Encoding
-
-- [Base64 Encoding](https://en.wikipedia.org/wiki/Base64)
-  - [Example Encoder](https://base64.guru/converter/encode/image/svg)
-- [base64-sol](https://www.npmjs.com/package/base64-sol/v/1.0.1)
-
-## Advanced: EVM Opcodes, Encoding, and Calling
-
-### abi.encode & abi.encodePacked
-
-- [abi.encode](https://docs.soliditylang.org/en/latest/cheatsheet.html?highlight=cheatsheet#global-variables)
-- [abi.encodePacked](https://docs.soliditylang.org/en/latest/cheatsheet.html?highlight=cheatsheet#global-variables)
-  Thanks to [Alex Roan](https://twitter.com/alexroan) for his help on this session!
-- [Example Contract Creation Transaction](https://etherscan.io/tx/0x112133a0a74af775234c077c397c8b75850ceb61840b33b23ae06b753da40490)
-  What REALLY is the ABI?
-- [EVM Opcodes](https://www.evm.codes/)
-- [More EVM Opcodes](https://github.com/crytic/evm-opcodes)
-- [Solidity Cheatsheet](https://docs.soliditylang.org/en/latest/cheatsheet.html?highlight=encodewithsignature)
-- [abi.encode vs abi.encodePacked](https://ethereum.stackexchange.com/questions/91826/why-are-there-two-methods-encoding-arguments-abi-encode-and-abi-encodepacked)
-
-### Introduction to Encoding Function Calls Directly
-
-### Introduction to Encoding Function Calls Recap
-
-### Encoding Function Calls Directly
-
-- [Function Selector](https://blog.openzeppelin.com/deconstructing-a-solidity-contract-part-iii-the-function-selector-6a9b6886ea49/)
-- [Function Signature](https://twitter.com/PatrickAlphaC/status/1517156225670078465)
-
-### Creating an NFT TokenURI on-Chain
-
-### Making the NFT Dynamic
-
-### Deploy Script
-
-## Deploying the NFTs to a Testnet
-
-## Lesson 14 Recap
-
-Extra credit:
-
-- [Deconstructing Solidity](https://blog.openzeppelin.com/deconstructing-a-solidity-contract-part-ii-creation-vs-runtime-6b9d60ecb44c/)
-- [Knowing and controlling your Smart Contract Address](https://www.youtube.com/watch?v=56K0FdosZ8g)
-- [From Solidity to byte code](https://www.youtube.com/watch?v=RxL_1AfV7N4)
-
-# Lesson 15: NextJS NFT Marketplace (If you finish this lesson, you are a full-stack MONSTER!)
-
-_[⌨️ (23:37:03) Lesson 15: NextJS NFT Marketplace (Full Stack / Front End)](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=85023s)_
-
-## Large Update, please read
-
-Moralis has recently updated to a self-hosted server over their own server. For this, you can do one of the following:
-
-- [Learn how to run one yourself](https://www.youtube.com/watch?v=9GtysZs-FrA)
-- Follow along to learn the concepts of this more interactive app, without actually coding along
-- Skip to the section where we interact with the graph
-
-TL;DR: TheGraph code should work exactly the same as the video, however the Moralis code will not.
-
-💻 Code:
-
-- Backend (Contracts): https://github.com/PatrickAlphaC/hardhat-nft-marketplace-fcc
-- Frontend (Moralis Indexer): https://github.com/PatrickAlphaC/nextjs-nft-marketplace-moralis-fcc
-- Frontend (TheGraph Indexer): https://github.com/PatrickAlphaC/nextjs-nft-marketplace-thegraph-fcc
-  - The Graph: https://github.com/PatrickAlphaC/graph-nft-marketplace-fcc
-
-Special thanks to [Matt Durkin](https://twitter.com/mdurkin92) for help with this section.
+💻 Code: [https://github.com/Cyfrin/foundry-upgrades-f23](https://github.com/Cyfrin/foundry-upgrades-f23)
 
 ## Introduction
 
-- [Opensea](https://opensea.io/)
-- [Artion](https://github.com/Fantom-foundation/Artion-Contracts)
-
-## Part I: NFT Marketplace Contracts
-
-### Hardhat Setup
-
-### NftMarketplace.sol
-
-- [Pull Over Push](https://fravoll.github.io/solidity-patterns/pull_over_push.html)
-
-## Reentrancy
-
-- [Reentrancy](https://solidity-by-example.org/hacks/re-entrancy)
-- [Rekt.news](https://rekt.news/leaderboard/)
-- [Openzeppelin NonReentrant](https://docs.openzeppelin.com/contracts/4.x/api/security#ReentrancyGuard)
-
-### NftMarketplace.sol - Continued
-
-### NftMarketplace.sol - Deploy Script
-
-### NftMarketplace.sol - Tests
-
-### NftMarketplace.sol - Scripts
-
-## Part II: Moralis Front End
-
-### What is Moralis?
-
-- [Special Guest Ivan Liljeqvist](https://twitter.com/IvanOnTech)
-
-### NextJS Setup
-
-- [Link NextJS](https://nextjs.org/docs/api-reference/next/link)
-
-### Adding Tailwind
-
-- [Tailwind with NextJS](https://tailwindcss.com/docs/guides/nextjs)
-
-### Introduction to Indexing in Web3
-
-- [TheGraph](https://thegraph.com/en/)
-- [Moralis](https://moralis.io/)
-
-### Connecting Moralis to our Local Hardhat Node
-
-- [NextJS Environment Variables](https://nextjs.org/docs/basic-features/environment-variables)
-- [Reverse Proxy FRP](https://github.com/fatedier/frp/releases)
-  - [Docs](https://docs.moralis.io/moralis-dapp/web3/setting-up-ganache)
-  - [Trouble Shooting](https://docs.moralis.io/faq#frpc)
-- [Moralis Forum](https://forum.moralis.io/)
-- [Moralis Admin CLI](https://docs.moralis.io/moralis-dapp/tools/moralis-admin-cli)
-
-### Moralis Event Sync
-
-- [Moralis Add Event Sync From Code](https://docs.moralis.io/moralis-dapp/connect-the-sdk/connect-using-node#add-new-event-sync-from-code)
-
-#### Reset Local Chain
-
-### Moralis Cloud Functions
-
-- [Moralis Cloud Functions](https://docs.moralis.io/moralis-dapp/cloud-code/cloud-functions)
-- [Moralis Logging](https://docs.moralis.io/moralis-dapp/tools/moralis-admin-cli#get-logs)
-- [Hardhat Network Reference](https://hardhat.org/hardhat-network/reference/)
-- Moralis Database only confirms a transaction with a block confirmation - so we need to move blocks on our hardhat local node.
-- [Moralis Triggers](https://docs.moralis.io/moralis-dapp/cloud-code/triggers)
-
-#### Practice Resetting the Local Chain
-
-### Moralis Cloud Functions II
-
-### Querying the Moralis Database
-
-- [Moralis Queries](https://docs.moralis.io/moralis-dapp/database/queries)
-
-### Rendering the NFT Images
-
-- [useNFTBalance](https://github.com/MoralisWeb3/react-moralis#usenftbalances)
-- [fetch](https://www.npmjs.com/package/node-fetch)
-- [next/image](https://nextjs.org/docs/api-reference/next/image#loader-configuration)
-
-### Update Listing Modal
-
-### Buy NFT Listing
-
-### Listing NFTs for Sale
-
-- [web3uikit Form](https://web3uikit.com/)
-
-## Part III: TheGraph Front End
-
-### Introduction
-
-### What is The Graph?
-
-- [Special Guest Nader Dabit](https://twitter.com/dabit3)
-
-### Building a Subgraph
-
-- [Example Subgraphs](https://thegraph.com/explorer/)
-- [The Graph Studio](https://thegraph.com/studio/)
-- [GraphQL VSCode Extension](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql)
-- [GraphQL](https://graphql.org/)
-
-### Deploying our Subgraph
-
-- [GraphQL Queries](https://www.tutorialspoint.com/graphql/graphql_query.htm)
-
-### Reading from The Graph
-
-- [@apollo/client](https://www.npmjs.com/package/@apollo/client)
-- [gql](https://www.npmjs.com/package/gql)
-- [The Graph Docs](https://thegraph.com/docs/en/)
-
-### Hosting our Dapp
-
-🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊 Completed Front End Basics! 🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊
-
-# Lesson 16: Hardhat Upgrades
-
-_[⌨️ (28:53:11) Lesson 16: Hardhat Upgrades](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=103991s)_
-
-💻 Code: https://github.com/PatrickAlphaC/hardhat-upgrades-fcc
+*[⭐️ (4:47:00) | Lesson 13: Upgradable Contracts & Proxies](https://www.youtube.com/watch?v=wUjYK5gwNZs&t=17220s)*
 
 ## Upgradable Smart Contracts Overview
-
 - [Optional Video](https://www.youtube.com/watch?v=bdXJmWajZRY)
-- [Links from Video]
-
 ## Types of Upgrades
-
 1.  Parameter
 2.  Social Migrate
 3.  Proxy
@@ -2008,80 +2021,196 @@ _[⌨️ (28:53:11) Lesson 16: Hardhat Upgrades](https://www.youtube.com/watch?v
     3.  [Transparent](https://blog.openzeppelin.com/the-transparent-proxy-pattern/)
     4.  [UUPS](https://forum.openzeppelin.com/t/uups-proxies-tutorial-solidity-javascript/7786)
     5.  [Diamond](https://eips.ethereum.org/EIPS/eip-2535)
-
 ## Delegatecall
-
+*[⌨️ (5:02:20) | Delegatecall ](https://youtu.be/wUjYK5gwNZs?t=18140)*
 - [delegatecall (solidity-by-example)](https://solidity-by-example.org/delegatecall)
 - [Yul](https://docs.soliditylang.org/en/latest/yul.html)
-
 ## Small Proxy Example
-
+*[⌨️ (5:10:24) | Small Proxy Example ](https://youtu.be/wUjYK5gwNZs?t=18624)*
 - [EIP 1967](https://eips.ethereum.org/EIPS/eip-1967)
+## Universal Upgradable Smart Contract 
+### Setup
+*[⌨️ (5:21:53) | UUPS Setup ](https://youtu.be/wUjYK5gwNZs?t=19313)*
+- [UUPS vs Transparent](https://docs.openzeppelin.com/contracts/4.x/api/proxy#transparent-vs-uups)
+- Abstract Contracts
+### Initializer
+*[⌨️ (5:34:24) | Initializer ](https://youtu.be/wUjYK5gwNZs?t=20064)*
+### Deploy
+*[⌨️ (5:43:34) | Deploy ](https://youtu.be/wUjYK5gwNZs?t=20614)*
+- [ERC-1967]()
+### UpgradeBox
+*[⌨️ (5:48:29) | Upgradebox ](https://youtu.be/wUjYK5gwNZs?t=20909)*
+### Test/Demo
+*[⌨️ (5:53:48) | Test/Demo ](https://youtu.be/wUjYK5gwNZs?t=21228)*
+## Testnet Demo
+*[⌨️ (5:59:40) | Testnet Demo ](https://youtu.be/wUjYK5gwNZs?t=21580)*
 
-## Transparent Upgradable Smart Contract
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-- [Hardhat-deploy Proxies](https://github.com/wighawag/hardhat-deploy#deploying-and-upgrading-proxies)
-- [Openzeppelin Upgrades Plugin](https://docs.openzeppelin.com/upgrades-plugins/1.x/)
-  - [Openzeppelin upgrades tutorial](https://forum.openzeppelin.com/t/openzeppelin-upgrades-step-by-step-tutorial-for-hardhat/3580)
-- [hardhat deploy upgrades examples](https://github.com/wighawag/template-ethereum-contracts/tree/examples/openzeppelin-proxies/deploy)
+# Lesson 14: Foundry DAO / Governance 
 
-# Lesson 17: Hardhat DAOs
+Plutocracy is bad! Don't default to ERC20 token voting!!
 
-_[⌨️ (29:45:24) Lesson 17: Hardhat DAOs](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=107124s)_
-
-⬆️ Up-to-date code: https://github.com/PatrickAlphaC/dao-template
-
-💻 Code from video: https://github.com/PatrickAlphaC/hardhat-dao-fcc
+💻 Code: [https://github.com/Cyfrin/foundry-dao-f23](https://github.com/Cyfrin/foundry-dao-f23)
 
 ## Introduction
 
+*[⭐️ (6:05:45) | Lesson 14 | DAOs & Governance](https://www.youtube.com/watch?v=wUjYK5gwNZs&t=21945s)*
+
+- [Plutacray is bad](https://vitalik.ca/general/2018/03/28/plutocracy.html)
+- [DAOs are not corporations](https://vitalik.ca/general/2022/09/20/daos.html)
 ## What is a DAO?
-
 - [What is a DAO?](https://www.youtube.com/watch?v=X_QKZzd68ro)
-
+- Special Guest [Juliette](https://twitter.com/_juliettech)
 ## How to build a DAO
-
+### Setup
 - [How to build a DAO](https://www.youtube.com/watch?v=AhJtmUqhAqg)
 - That's Patrick
 - [PY Code](https://github.com/brownie-mix/dao-mix)
 - [Python Video](https://www.youtube.com/watch?v=rD8AxZ_wBA4)
+### Governance Token
 - [Openzeppelin Governance](https://docs.openzeppelin.com/contracts/4.x/api/governance)
 - [Compound Governance](https://compound.finance/governance)
 - [Contract Wizard](https://docs.openzeppelin.com/contracts/4.x/wizard)
+### Governor
 - [CastVoteBySig](https://forum.openzeppelin.com/t/what-is-votecastbysig/17069/2)
+### Tests
+## Wrap up
+## Bonus: Gas optimization tips
+- Special Guest [Harrison](https://twitter.com/PopPunkOnChain)
 
-# Lesson 18: Security & Auditing
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
 
-_[⌨️ (31:28:32) Lesson 18: Security & Auditing ](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=113312s)_
+# Lesson 15: Smart Contract Security & Auditing (For developers)
 
-💻 Code: https://github.com/PatrickAlphaC/hardhat-security-fcc
+Developers 100% should know all about this! Don't leave the course without at least watching this section!
+
+🖥️ Code: https://github.com/PatrickAlphaC/denver-security
 
 ## Introduction
+*[⭐️ (7:21:12) | Lesson 15 | Security & Auditing](https://www.youtube.com/watch?v=wUjYK5gwNZs&t=26472s)*
+- [Readiness Checklist](https://github.com/nascentxyz/simple-security-toolkit)
+## What is a smart contract audit?
+*[⌨️ (7:24:47) | What is a smart contract audit?](https://youtu.be/wUjYK5gwNZs?t=26687)*
+- [What is a smart contract audit](https://www.youtube.com/watch?v=aOqhQvWhUG0)
+## Tools
+*[⌨️ (7:31:11) | What tools do security professionals use?](https://youtu.be/wUjYK5gwNZs?t=27071)*
 
-- [Readiness Guide](https://learn.openzeppelin.com/security-audits/readiness-guide)
-
-## Slither
-
-- [Install python](https://www.python.org/downloads/)
+### Manual Review
+### Static Analysis
 - [Slither](https://github.com/crytic/slither#how-to-install)
-- [solc-select](https://github.com/crytic/solc-select)
-- [Fuzz testing](https://en.wikipedia.org/wiki/Fuzzing)
-
-## Fuzzing and Eth Security Toolbox
-
+- [4nlyzer](https://github.com/Picodes/4naly3er)
+### Dynamic Analysis
+### Formal Verification
+### Symbolic Execution
+- [Manticore](https://github.com/trailofbits/manticore)
+- [Mythril](https://github.com/ConsenSys/mythril)
+- [hevm](https://github.com/ethereum/hevm)
+- [Comparison](https://hackmd.io/@SaferMaker/EVM-Sym-Exec)
+### Fuzzing
 - [Echidna](https://github.com/crytic/echidna)
-- [Docker Install](https://docs.docker.com/get-docker/)
-- [Eth-Security-ToolBox](https://github.com/trailofbits/eth-security-toolbox)
+- [Foundry](https://getfoundry.sh/)
+- [Consensys](https://fuzzing.diligence.tools/login)
+### Formal Verification (& Symbolic Execution)
+- [Comparisons](https://twitter.com/palinatolmach/status/1653030270684270592)
+### Other security stuff
+- [solcurity](https://github.com/transmissions11/solcurity)
+
+## What does the process of manual review look like? 
+*[⌨️ (7:42:32) | Manual Review with Tincho](https://youtu.be/wUjYK5gwNZs?t=27752)*
+
+- [Tincho finds $100,000 ENS bug](https://www.youtube.com/watch?v=A-T9F0anN1E)
+
+## Formal Verification
+*[⌨️ (7:56:35) | Formal Verification](https://youtu.be/wUjYK5gwNZs?t=28595)*
+- [Formal Verification & Symbolic Execution | W/ Trail Of Bits](https://www.youtube.com/watch?v=izpoxfTSaFs)
 
 ## Closing Thoughts
+*[⌨️ (8:10:56) | Wrap. Up](https://youtu.be/wUjYK5gwNZs?t=29455)*
 
-- [Best Practices](https://consensys.github.io/smart-contract-best-practices/)
-- [Attacks](https://consensys.github.io/smart-contract-best-practices/attacks/)
-  - [Oracle Attacks](https://hackernoon.com/how-dollar100m-got-stolen-from-defi-in-2021-price-oracle-manipulation-and-flash-loan-attacks-explained-3n6q33r1)
-  - [Re-entrancy Attacks](https://quantstamp.com/blog/what-is-a-re-entrancy-attack)
-- [Damn Vulnerable Defi](https://www.damnvulnerabledefi.xyz/)
-- [Ethernaut](https://ethernaut.openzeppelin.com/)
-- Some Auditors:
-  - [OpenZeppelin](https://openzeppelin.com/)
-  - [SigmaPrime](https://sigmaprime.io/)
-  - [Trail of Bits](https://www.trailofbits.com/)
+- [Common Attacks](https://blog.sigmaprime.io/solidity-security.html)
+-   [Best Practices](https://consensys.github.io/smart-contract-best-practices/)
+-   [Attacks](https://consensys.github.io/smart-contract-best-practices/attacks/)
+    -   [Oracle Attacks](https://hackernoon.com/how-dollar100m-got-stolen-from-defi-in-2021-price-oracle-manipulation-and-flash-loan-attacks-explained-3n6q33r1)
+-   [Damn Vulnerable Defi](https://www.damnvulnerabledefi.xyz/)
+-   [Ethernaut](https://ethernaut.openzeppelin.com/)
+-   [Top Smart Contract Auditors](https://patrickalphac.medium.com/top-7-smart-contract-auditors-bec7bd70dd9f)
+-   Some Smart Contract Auditors:
+    -   [Cyfrin](https://cyfrin.io/)
+    -   [OpenZeppelin](https://openzeppelin.com/)
+    -   [SigmaPrime](https://sigmaprime.io/)
+    -   [Trail of Bits](https://www.trailofbits.com/)
+    -   [Spearbit](https://spearbit.com/)
+    -   [Dedaub](https://dedaub.com/)
+    -   [Trust](https://www.trust-security.xyz/)
+    -   [More](https://patrickalphac.medium.com/top-7-smart-contract-auditors-bec7bd70dd9f)
+
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
+
+# Congratulations
+
+🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊 Completed The Course! 🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊🎊 
+
+## Where do I go now?
+
+### Learning More
+
+- [Top 10 learning resources](https://patrickalphac.medium.com/top-10-smart-contract-solidity-developer-learning-resources-cb9d60dd1146)
+-   [Patrick Collins](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
+-   [CryptoZombies](https://cryptozombies.io/)
+-   [Alchemy University](https://www.alchemy.com/dapps/alchemy-university)
+-   [Speed Run Ethereum](https://speedrunethereum.com/)
+-   [Ethereum.org](https://ethereum.org/en/)
+
+### Community
+
+-   [Twitter](https://twitter.com/PatrickAlphaC)
+-   [Ethereum Discord](https://ethereum.org/en/)
+-   [Reddit ethdev](https://www.reddit.com/r/ethdev/)
+
+### Hackathons
+
+-   [CL Hackathon](https://chain.link/hackathon)
+-   [ETH Global](https://ethglobal.co/)
+-   [ETH India](https://twitter.com/ETHIndiaco)
+
+Be sure to check out project grant programs!
+
+And make today an amazing day!
+
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
+
+# Disclosures
+
+Transparency is important! So we want to disclose any potential conflicts that might have affected my judgement so you can pick tools that are right for you. Patrick is co-founder of Alpha Chain, a blockchain infrastructure company. Alpha Chain runs **Chainlink, Ethereum, Binance, Polygon, Harmony, Solana, Moonbeam, and Moonriver blockchain services.** Alpha Chain often works with Alchemy and receives discounted services. Patrick is the co-founder of Cyfrin, and they do smart contract security & auditing services. Patrick is also the co-founder of Chain Accel, who is an advisor on the Peeranha project. Patrick is an advisor on the Chainlink project. The Cyfrin team often does buisness on the Arbitrum L2. 
+
+Because of all this, I have added alternatives to each section where we suggest a tool. This video & course was created and sponsored solely by the [Cyfrin](https://www.cyfrin.io/) team. 
+
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
+
+# Donations
+
+## BadgerDAO 
+
+We are THRILLED to have received donations from the [BadgerDAO](https://badger.com/) protocol. 
+
+BadgerDAO is a decentralized collective of builders supporting community driven growth for Bitcoin across DeFi. Deposit to earn [Yield-Bearing Rewards](https://app.badger.com/?chain=ethereum#) that automate and optimize yield from Aura and Convex positions. 
+
+<a href="https://badger.com/" target="_blank">
+  <img src="./thumbnails/badgerdao-logo-black-text.png" width="500" alt="Blockchain Developer, Smart Contract, & Solidity Course - Powered By AI 3">
+</a>
+
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
+
+# Thank you
+
+Thanks to everyone who is taking, participating in, and working on this course. It's been a passion project and a data dump of everything I've learnt in the web3 space to get you up to speed quickly. Also, a big thank you to Cyfrin & Chain Accel for encouraging this course to come to light, and many, many, many people from the community. 
+
+And thanks to the [Cyfrin](https://www.cyfrin.io/) team for making this possible! 
+
+[![Patrick Collins Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PatrickAlphaC)
+[![Patrick Collins YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
+[![Patrick Collins Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patrickalphac/)
+[![Patrick Collins Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@patrick.collins_58673/)
+
+<p align="right">(<a href="#table-of-contents">back to top</a>) ⬆️</p>
